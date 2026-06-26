@@ -1,0 +1,103 @@
+# classes2.dex
+
+.class public Landroid/s/ۥۣۢ۟$ۥ۟۟۠;
+.super Landroid/s/ۥۣۢ۟$ۥ۟۟ۡ;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroid/s/ۥۣۢ۟;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "ۥ۟۟۠"
+.end annotation
+
+
+# instance fields
+.field public ۥ۟:F
+
+.field public ۥ۟۟:F
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    .line 1
+    invoke-direct {p0}, Landroid/s/ۥۣۢ۟$ۥ۟۟ۡ;-><init>()V
+
+    return-void
+.end method
+
+.method public static synthetic ۥ۟(Landroid/s/ۥۣۢ۟$ۥ۟۟۠;)F
+    .registers 1
+
+    .line 1
+    iget p0, p0, Landroid/s/ۥۣۢ۟$ۥ۟۟۠;->ۥ۟:F
+
+    return p0
+.end method
+
+.method public static synthetic ۥ۟۟(Landroid/s/ۥۣۢ۟$ۥ۟۟۠;F)F
+    .registers 2
+
+    .line 1
+    iput p1, p0, Landroid/s/ۥۣۢ۟$ۥ۟۟۠;->ۥ۟:F
+
+    return p1
+.end method
+
+.method public static synthetic ۥ۟۟۟(Landroid/s/ۥۣۢ۟$ۥ۟۟۠;)F
+    .registers 1
+
+    .line 1
+    iget p0, p0, Landroid/s/ۥۣۢ۟$ۥ۟۟۠;->ۥ۟۟:F
+
+    return p0
+.end method
+
+.method public static synthetic ۥ۟۟۠(Landroid/s/ۥۣۢ۟$ۥ۟۟۠;F)F
+    .registers 2
+
+    .line 1
+    iput p1, p0, Landroid/s/ۥۣۢ۟$ۥ۟۟۠;->ۥ۟۟:F
+
+    return p1
+.end method
+
+
+# virtual methods
+.method public ۥ(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
+    .registers 5
+    .param p1  # Landroid/graphics/Matrix;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2  # Landroid/graphics/Path;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+
+    .line 1
+    iget-object v0, p0, Landroid/s/ۥۣۢ۟$ۥ۟۟ۡ;->ۥ:Landroid/graphics/Matrix;
+
+    .line 2
+    invoke-virtual {p1, v0}, Landroid/graphics/Matrix;->invert(Landroid/graphics/Matrix;)Z
+
+    .line 3
+    invoke-virtual {p2, v0}, Landroid/graphics/Path;->transform(Landroid/graphics/Matrix;)V
+
+    .line 4
+    iget v0, p0, Landroid/s/ۥۣۢ۟$ۥ۟۟۠;->ۥ۟:F
+
+    iget v1, p0, Landroid/s/ۥۣۢ۟$ۥ۟۟۠;->ۥ۟۟:F
+
+    invoke-virtual {p2, v0, v1}, Landroid/graphics/Path;->lineTo(FF)V
+
+    .line 5
+    invoke-virtual {p2, p1}, Landroid/graphics/Path;->transform(Landroid/graphics/Matrix;)V
+
+    return-void
+.end method

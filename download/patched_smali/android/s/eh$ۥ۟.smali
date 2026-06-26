@@ -1,0 +1,81 @@
+# classes2.dex
+
+.class public Landroid/s/eh$ۥ۟;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lorg/benf/cfr/reader/util/functors/UnaryFunction;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Landroid/s/eh;-><init>(Landroid/s/eh;Lorg/benf/cfr/reader/util/functors/BinaryFunction;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lorg/benf/cfr/reader/util/functors/UnaryFunction<",
+        "Ljava/lang/String;",
+        "Landroid/s/uc;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic ۥ:Lorg/benf/cfr/reader/util/functors/BinaryFunction;
+
+.field public final synthetic ۥ۟:Landroid/s/eh;
+
+
+# direct methods
+.method public constructor <init>(Landroid/s/eh;Lorg/benf/cfr/reader/util/functors/BinaryFunction;)V
+    .registers 3
+
+    .line 1
+    iput-object p1, p0, Landroid/s/eh$ۥ۟;->ۥ۟:Landroid/s/eh;
+
+    iput-object p2, p0, Landroid/s/eh$ۥ۟;->ۥ:Lorg/benf/cfr/reader/util/functors/BinaryFunction;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 2
+
+    .line 1
+    check-cast p1, Ljava/lang/String;
+
+    invoke-virtual {p0, p1}, Landroid/s/eh$ۥ۟;->ۥ(Ljava/lang/String;)Landroid/s/uc;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public ۥ(Ljava/lang/String;)Landroid/s/uc;
+    .registers 4
+
+    .line 1
+    iget-object v0, p0, Landroid/s/eh$ۥ۟;->ۥ:Lorg/benf/cfr/reader/util/functors/BinaryFunction;
+
+    iget-object v1, p0, Landroid/s/eh$ۥ۟;->ۥ۟:Landroid/s/eh;
+
+    invoke-interface {v0, p1, v1}, Lorg/benf/cfr/reader/util/functors/BinaryFunction;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/s/uc;
+
+    return-object p1
+.end method

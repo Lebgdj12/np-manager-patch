@@ -827,8 +827,8 @@
 .method public run()V
     .registers 31
 
-    # PATCHED: Disable update popup dialog - return immediately instead of showing AlertDialog
     return-void
+
 
     const-string v0, "ۡۦۡ"
 

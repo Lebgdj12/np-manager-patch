@@ -1,0 +1,73 @@
+NP Manager License Popup Bypass - Patch Log
+==================================================
+
+Starting patching process...
+Source: /home/z/my-project/download/patched_smali_new
+
+--- Strategy 1: Neuter all we1 static methods ---
+Patching we1 static methods: /home/z/my-project/download/patched_smali_new/android/s/we1.smali
+  -> Patched 22 static methods in we1.smali
+
+--- Strategy 2: Kill all Runnable inner classes ---
+Patching Runnable inner class: we1$ۥ.smali
+  -> Patched 1 run() methods
+Patching Runnable inner class: we1$ۥ۟۟ۥ.smali
+  -> Patched 1 run() methods
+Patching Runnable inner class: we1$ۥ۟۟.smali
+  -> Patched 1 run() methods
+Patching Runnable inner class: we1$ۥ۟۟۟.smali
+  -> Patched 1 run() methods
+Patching Runnable inner class: we1$ۥ۟.smali
+  -> Patched 1 run() methods
+Patching Runnable inner class: we1$ۥ۟۠۠.smali
+  -> Patched 1 run() methods
+Patching Runnable inner class: we1$ۥ۟۟۠.smali
+  -> Patched 1 run() methods
+Patching Runnable inner class: we1$ۥ۟۟ۨ.smali
+  -> Patched 1 run() methods
+Patching Runnable inner class: we1$ۥ۟۟ۦ.smali
+  -> Patched 1 run() methods
+Patching Runnable inner class: we1$ۥ۟۠۟.smali
+  -> Patched 1 run() methods
+Patching Runnable inner class: we1$ۥ۟۟ۡ.smali
+  -> Patched 1 run() methods
+Patching Runnable inner class: we1$ۥ۟۟ۧ.smali
+  -> Patched 1 run() methods
+Patching Runnable inner class: we1$ۥۣ۟۟.smali
+  -> Patched 1 run() methods
+
+--- Strategy 3: Replace jd1 native methods with stubs ---
+Patching jd1 native methods: /home/z/my-project/download/patched_smali_new/android/s/jd1.smali
+  -> Patched 5 native methods in jd1.smali
+
+--- Strategy 3b: Patch jd1 non-native verification methods ---
+  -> Patched 1 non-native methods in jd1.smali
+
+--- Strategy 4: Patch EventBus handlers ---
+Patching EventBus handler: MessageEventEnum.smali
+
+--- Strategy 5: Patch dialog fragment classes ---
+Patching dialog fragment: DialogLogin.smali
+Patching dialog fragment: DialogRegister.smali
+Patching dialog fragment: DialogForgetPwd.smali
+Patching dialog fragment: DialogChangePass.smali
+Patching dialog fragment: DialogOrderApp.smali
+
+--- Strategy 6: Check SplashActivity ---
+Checking SplashActivity: SplashActivity.smali
+Checking SplashActivity: SplashActivity$ۥ.smali
+
+=== Verifying Patches ===
+we1.smali: 43 return statements found
+jd1.smali: 0 remaining native methods (should be 0)
+
+==================================================
+PATCH SUMMARY:
+  we1 static methods patched: 22
+  we1 Runnable run() patched: 13
+  jd1 native/methods patched: 6
+  EventBus handlers patched:  0
+  Dialog fragments patched:   0
+  TOTAL: 41
+
+Patching complete!

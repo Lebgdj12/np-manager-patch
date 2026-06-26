@@ -1,0 +1,19 @@
+# classes3.dex
+
+.class public Lorg/jaxen/xom/XOMXPath;
+.super Lorg/jaxen/BaseXPath;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .registers 3
+
+    .line 1
+    new-instance v0, Lorg/jaxen/xom/DocumentNavigator;
+
+    invoke-direct {v0}, Lorg/jaxen/xom/DocumentNavigator;-><init>()V
+
+    invoke-direct {p0, p1, v0}, Lorg/jaxen/BaseXPath;-><init>(Ljava/lang/String;Lorg/jaxen/Navigator;)V
+
+    return-void
+.end method

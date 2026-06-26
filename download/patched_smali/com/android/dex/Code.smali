@@ -1,0 +1,127 @@
+# classes.dex
+
+.class public final Lcom/android/dex/Code;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/android/dex/Code$CatchHandler;,
+        Lcom/android/dex/Code$Try;
+    }
+.end annotation
+
+
+# instance fields
+.field private final catchHandlers:[Lcom/android/dex/Code$CatchHandler;
+
+.field private final debugInfoOffset:I
+
+.field private final insSize:I
+
+.field private final instructions:[S
+
+.field private final outsSize:I
+
+.field private final registersSize:I
+
+.field private final tries:[Lcom/android/dex/Code$Try;
+
+
+# direct methods
+.method public constructor <init>(IIII[S[Lcom/android/dex/Code$Try;[Lcom/android/dex/Code$CatchHandler;)V
+    .registers 8
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput p1, p0, Lcom/android/dex/Code;->registersSize:I
+
+    .line 3
+    iput p2, p0, Lcom/android/dex/Code;->insSize:I
+
+    .line 4
+    iput p3, p0, Lcom/android/dex/Code;->outsSize:I
+
+    .line 5
+    iput p4, p0, Lcom/android/dex/Code;->debugInfoOffset:I
+
+    .line 6
+    iput-object p5, p0, Lcom/android/dex/Code;->instructions:[S
+
+    .line 7
+    iput-object p6, p0, Lcom/android/dex/Code;->tries:[Lcom/android/dex/Code$Try;
+
+    .line 8
+    iput-object p7, p0, Lcom/android/dex/Code;->catchHandlers:[Lcom/android/dex/Code$CatchHandler;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getCatchHandlers()[Lcom/android/dex/Code$CatchHandler;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/android/dex/Code;->catchHandlers:[Lcom/android/dex/Code$CatchHandler;
+
+    return-object v0
+.end method
+
+.method public getDebugInfoOffset()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/android/dex/Code;->debugInfoOffset:I
+
+    return v0
+.end method
+
+.method public getInsSize()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/android/dex/Code;->insSize:I
+
+    return v0
+.end method
+
+.method public getInstructions()[S
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/android/dex/Code;->instructions:[S
+
+    return-object v0
+.end method
+
+.method public getOutsSize()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/android/dex/Code;->outsSize:I
+
+    return v0
+.end method
+
+.method public getRegistersSize()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/android/dex/Code;->registersSize:I
+
+    return v0
+.end method
+
+.method public getTries()[Lcom/android/dex/Code$Try;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/android/dex/Code;->tries:[Lcom/android/dex/Code$Try;
+
+    return-object v0
+.end method

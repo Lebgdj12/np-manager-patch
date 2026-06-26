@@ -136,13 +136,16 @@
 
     .line 4
     :catch_14
-    # PATCHED: Do not kill the process - let the app continue running
-    # Original code:
-    # invoke-static {}, Landroid/os/Process;->myPid()I
-    # move-result p1
-    # invoke-static {p1}, Landroid/os/Process;->killProcess(I)V
-    # const/4 p1, 0x1
-    # invoke-static {p1}, Ljava/lang/System;->exit(I)V
+    invoke-static {}, Landroid/os/Process;->myPid()I
+
+    move-result p1
+
+    invoke-static {p1}, Landroid/os/Process;->killProcess(I)V
+
+    const/4 p1, 0x1
+
+    .line 5
+    invoke-static {p1}, Ljava/lang/System;->exit(I)V
 
     :goto_1f
     return-void

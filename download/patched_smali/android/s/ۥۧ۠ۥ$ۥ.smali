@@ -1,0 +1,15 @@
+# classes2.dex
+
+.class public Landroid/s/ۥۧ۠ۥ$ۥ;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroid/s/ۥۧ۠ۥ;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1009
+    name = null
+.end annotation

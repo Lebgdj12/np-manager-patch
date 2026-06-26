@@ -1,0 +1,261 @@
+# classes.dex
+
+.class public final Lcom/android/dx/dex/code/form/Form3rc;
+.super Lcom/android/dx/dex/code/InsnFormat;
+.source "SourceFile"
+
+
+# static fields
+.field public static final THE_ONE:Lcom/android/dx/dex/code/InsnFormat;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Lcom/android/dx/dex/code/form/Form3rc;
+
+    invoke-direct {v0}, Lcom/android/dx/dex/code/form/Form3rc;-><init>()V
+
+    sput-object v0, Lcom/android/dx/dex/code/form/Form3rc;->THE_ONE:Lcom/android/dx/dex/code/InsnFormat;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .registers 1
+
+    .line 1
+    invoke-direct {p0}, Lcom/android/dx/dex/code/InsnFormat;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public codeSize()I
+    .registers 2
+
+    const/4 v0, 0x3
+
+    return v0
+.end method
+
+.method public insnArgString(Lcom/android/dx/dex/code/DalvInsn;)Ljava/lang/String;
+    .registers 4
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {p1}, Lcom/android/dx/dex/code/DalvInsn;->getRegisters()Lcom/android/dx/rop/code/RegisterSpecList;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lcom/android/dx/dex/code/InsnFormat;->regRangeString(Lcom/android/dx/rop/code/RegisterSpecList;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, ", "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 2
+    invoke-virtual {p1}, Lcom/android/dx/dex/code/DalvInsn;->cstString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public insnCommentString(Lcom/android/dx/dex/code/DalvInsn;Z)Ljava/lang/String;
+    .registers 3
+
+    if-eqz p2, :cond_7
+
+    .line 1
+    invoke-virtual {p1}, Lcom/android/dx/dex/code/DalvInsn;->cstComment()Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+
+    :cond_7
+    const-string p1, ""
+
+    return-object p1
+.end method
+
+.method public isCompatible(Lcom/android/dx/dex/code/DalvInsn;)Z
+    .registers 5
+
+    .line 1
+    instance-of v0, p1, Lcom/android/dx/dex/code/CstInsn;
+
+    const/4 v1, 0x0
+
+    if-nez v0, :cond_6
+
+    return v1
+
+    .line 2
+    :cond_6
+    check-cast p1, Lcom/android/dx/dex/code/CstInsn;
+
+    .line 3
+    invoke-virtual {p1}, Lcom/android/dx/dex/code/CstInsn;->getIndex()I
+
+    move-result v0
+
+    .line 4
+    invoke-virtual {p1}, Lcom/android/dx/dex/code/CstInsn;->getConstant()Lcom/android/dx/rop/cst/Constant;
+
+    move-result-object v2
+
+    .line 5
+    invoke-static {v0}, Lcom/android/dx/dex/code/InsnFormat;->unsignedFitsInShort(I)Z
+
+    move-result v0
+
+    if-nez v0, :cond_17
+
+    return v1
+
+    .line 6
+    :cond_17
+    instance-of v0, v2, Lcom/android/dx/rop/cst/CstMethodRef;
+
+    if-nez v0, :cond_24
+
+    instance-of v0, v2, Lcom/android/dx/rop/cst/CstType;
+
+    if-nez v0, :cond_24
+
+    instance-of v0, v2, Lcom/android/dx/rop/cst/CstCallSiteRef;
+
+    if-nez v0, :cond_24
+
+    return v1
+
+    .line 7
+    :cond_24
+    invoke-virtual {p1}, Lcom/android/dx/dex/code/DalvInsn;->getRegisters()Lcom/android/dx/rop/code/RegisterSpecList;
+
+    move-result-object p1
+
+    .line 8
+    invoke-virtual {p1}, Lcom/android/dx/util/FixedSizeList;->size()I
+
+    .line 9
+    invoke-virtual {p1}, Lcom/android/dx/util/FixedSizeList;->size()I
+
+    move-result v0
+
+    if-eqz v0, :cond_4f
+
+    .line 10
+    invoke-static {p1}, Lcom/android/dx/dex/code/InsnFormat;->isRegListSequential(Lcom/android/dx/rop/code/RegisterSpecList;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_50
+
+    .line 11
+    invoke-virtual {p1, v1}, Lcom/android/dx/rop/code/RegisterSpecList;->get(I)Lcom/android/dx/rop/code/RegisterSpec;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/android/dx/rop/code/RegisterSpec;->getReg()I
+
+    move-result v0
+
+    invoke-static {v0}, Lcom/android/dx/dex/code/InsnFormat;->unsignedFitsInShort(I)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_50
+
+    .line 12
+    invoke-virtual {p1}, Lcom/android/dx/rop/code/RegisterSpecList;->getWordCount()I
+
+    move-result p1
+
+    invoke-static {p1}, Lcom/android/dx/dex/code/InsnFormat;->unsignedFitsInByte(I)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_50
+
+    :cond_4f
+    const/4 v1, 0x1
+
+    :cond_50
+    return v1
+.end method
+
+.method public writeTo(Lcom/android/dx/util/AnnotatedOutput;Lcom/android/dx/dex/code/DalvInsn;)V
+    .registers 7
+
+    .line 1
+    invoke-virtual {p2}, Lcom/android/dx/dex/code/DalvInsn;->getRegisters()Lcom/android/dx/rop/code/RegisterSpecList;
+
+    move-result-object v0
+
+    .line 2
+    move-object v1, p2
+
+    check-cast v1, Lcom/android/dx/dex/code/CstInsn;
+
+    invoke-virtual {v1}, Lcom/android/dx/dex/code/CstInsn;->getIndex()I
+
+    move-result v1
+
+    .line 3
+    invoke-virtual {v0}, Lcom/android/dx/util/FixedSizeList;->size()I
+
+    move-result v2
+
+    const/4 v3, 0x0
+
+    if-nez v2, :cond_13
+
+    goto :goto_1b
+
+    :cond_13
+    invoke-virtual {v0, v3}, Lcom/android/dx/rop/code/RegisterSpecList;->get(I)Lcom/android/dx/rop/code/RegisterSpec;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/android/dx/rop/code/RegisterSpec;->getReg()I
+
+    move-result v3
+
+    .line 4
+    :goto_1b
+    invoke-virtual {v0}, Lcom/android/dx/rop/code/RegisterSpecList;->getWordCount()I
+
+    move-result v0
+
+    .line 5
+    invoke-static {p2, v0}, Lcom/android/dx/dex/code/InsnFormat;->opcodeUnit(Lcom/android/dx/dex/code/DalvInsn;I)S
+
+    move-result p2
+
+    int-to-short v0, v1
+
+    int-to-short v1, v3
+
+    invoke-static {p1, p2, v0, v1}, Lcom/android/dx/dex/code/InsnFormat;->write(Lcom/android/dx/util/AnnotatedOutput;SSS)V
+
+    return-void
+.end method

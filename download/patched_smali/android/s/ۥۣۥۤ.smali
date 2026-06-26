@@ -1,0 +1,58 @@
+# classes2.dex
+
+.class public interface abstract Landroid/s/ۥۣۥۤ;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Landroid/s/ۥۣۦ;
+
+
+# annotations
+.annotation build Lcom/google/common/annotations/Beta;
+.end annotation
+
+.annotation runtime Lcom/google/common/hash/ElementTypesAreNonnullByDefault;
+.end annotation
+
+.annotation build Lcom/google/errorprone/annotations/CanIgnoreReturnValue;
+.end annotation
+
+
+# virtual methods
+.method public abstract ۥ(Ljava/lang/CharSequence;)Landroid/s/ۥۣۥۤ;
+.end method
+
+.method public abstract ۥ۟([BII)Landroid/s/ۥۣۥۤ;
+.end method
+
+.method public abstract ۥ۟۟(I)Landroid/s/ۥۣۥۤ;
+.end method
+
+.method public abstract ۥ۟۟۟(Ljava/lang/CharSequence;Ljava/nio/charset/Charset;)Landroid/s/ۥۣۥۤ;
+.end method
+
+.method public abstract ۥ۟۟۠(J)Landroid/s/ۥۣۥۤ;
+.end method
+
+.method public abstract ۥ۟۟ۢ(Ljava/lang/Object;Lcom/google/common/hash/Funnel;)Landroid/s/ۥۣۥۤ;
+    .param p1  # Ljava/lang/Object;
+        .annotation runtime Lcom/google/common/hash/ParametricNullness;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(TT;",
+            "Lcom/google/common/hash/Funnel<",
+            "-TT;>;)",
+            "Landroid/s/ۥۣۥۤ;"
+        }
+    .end annotation
+.end method
+
+.method public abstract ۥۣ۟۟()Lcom/google/common/hash/HashCode;
+.end method
+
+.method public abstract ۥ۟۟ۥ(Ljava/nio/ByteBuffer;)Landroid/s/ۥۣۥۤ;
+.end method

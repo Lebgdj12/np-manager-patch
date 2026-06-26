@@ -1,0 +1,34 @@
+Phase 2 Patching - VMP Dispatch Proxies
+==================================================
+
+Phase 2: Patching we1 proxy callers...
+Found 20 proxy files referencing we1
+  Patched 1 methods in ⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁤⁠⁤⁤⁣⁤⁤⁣⁤⁤⁤⁠⁣⁣⁠⁠⁣.smali
+  Patched 1 methods in ⁤⁤⁠⁤⁤⁣⁠⁠⁤⁠⁣⁣⁣⁣⁣⁤⁤.smali
+  Patched 1 methods in ⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁣⁤⁣⁤⁠⁠⁣⁣⁤⁠⁤⁤.smali
+  Patched 1 methods in ⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁣⁣⁣⁣⁠⁠⁠⁣⁣⁣⁣⁣⁣⁤.smali
+  Patched 1 methods in ⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁠⁠⁤⁠⁠⁠⁤⁣⁠⁤⁣.smali
+  Patched 1 methods in ⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁠⁠⁠⁣⁤⁣⁠⁣⁤⁠⁠⁠⁣.smali
+  Patched 1 methods in ⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁤⁠⁠⁠⁤⁤⁠⁤⁠⁣⁣⁣⁣⁤⁤.smali
+  Patched 1 methods in ⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁠⁠⁣⁣⁤⁠⁠⁠⁣⁣⁤.smali
+  Patched 1 methods in ⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁠⁠⁠⁠⁣⁤⁣⁤⁠⁣⁤⁠⁠⁤.smali
+  Patched 1 methods in ⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁣⁣⁣⁠⁠⁤⁠⁠.smali
+  Patched 1 methods in ⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁣⁤⁤⁣⁤⁤⁤⁠⁠⁠⁣⁣⁤.smali
+  Patched 1 methods in ⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁤⁤⁠⁤⁠⁣⁤⁣⁠⁣⁤⁣.smali
+  Patched 1 methods in ⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁠⁤⁣⁠⁤⁤⁣⁣⁣⁣⁤⁤.smali
+  Patched 1 methods in ⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁣⁣⁣⁣⁣⁠⁣⁠⁠⁤⁠⁣.smali
+  Patched 1 methods in ⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁤⁠⁤⁤⁣⁣⁣⁣⁣⁠⁠⁠⁠.smali
+  Patched 1 methods in ⁠⁣⁤⁣⁤⁠⁣⁣⁣⁣⁣⁠⁠⁣⁤⁣⁤⁠.smali
+  Patched 1 methods in ⁤⁤⁠⁤⁤⁠⁤⁣⁠⁤⁣⁣⁠⁠⁤⁠⁣.smali
+  Patched 1 methods in ⁠⁣⁤⁣⁤⁠⁣⁣⁣⁣⁣⁠⁣⁣⁣⁣⁣⁤.smali
+  Patched 1 methods in ⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁤⁠⁤⁤⁣⁤⁣⁠⁣⁤⁣⁣⁤⁠⁠⁠.smali
+  Patched 1 methods in ⁣⁤⁠⁠⁠⁠⁣⁣⁠⁠⁣⁠⁤⁣⁠⁤⁣.smali
+Total proxy methods patched: 20
+
+Phase 2: Patching XI dispatch methods...
+Patching XI dispatch: ⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁣⁤⁣⁤⁠⁠⁣⁣⁤⁠⁤⁤.smali
+  Patched 1 XI dispatch methods
+Total XI dispatch methods patched: 1
+
+==================================================
+Phase 2 TOTAL: 21 proxy methods patched

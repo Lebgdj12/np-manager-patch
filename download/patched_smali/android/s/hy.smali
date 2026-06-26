@@ -1420,8 +1420,7 @@
     const/4 p1, 0x0
 
     :goto_78
-    # PATCHED: Do not exit the app - continue running
-    # Original: invoke-static {p1}, Ljava/lang/System;->exit(I)V
+    invoke-static {p1}, Ljava/lang/System;->exit(I)V
     :try_end_7b
     .catch Ljava/lang/IllegalArgumentException; {:try_start_2 .. :try_end_7b} :catch_c7
     .catch Ljava/lang/RuntimeException; {:try_start_2 .. :try_end_7b} :catch_9e
@@ -1498,8 +1497,7 @@
     invoke-virtual {p1}, Landroid/s/hy$ۥ;->ۥ۟()V
 
     .line 32
-    # PATCHED: Do not exit the app on RuntimeException
-    # Original: invoke-static {v0}, Ljava/lang/System;->exit(I)V
+    invoke-static {v0}, Ljava/lang/System;->exit(I)V
     :try_end_b5
     .catchall {:try_start_9f .. :try_end_b5} :catchall_9c
 
@@ -1550,8 +1548,7 @@
     invoke-virtual {p1}, Landroid/s/hy$ۥ;->ۥ۟()V
 
     .line 41
-    # PATCHED: Do not exit the app on IllegalArgumentException
-    # Original: invoke-static {v0}, Ljava/lang/System;->exit(I)V
+    invoke-static {v0}, Ljava/lang/System;->exit(I)V
     :try_end_de
     .catchall {:try_start_c8 .. :try_end_de} :catchall_9c
 

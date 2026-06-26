@@ -200,6 +200,9 @@
 .method public static ۥ(Landroid/content/Context;)V
     .registers 14
 
+    return-void
+
+
     const-string v0, "ۣۡۦ"
 
     invoke-static {v0}, Lorg/dom4j/datatype/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁠⁠⁠⁠⁣⁤⁣⁤⁠⁣⁤⁠⁠⁤;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁠⁠⁣⁣⁤⁤⁤⁠⁤⁠(Ljava/lang/Object;)I
@@ -531,6 +534,9 @@
 .method public static ۥ۟(Landroid/content/Context;Z)V
     .registers 5
 
+    return-void
+
+
     const-string v0, "۟ۥۢ"
 
     invoke-static {v0}, Lorg/jaxen/util/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁣⁤⁠⁠⁤⁠⁤⁣⁠⁤⁣;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁠⁤⁠⁣⁤⁣⁠⁣⁤⁣(Ljava/lang/Object;)I
@@ -604,6 +610,9 @@
 
 .method public static ۥ۟۟(Landroid/content/Context;)V
     .registers 6
+
+    return-void
+
 
     const-string v0, "ۡ۟ۤ"
 
@@ -786,6 +795,9 @@
 .method public static ۥ۟۟۟(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/s/we1$ۥۣ۟۠;)V
     .registers 16
 
+    return-void
+
+
     const-string v0, "ۦۣۣ"
 
     invoke-static {v0}, Lorg/apache/xmlgraphics/image/loader/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁣⁣⁣⁣⁠⁣⁤⁠⁠⁣⁤⁤⁠⁤⁤;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁤⁠⁠⁠⁤⁤⁠⁤⁠⁤⁤⁠⁤⁠(Ljava/lang/Object;)I
@@ -855,6 +867,9 @@
 
 .method public static ۥ۟۟۠(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/s/we1$ۥۣ۟۠;Landroid/s/we1$ۥ۟۠ۡ;)V
     .registers 17
+
+    return-void
+
 
     const-string v0, "ۢۢۡ"
 
@@ -936,6 +951,9 @@
 
 .method public static ۥ۟۟ۡ(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/s/we1$ۥۣ۟۠;Landroid/s/we1$ۥ۟۠ۡ;Z)V
     .registers 20
+
+    return-void
+
 
     const-string v0, "ۨۢ۟"
 
@@ -1037,6 +1055,9 @@
 
 .method public static ۥ۟۟ۢ(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Landroid/s/we1$ۥۣ۟۠;)V
     .registers 23
+
+    return-void
+
 
     move-object/from16 v6, p0
 
@@ -1467,8 +1488,8 @@
 .method public static ۥۣ۟۟(Lplayer/normal/np/activity/NPMainActivity;)V
     .registers 44
 
-    # PATCHED: Disable update check entry point - never check for updates
     return-void
+
 
     move-object/from16 v6, p0
 
@@ -2380,6 +2401,9 @@
 .method public static ۥ۟۟ۤ(Landroid/content/Context;Ljava/lang/String;)V
     .registers 8
 
+    return-void
+
+
     const-string v0, "۟ۦ۠"
 
     invoke-static {v0}, Lorg/checkerframework/common/reflection/qual/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁤⁣⁠⁣⁤⁠;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁤⁤⁠⁤⁤⁠⁤⁣⁠⁤⁤⁤⁤⁠⁤⁤(Ljava/lang/Object;)I
@@ -2568,6 +2592,9 @@
 
 .method public static ۥ۟۟ۥ(Landroid/content/Context;Ljava/lang/String;Landroid/s/we1$ۥۣ۟۠;Landroid/s/we1$ۥ۟۠ۤ;)V
     .registers 32
+
+    return-void
+
 
     move-object/from16 v8, p0
 
@@ -3189,6 +3216,9 @@
 
 .method public static ۥ۟۟ۦ(Landroid/content/Context;)V
     .registers 52
+
+    return-void
+
 
     move-object/from16 v0, p0
 
@@ -4668,6 +4698,9 @@
 .method public static ۥ۟۟ۧ(Landroid/content/Context;Ljava/lang/String;)V
     .registers 7
 
+    return-void
+
+
     const-string v0, "ۣۤۦ"
 
     invoke-static {v0}, Lorg/dom4j/tree/⁣⁣⁣⁣⁣⁠⁠⁣⁣⁠⁣⁤⁣⁤⁣;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁤⁠⁤⁠⁠⁣⁤⁣⁤⁠(Ljava/lang/Object;)I
@@ -4833,6 +4866,9 @@
 .method public static ۥ۟۟ۨ(Landroid/app/Activity;Landroid/s/y31;)V
     .registers 7
 
+    return-void
+
+
     const-string v0, "ۣۢ۟"
 
     invoke-static {v0}, Lorg/bouncycastle/crypto/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁣⁤⁣⁤⁠⁣⁤⁣⁠⁣⁤⁠⁣⁣⁣⁣⁤⁤;->⁤⁤⁠⁤⁤⁣⁣⁣⁣⁣⁤⁣⁣⁣⁣⁣⁤(Ljava/lang/Object;)I
@@ -4985,6 +5021,9 @@
 
 .method public static ۥ۟۠(Landroid/content/Context;)V
     .registers 40
+
+    return-void
+
 
     move-object/from16 v0, p0
 
@@ -5879,6 +5918,9 @@
 .method public static ۥ۟۠۟(Landroid/content/Context;Landroid/s/we1$ۥ۟۠ۢ;)V
     .registers 19
 
+    return-void
+
+
     move-object/from16 v0, p0
 
     const-string v1, "۟ۨ۠"
@@ -6305,6 +6347,9 @@
 .method public static ۥ۟۠۠(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
     .registers 9
 
+    return-void
+
+
     const-string v0, "ۣۡۧ"
 
     invoke-static {v0}, LXI/XI/XI/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁤⁤⁠⁤⁤;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁣⁤⁣⁤⁠⁣⁤⁠⁠⁠⁠⁠⁠⁣⁣⁤(Ljava/lang/Object;)I
@@ -6453,6 +6498,9 @@
 
 .method public static ۥ۟۠ۡ(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .registers 11
+
+    return-void
+
 
     const-string v0, "ۦۦ"
 
@@ -6631,6 +6679,9 @@
 .method public static ۥ۟۠ۢ(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)V
     .registers 14
 
+    return-void
+
+
     const-string v0, "ۧۡ۠"
 
     invoke-static {v0}, Lorg/checkerframework/checker/i18n/qual/⁠⁣⁤⁣⁤⁠⁣⁣⁤⁤⁣⁠⁣⁤⁠⁠⁣;->⁠⁠⁠⁣⁣⁣⁠⁣⁣(Ljava/lang/Object;)I
@@ -6708,8 +6759,8 @@
 .method public static ۥۣ۟۠(Landroid/content/Context;Landroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)V
     .registers 6
 
-    # PATCHED: Disable update dialog display (positive/negative button variant)
     return-void
+
 
     const-string v0, "ۥ۠ۡ"
 
@@ -6777,8 +6828,8 @@
 .method public static ۥ۟۠ۤ(Landroid/content/Context;)V
     .registers 4
 
-    # PATCHED: Disable update dialog display (single button variant)
     return-void
+
 
     const-string v0, "۟ۦۤ"
 
@@ -6844,6 +6895,11 @@
 
 .method public static ⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁠⁠⁣⁣⁣⁠⁠⁠(Ljava/lang/Object;)I
     .registers 8
+
+    const/4 v0, 0x0
+
+    return v0
+
 
     const-string v0, "ۣۢ۟"
 
@@ -7040,6 +7096,11 @@
 
 .method public static ⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁤⁠⁤⁤⁣⁤⁠⁠⁤⁠⁣⁤⁣⁤⁠()[S
     .registers 8
+
+    const/4 v0, 0x0
+
+    return-object v0
+
 
     const-string v0, "ۨۥ۠"
 

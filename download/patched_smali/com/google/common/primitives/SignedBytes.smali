@@ -1,0 +1,58 @@
+# classes.dex
+
+.class public final Lcom/google/common/primitives/SignedBytes;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
+
+.annotation runtime Lcom/google/common/primitives/ElementTypesAreNonnullByDefault;
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/primitives/SignedBytes$LexicographicalComparator;
+    }
+.end annotation
+
+
+# direct methods
+.method public static ۥ(J)B
+    .registers 6
+
+    long-to-int v0, p0
+
+    int-to-byte v0, v0
+
+    int-to-long v1, v0
+
+    cmp-long v3, v1, p0
+
+    if-nez v3, :cond_9
+
+    const/4 v1, 0x1
+
+    goto :goto_a
+
+    :cond_9
+    const/4 v1, 0x0
+
+    :goto_a
+    const-string v2, "Out of range: %s"
+
+    .line 1
+    invoke-static {v1, v2, p0, p1}, Landroid/s/ۥۢۧۧ;->ۥ۟۟ۤ(ZLjava/lang/String;J)V
+
+    return v0
+.end method
+
+.method public static ۥ۟(BB)I
+    .registers 2
+
+    sub-int/2addr p0, p1
+
+    return p0
+.end method

@@ -1,0 +1,120 @@
+# classes3.dex
+
+.class public Lorg/apache/xerces/impl/xs/models/XSCMUniOp;
+.super Lorg/apache/xerces/impl/dtd/models/CMNode;
+
+
+# instance fields
+.field private fChild:Lorg/apache/xerces/impl/dtd/models/CMNode;
+
+
+# direct methods
+.method public constructor <init>(ILorg/apache/xerces/impl/dtd/models/CMNode;)V
+    .registers 4
+
+    invoke-direct {p0, p1}, Lorg/apache/xerces/impl/dtd/models/CMNode;-><init>(I)V
+
+    invoke-virtual {p0}, Lorg/apache/xerces/impl/dtd/models/CMNode;->type()I
+
+    move-result p1
+
+    const/4 v0, 0x5
+
+    if-eq p1, v0, :cond_21
+
+    invoke-virtual {p0}, Lorg/apache/xerces/impl/dtd/models/CMNode;->type()I
+
+    move-result p1
+
+    const/4 v0, 0x4
+
+    if-eq p1, v0, :cond_21
+
+    invoke-virtual {p0}, Lorg/apache/xerces/impl/dtd/models/CMNode;->type()I
+
+    move-result p1
+
+    const/4 v0, 0x6
+
+    if-ne p1, v0, :cond_19
+
+    goto :goto_21
+
+    :cond_19
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    const-string p2, "ImplementationMessages.VAL_UST"
+
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_21
+    :goto_21
+    iput-object p2, p0, Lorg/apache/xerces/impl/xs/models/XSCMUniOp;->fChild:Lorg/apache/xerces/impl/dtd/models/CMNode;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public calcFirstPos(Lorg/apache/xerces/impl/dtd/models/CMStateSet;)V
+    .registers 3
+
+    iget-object v0, p0, Lorg/apache/xerces/impl/xs/models/XSCMUniOp;->fChild:Lorg/apache/xerces/impl/dtd/models/CMNode;
+
+    invoke-virtual {v0}, Lorg/apache/xerces/impl/dtd/models/CMNode;->firstPos()Lorg/apache/xerces/impl/dtd/models/CMStateSet;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Lorg/apache/xerces/impl/dtd/models/CMStateSet;->setTo(Lorg/apache/xerces/impl/dtd/models/CMStateSet;)V
+
+    return-void
+.end method
+
+.method public calcLastPos(Lorg/apache/xerces/impl/dtd/models/CMStateSet;)V
+    .registers 3
+
+    iget-object v0, p0, Lorg/apache/xerces/impl/xs/models/XSCMUniOp;->fChild:Lorg/apache/xerces/impl/dtd/models/CMNode;
+
+    invoke-virtual {v0}, Lorg/apache/xerces/impl/dtd/models/CMNode;->lastPos()Lorg/apache/xerces/impl/dtd/models/CMStateSet;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Lorg/apache/xerces/impl/dtd/models/CMStateSet;->setTo(Lorg/apache/xerces/impl/dtd/models/CMStateSet;)V
+
+    return-void
+.end method
+
+.method public final getChild()Lorg/apache/xerces/impl/dtd/models/CMNode;
+    .registers 2
+
+    iget-object v0, p0, Lorg/apache/xerces/impl/xs/models/XSCMUniOp;->fChild:Lorg/apache/xerces/impl/dtd/models/CMNode;
+
+    return-object v0
+.end method
+
+.method public isNullable()Z
+    .registers 3
+
+    invoke-virtual {p0}, Lorg/apache/xerces/impl/dtd/models/CMNode;->type()I
+
+    move-result v0
+
+    const/4 v1, 0x6
+
+    if-ne v0, v1, :cond_e
+
+    iget-object v0, p0, Lorg/apache/xerces/impl/xs/models/XSCMUniOp;->fChild:Lorg/apache/xerces/impl/dtd/models/CMNode;
+
+    invoke-virtual {v0}, Lorg/apache/xerces/impl/dtd/models/CMNode;->isNullable()Z
+
+    move-result v0
+
+    return v0
+
+    :cond_e
+    const/4 v0, 0x1
+
+    return v0
+.end method

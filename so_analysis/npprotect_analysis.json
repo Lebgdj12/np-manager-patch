@@ -1,0 +1,3974 @@
+{
+  "file_info": {
+    "arch": "ARCH.AARCH64",
+    "type": "FILE_TYPE.DYN",
+    "entrypoint": 809644,
+    "nb_sections": 24,
+    "nb_segments": 9
+  },
+  "exports": [
+    {
+      "name": "JNI_OnLoad",
+      "value": 837664
+    }
+  ],
+  "imports": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "__stack_chk_fail",
+    "__strncpy_chk",
+    "gVm",
+    "getCacheClass",
+    "pthread_mutex_lock",
+    "pthread_mutex_unlock",
+    "strlen",
+    "vmInterpret",
+    "free",
+    "malloc",
+    "calloc",
+    "memset",
+    "cacheInitial"
+  ],
+  "jni_targets": {
+    "__cxa_finalize": {
+      "signature": "(I)V",
+      "name_offset": "0x1",
+      "sig_offset": "0x37"
+    },
+    "__cxa_atexit": {
+      "signature": "(I)V",
+      "name_offset": "0x10",
+      "sig_offset": "0x37"
+    },
+    "__stack_chk_fail": {
+      "signature": "(I)V",
+      "name_offset": "0x1d",
+      "sig_offset": "0x37"
+    },
+    "__strncpy_chk": {
+      "signature": "(I)V",
+      "name_offset": "0x2e",
+      "sig_offset": "0x37"
+    },
+    "getCacheClass": {
+      "signature": "(I)V",
+      "name_offset": "0x40",
+      "sig_offset": "0x37"
+    },
+    "pthread_mutex_lock": {
+      "signature": "(I)V",
+      "name_offset": "0x4e",
+      "sig_offset": "0x37"
+    },
+    "pthread_mutex_unlock": {
+      "signature": "(I)V",
+      "name_offset": "0x61",
+      "sig_offset": "0x37"
+    },
+    "strlen": {
+      "signature": "(I)V",
+      "name_offset": "0x76",
+      "sig_offset": "0x37"
+    },
+    "vmInterpret": {
+      "signature": "(I)V",
+      "name_offset": "0x7d",
+      "sig_offset": "0x37"
+    },
+    "free": {
+      "signature": "(I)V",
+      "name_offset": "0x89",
+      "sig_offset": "0x37"
+    },
+    "malloc": {
+      "signature": "(I)V",
+      "name_offset": "0x8e",
+      "sig_offset": "0x37"
+    },
+    "calloc": {
+      "signature": "()Landroid/content/Context;",
+      "name_offset": "0x95",
+      "sig_offset": "0x157"
+    },
+    "memset": {
+      "signature": "()Landroid/content/Context;",
+      "name_offset": "0x9c",
+      "sig_offset": "0x157"
+    },
+    "JNI_OnLoad": {
+      "signature": "()Landroid/content/Context;",
+      "name_offset": "0xa3",
+      "sig_offset": "0x157"
+    },
+    "cacheInitial": {
+      "signature": "()Landroid/content/Context;",
+      "name_offset": "0xae",
+      "sig_offset": "0x157"
+    },
+    "libc.so": {
+      "signature": "()Landroid/content/Context;",
+      "name_offset": "0xbb",
+      "sig_offset": "0x157"
+    },
+    "libnpvmp.so": {
+      "signature": "()Landroid/content/Context;",
+      "name_offset": "0xc8",
+      "sig_offset": "0x157"
+    },
+    "liblog.so": {
+      "signature": "()Landroid/content/Context;",
+      "name_offset": "0xd4",
+      "sig_offset": "0x157"
+    },
+    "libm.so": {
+      "signature": "()Landroid/content/pm/ApplicationInfo;",
+      "name_offset": "0xde",
+      "sig_offset": "0x1a3"
+    },
+    "libdl.so": {
+      "signature": "()Landroid/content/pm/ApplicationInfo;",
+      "name_offset": "0xe6",
+      "sig_offset": "0x1a3"
+    },
+    "libnpprotect.so": {
+      "signature": "()Landroid/content/pm/ApplicationInfo;",
+      "name_offset": "0xef",
+      "sig_offset": "0x1a3"
+    },
+    "classes7Init0": {
+      "signature": "(I)V",
+      "name_offset": "0x0",
+      "sig_offset": "0x37"
+    },
+    "classes8Init0": {
+      "signature": "(I)V",
+      "name_offset": "0xe",
+      "sig_offset": "0x37"
+    },
+    "classes3Init0": {
+      "signature": "(I)V",
+      "name_offset": "0x1c",
+      "sig_offset": "0x37"
+    },
+    "classesInit0": {
+      "signature": "(I)V",
+      "name_offset": "0x2a",
+      "sig_offset": "0x37"
+    },
+    "classes9Init0": {
+      "signature": "(I)V",
+      "name_offset": "0x3c",
+      "sig_offset": "0x37"
+    },
+    "classes5Init0": {
+      "signature": "(I)V",
+      "name_offset": "0x4a",
+      "sig_offset": "0x37"
+    },
+    "classes6Init0": {
+      "signature": "(I)V",
+      "name_offset": "0x58",
+      "sig_offset": "0x37"
+    },
+    "np/manager/Protect": {
+      "signature": "(I)V",
+      "name_offset": "0x66",
+      "sig_offset": "0x37"
+    },
+    "classes2Init0": {
+      "signature": "(I)V",
+      "name_offset": "0x79",
+      "sig_offset": "0x37"
+    },
+    "classes4Init0": {
+      "signature": "(I)V",
+      "name_offset": "0x87",
+      "sig_offset": "0x37"
+    },
+    "getApplicationContext": {
+      "signature": "()Landroid/content/pm/ApplicationInfo;",
+      "name_offset": "0x112",
+      "sig_offset": "0x1a3"
+    },
+    "getApplicationInfo": {
+      "signature": "()Landroid/content/pm/ApplicationInfo;",
+      "name_offset": "0x128",
+      "sig_offset": "0x1a3"
+    },
+    "com/kwad/sdk/api/loader/c$a": {
+      "signature": "()Landroid/content/pm/ApplicationInfo;",
+      "name_offset": "0x13b",
+      "sig_offset": "0x1a3"
+    },
+    "android/content/Context": {
+      "signature": "(Landroid/content/Intent;)V",
+      "name_offset": "0xc2212",
+      "sig_offset": "0xc2299"
+    },
+    "android/app/Application": {
+      "signature": "(Landroid/content/IntentSender;Landroid/content/Intent;IIILandroid/os/Bundle;)V",
+      "name_offset": "0xc23ed",
+      "sig_offset": "0xc243a"
+    },
+    "android/content/pm/ApplicationInfo": {
+      "signature": "()Landroid/content/pm/ApplicationInfo;",
+      "name_offset": "0x1ca",
+      "sig_offset": "0x1a3"
+    },
+    "setTheme": {
+      "signature": "([Landroid/content/Intent;)V",
+      "name_offset": "0xc2055",
+      "sig_offset": "0xc210c"
+    },
+    "startActivities": {
+      "signature": "([Landroid/content/Intent;)V",
+      "name_offset": "0xc205e",
+      "sig_offset": "0xc210c"
+    },
+    "startActivity": {
+      "signature": "(Landroid/content/Intent;Landroid/os/Bundle;)V",
+      "name_offset": "0xc206e",
+      "sig_offset": "0xc2129"
+    },
+    "startForegroundService": {
+      "signature": "([Landroid/content/Intent;)V",
+      "name_offset": "0x4f7",
+      "sig_offset": "0x58d"
+    },
+    "startService": {
+      "signature": "()Ljava/lang/ClassLoader;",
+      "name_offset": "0x50e",
+      "sig_offset": "0x5c8"
+    },
+    "stopService": {
+      "signature": "()Ljava/lang/ClassLoader;",
+      "name_offset": "0x51b",
+      "sig_offset": "0x5c8"
+    },
+    "unbindService": {
+      "signature": "()Ljava/lang/ClassLoader;",
+      "name_offset": "0x527",
+      "sig_offset": "0x5c8"
+    },
+    "unregisterActivityLifecycleCallbacks": {
+      "signature": "(Landroid/content/Intent;Landroid/os/Bundle;)V",
+      "name_offset": "0xc208e",
+      "sig_offset": "0xc2129"
+    },
+    "android/app/Application$ActivityLifecycleCallbacks": {
+      "signature": "(Landroid/content/Intent;Landroid/os/Bundle;)V",
+      "name_offset": "0xc20d9",
+      "sig_offset": "0xc2129"
+    },
+    "android/content/ComponentName": {
+      "signature": "()Landroid/content/Context;",
+      "name_offset": "0x5aa",
+      "sig_offset": "0x667"
+    },
+    "android/content/res/Resources": {
+      "signature": "()Landroid/content/Context;",
+      "name_offset": "0x5e2",
+      "sig_offset": "0x667"
+    },
+    "android/content/res/AssetManager": {
+      "signature": "(Landroid/content/Intent;)V",
+      "name_offset": "0x62f",
+      "sig_offset": "0x6eb"
+    },
+    "android/content/Intent": {
+      "signature": "(Landroid/content/IntentSender;Landroid/content/Intent;III)V",
+      "name_offset": "0xc21c2",
+      "sig_offset": "0xc2245"
+    },
+    "android/os/Bundle": {
+      "signature": "(Landroid/content/Intent;)V",
+      "name_offset": "0xc2200",
+      "sig_offset": "0xc2299"
+    },
+    "android/content/ServiceConnection": {
+      "signature": "(Landroid/app/Application$ActivityLifecycleCallbacks;)V",
+      "name_offset": "0x741",
+      "sig_offset": "0x799"
+    },
+    "com/kwad/sdk/n/a": {
+      "signature": "([Landroid/content/Intent;Landroid/os/Bundle;)V",
+      "name_offset": "0x763",
+      "sig_offset": "0x80b"
+    },
+    "com/kwad/sdk/n/f": {
+      "signature": "(Landroid/content/Intent;Landroid/content/ServiceConnection;I)Z",
+      "name_offset": "0x7d1",
+      "sig_offset": "0x867"
+    },
+    "com/kwad/sdk/n/g": {
+      "signature": "(Landroid/content/Intent;Landroid/content/ServiceConnection;I)Z",
+      "name_offset": "0x7e2",
+      "sig_offset": "0x867"
+    },
+    "java/lang/ClassLoader": {
+      "signature": "(Landroid/content/Intent;Landroid/content/ServiceConnection;I)Z",
+      "name_offset": "0x8a7",
+      "sig_offset": "0x867"
+    },
+    "org/bouncycastle/util/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2063\u2063\u2064\u2060\u2060\u2063": {
+      "signature": "()[S",
+      "name_offset": "0xed95",
+      "sig_offset": "0xee15"
+    },
+    "org/apache/xerces/impl/msg/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2060\u2064\u2063\u2060\u2064\u2064": {
+      "signature": "()Ljava/lang/String;",
+      "name_offset": "0x8ca34",
+      "sig_offset": "0x8c986"
+    },
+    "player/normal/np/widget/\u2064\u2064\u2060\u2064\u2064\u2060\u2060\u2060\u2063\u2063\u2063\u2063\u2064\u2060\u2060\u2060": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;I)I",
+      "name_offset": "0x92e17",
+      "sig_offset": "0x92dee"
+    },
+    "org/jaxen/dom/html/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2060\u2064\u2064\u2064\u2060\u2064\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2063": {
+      "signature": "(Lplayer/normal/np/activity/ArscDictActivity;)V",
+      "name_offset": "0x8cd07",
+      "sig_offset": "0x8cd7b"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/parse/utils/finalhelp/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2063\u2060\u2060\u2064\u2060\u2063\u2060\u2060\u2063": {
+      "signature": "(Ljava/lang/Object;Z)V",
+      "name_offset": "0xf454",
+      "sig_offset": "0xf43d"
+    },
+    "sun/security/x509/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2060\u2060\u2064\u2060\u2060": {
+      "signature": "(Ljava/lang/Object;Z)V",
+      "name_offset": "0xf4eb",
+      "sig_offset": "0xf43d"
+    },
+    "java/lang/Object": {
+      "signature": "(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x403bd",
+      "sig_offset": "0x4030d"
+    },
+    "org/eclipse/tm4e/languageconfiguration/internal/supports/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2060\u2060\u2060\u2063\u2060\u2060\u2064\u2060\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2064": {
+      "signature": "(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x403ce",
+      "sig_offset": "0x4030d"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/parse/utils/\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/RadioGroup;",
+      "name_offset": "0x8d378",
+      "sig_offset": "0x8d3de"
+    },
+    "org/checkerframework/checker/tainting/qual/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2060\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2063\u2064\u2063\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/reflect/Field;",
+      "name_offset": "0xfc6c",
+      "sig_offset": "0xfbc6"
+    },
+    "np/autoSign/activity/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2063\u2060\u2063\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/RadioGroup;",
+      "name_offset": "0x8d40e",
+      "sig_offset": "0x8d3de"
+    },
+    "org/eclipse/tm4e/core/registry/\u2064\u2064\u2060\u2064\u2064\u2060\u2063\u2063\u2060\u2063\u2064\u2063\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
+      "name_offset": "0xfdf9",
+      "sig_offset": "0xfe43"
+    },
+    "org/eclipse/tm4e/core/internal/grammar/parser/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2064\u2060\u2060\u2060": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/ListView;",
+      "name_offset": "0x876b5",
+      "sig_offset": "0x87661"
+    },
+    "org/dom4j/tree/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2060\u2064\u2064\u2063\u2060\u2060\u2064\u2060\u2063\u2064\u2060\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "name_offset": "0x1039b",
+      "sig_offset": "0x10405"
+    },
+    "org/apache/xerces/impl/dv/dtd/\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2063\u2064\u2064\u2063\u2060\u2060\u2064\u2063\u2060\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "name_offset": "0x1042c",
+      "sig_offset": "0x10405"
+    },
+    "org/bouncycastle/jcajce/provider/asymmetric/dstu/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2063\u2060\u2063\u2064\u2063\u2063\u2064\u2060\u2060\u2060": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "name_offset": "0x10481",
+      "sig_offset": "0x10405"
+    },
+    "org/bouncycastle/asn1/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2060\u2064\u2060\u2064\u2060\u2064\u2060": {
+      "signature": "(Lplayer/normal/np/activity/PingActivity;)V",
+      "name_offset": "0x87fb8",
+      "sig_offset": "0x87f8c"
+    },
+    "org/checkerframework/checker/tainting/qual/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2063\u2064\u2064\u2060\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;J)Z",
+      "name_offset": "0x88177",
+      "sig_offset": "0x881f7"
+    },
+    "player/normal/np/base/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2064\u2060\u2064\u2063\u2064\u2060\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/reflect/Method;",
+      "name_offset": "0x10c14",
+      "sig_offset": "0x10c8b"
+    },
+    "org/jaxen/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2060\u2060\u2064\u2060\u2063\u2064\u2060\u2064\u2064": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/Long;",
+      "name_offset": "0x9a15d",
+      "sig_offset": "0x9a113"
+    },
+    "org/apache/commons/logging/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2060\u2060\u2063\u2063\u2063\u2060\u2060\u2060": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/reflect/Method;",
+      "name_offset": "0x10d49",
+      "sig_offset": "0x10c8b"
+    },
+    "java/lang/Exception": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/Context;",
+      "name_offset": "0x4139f",
+      "sig_offset": "0x413b3"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/loc/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2064\u2060\u2064\u2063\u2063\u2060\u2060\u2064\u2060\u2063": {
+      "signature": "(Ljava/lang/Object;IZ)V",
+      "name_offset": "0x8eb0f",
+      "sig_offset": "0x8eb9d"
+    },
+    "java/lang/reflect/Field": {
+      "signature": "([B)V",
+      "name_offset": "0x11693",
+      "sig_offset": "0x116ab"
+    },
+    "org/apache/commons/lang3/text/\u2060\u2060\u2060\u2063\u2063\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064": {
+      "signature": "(Landroid/content/Context;Ljava/util/List;)V",
+      "name_offset": "0x9aaa4",
+      "sig_offset": "0x9aa77"
+    },
+    "sun1/security/util/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2060\u2064\u2063\u2060\u2064\u2063\u2063\u2064\u2063\u2060\u2063\u2064\u2063": {
+      "signature": "([B)V",
+      "name_offset": "0x116f7",
+      "sig_offset": "0x116ab"
+    },
+    "org/apache/xmlgraphics/image/codec/util/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2060\u2060\u2064": {
+      "signature": "(Ljava/lang/Object;IZ)V",
+      "name_offset": "0x8ec64",
+      "sig_offset": "0x8eb9d"
+    },
+    "org/jf/dexlib2/writer/util/\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2063\u2064\u2063\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;I)[B",
+      "name_offset": "0x1188e",
+      "sig_offset": "0x11876"
+    },
+    "player/normal/np/fragMent/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2064\u2060\u2060\u2060\u2064\u2064\u2060\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;I)[B",
+      "name_offset": "0x118e0",
+      "sig_offset": "0x11876"
+    },
+    "org/benf/cfr/reader/util/collections/\u2060\u2063\u2064\u2063\u2064\u2060\u2064\u2064\u2060\u2064\u2064\u2060\u2060\u2060\u2063\u2063\u2063": {
+      "signature": "(F)V",
+      "name_offset": "0x8fea0",
+      "sig_offset": "0x8fef9"
+    },
+    "player/normal/np/util/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2063\u2063\u2064\u2063\u2060\u2063\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;)[Landroid/content/pm/Signature;",
+      "name_offset": "0x12b52",
+      "sig_offset": "0x12ba2"
+    },
+    "java/lang/Class": {
+      "signature": "(F)V",
+      "name_offset": "0x3940e",
+      "sig_offset": "0x3935e"
+    },
+    "sun1/security/action/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2064\u2060\u2064\u2064\u2063\u2064\u2063\u2060\u2063\u2064\u2063": {
+      "signature": "()Ljava/util/Set;",
+      "name_offset": "0x41d17",
+      "sig_offset": "0x41cd0"
+    },
+    "org/w3c/dom/svg/\u2063\u2064\u2063\u2060\u2063\u2064\u2060": {
+      "signature": "(Landroid/content/Context;Ljava/lang/String;)V",
+      "name_offset": "0x12c5c",
+      "sig_offset": "0x12d13"
+    },
+    "org/benf/cfr/reader/entities/bootstrap/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2064\u2063\u2060\u2064\u2063\u2063\u2064\u2063\u2060\u2063\u2064\u2060": {
+      "signature": "(Landroid/content/Context;Ljava/lang/String;)V",
+      "name_offset": "0x12c82",
+      "sig_offset": "0x12d13"
+    },
+    "java/lang/Integer": {
+      "signature": "(F)V",
+      "name_offset": "0x8ff6a",
+      "sig_offset": "0x8fef9"
+    },
+    "android/myview/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2064\u2063\u2060\u2063\u2064\u2060\u2060\u2063\u2064\u2063\u2064\u2060": {
+      "signature": "(Lplayer/normal/np/activity/NPUserInfoActivity;Landroid/app/Activity;)V",
+      "name_offset": "0x95ec1",
+      "sig_offset": "0x95f2b"
+    },
+    "org/apache/xerces/impl/validation/\u2060\u2063\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2060": {
+      "signature": "()Ljava/io/PrintStream;",
+      "name_offset": "0x12dd6",
+      "sig_offset": "0x12dbe"
+    },
+    "sjm/xuitls/common/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2060\u2060\u2064\u2060\u2060\u2060": {
+      "signature": "()Ljava/io/PrintStream;",
+      "name_offset": "0x12e32",
+      "sig_offset": "0x12dbe"
+    },
+    "scut/carson_ho/diy_view/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2063\u2060\u2063\u2064\u2063\u2064\u2060": {
+      "signature": "(Ljava/io/InputStream;)V",
+      "name_offset": "0x13272",
+      "sig_offset": "0x13336"
+    },
+    "org/bouncycastle/util/io/pem/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2060\u2060\u2060\u2063\u2060\u2060\u2064\u2060\u2060": {
+      "signature": "(Ljava/io/InputStream;)V",
+      "name_offset": "0x132bb",
+      "sig_offset": "0x13336"
+    },
+    "player/normal/np/fragMent/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2060\u2060\u2060\u2063\u2060\u2060\u2064\u2060\u2060\u2063\u2060\u2060\u2064\u2060\u2063": {
+      "signature": "(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;)[B",
+      "name_offset": "0x35bbb",
+      "sig_offset": "0x35b56"
+    },
+    "javax/xml/transform/stax/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2064\u2060\u2064\u2064\u2063\u2063\u2064\u2064\u2063\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2060": {
+      "signature": "()Landroid/s/\u06e5\u06df\u06df\u06df;",
+      "name_offset": "0x133d0",
+      "sig_offset": "0x13450"
+    },
+    "org/eclipse/tm4e/core/internal/types/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2063\u2063\u2063\u2063\u2064\u2063\u2064\u2064\u2063\u2064\u2064\u2064": {
+      "signature": "()Landroid/s/\u06e5\u06df\u06df\u06df;",
+      "name_offset": "0x13467",
+      "sig_offset": "0x13450"
+    },
+    "org/bouncycastle/util/test/\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2063\u2060\u2063\u2064\u2060": {
+      "signature": "()Landroid/s/\u06e5\u06df\u06df\u06df;",
+      "name_offset": "0x134f6",
+      "sig_offset": "0x13450"
+    },
+    "org/benf/cfr/reader/bytecode/opcode/\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2060\u2063\u2063\u2063\u2063\u2064\u2064": {
+      "signature": "([SIII)Ljava/lang/String;",
+      "name_offset": "0x13855",
+      "sig_offset": "0x13906"
+    },
+    "org/bouncycastle/jcajce/provider/asymmetric/gost/\u2063\u2064\u2063\u2060\u2063\u2064\u2064\u2064\u2060\u2064\u2064": {
+      "signature": "([SIII)Ljava/lang/String;",
+      "name_offset": "0x138b3",
+      "sig_offset": "0x13906"
+    },
+    "org/bouncycastle/jcajce/provider/asymmetric/gost/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2060\u2064\u2064\u2060\u2060\u2060\u2063\u2063\u2064\u2064\u2063\u2060": {
+      "signature": "()Lplayer/normal/np/fragMent/arsc/ArscEditFragment;",
+      "name_offset": "0x9099f",
+      "sig_offset": "0x90a4f"
+    },
+    "android/content/pm/Signature": {
+      "signature": "([SIII)Ljava/lang/String;",
+      "name_offset": "0x139a9",
+      "sig_offset": "0x13906"
+    },
+    "org/eclipse/tm4e/core/internal/parser/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2060\u2060\u2060\u2063": {
+      "signature": "([SIII)Ljava/lang/String;",
+      "name_offset": "0x139c6",
+      "sig_offset": "0x13906"
+    },
+    "javax/xml/transform/\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2064\u2064\u2060\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;)V",
+      "name_offset": "0x96b83",
+      "sig_offset": "0x96bce"
+    },
+    "org/jf/smali/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2060\u2064\u2060\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;)V",
+      "name_offset": "0x13c20",
+      "sig_offset": "0x13c0a"
+    },
+    "org/bouncycastle/jce/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2060\u2060\u2060\u2060\u2060\u2060\u2063\u2063\u2060\u2064\u2064\u2060\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;)V",
+      "name_offset": "0x13c91",
+      "sig_offset": "0x13c0a"
+    },
+    "org/apache/xerces/dom3/as/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2060\u2060\u2063\u2063\u2063\u2060\u2064\u2063\u2060\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;)[[B",
+      "name_offset": "0x13d0a",
+      "sig_offset": "0x13d7c"
+    },
+    "org/apache/xerces/impl/xs/identity/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2063\u2060\u2063\u2064\u2060\u2064\u2064\u2060\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;)[[B",
+      "name_offset": "0x13d94",
+      "sig_offset": "0x13d7c"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/parse/rewriters/\u2060\u2063\u2063\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2063\u2064": {
+      "signature": "(Ljava/lang/Object;)[[B",
+      "name_offset": "0x13e1e",
+      "sig_offset": "0x13d7c"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/parse/utils/scope/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2060\u2064\u2064\u2064\u2064\u2060\u2064\u2064\u2060\u2060\u2063": {
+      "signature": "(Lplayer/normal/np/activity/NPManActivity;)V",
+      "name_offset": "0x8ab55",
+      "sig_offset": "0x8ab28"
+    },
+    "java/lang/reflect/InvocationHandler": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V",
+      "name_offset": "0x13f06",
+      "sig_offset": "0x13f40"
+    },
+    "org/objectweb/asm/util/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2060\u2064\u2063\u2060\u2064\u2063\u2063\u2064\u2064\u2063\u2064\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x90e28",
+      "sig_offset": "0x90dc1"
+    },
+    "org/benf/cfr/reader/relationship/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2063\u2064\u2063\u2064\u2063\u2060\u2060\u2060\u2063\u2063\u2064": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V",
+      "name_offset": "0x13ff8",
+      "sig_offset": "0x13f40"
+    },
+    "java/io/ByteArrayInputStream": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/ClassLoader;",
+      "name_offset": "0x143a6",
+      "sig_offset": "0x14439"
+    },
+    "np/pth/lib2/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2060\u2063\u2064\u2063\u2064\u2063\u2063\u2064\u2063\u2060\u2063\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;)Landroid/view/View$OnClickListener;",
+      "name_offset": "0x8adf0",
+      "sig_offset": "0x8ad71"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/parse/expression/misc/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2060\u2060\u2063\u2063\u2063": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/ClassLoader;",
+      "name_offset": "0x14465",
+      "sig_offset": "0x14439"
+    },
+    "org/eclipse/tm4e/languageconfiguration/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2063\u2063\u2064\u2063\u2060\u2063\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/ClassLoader;",
+      "name_offset": "0x144e7",
+      "sig_offset": "0x14439"
+    },
+    "org/checkerframework/common/value/qual/\u2063\u2064\u2060\u2060\u2060\u2060\u2060\u2060\u2063\u2063\u2063\u2064\u2064\u2060\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x1473c",
+      "sig_offset": "0x147fa"
+    },
+    "nplus/n/p/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2064\u2064\u2063\u2060": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x14794",
+      "sig_offset": "0x147fa"
+    },
+    "org/apache/commons/logging/impl/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2060\u2064\u2060\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x14821",
+      "sig_offset": "0x147fa"
+    },
+    "org/bouncycastle/jcajce/provider/symmetric/util/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2063\u2063\u2063\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x1489f",
+      "sig_offset": "0x147fa"
+    },
+    "org/eclipse/tm4e/core/theme/css/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2064\u2060\u2064\u2064\u2060\u2060\u2060\u2060\u2060\u2060": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Z",
+      "name_offset": "0x14ab3",
+      "sig_offset": "0x14b25"
+    },
+    "np/hook/\u2060\u2063\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2063\u2064\u2060\u2060\u2063\u2063": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Z",
+      "name_offset": "0x14b4d",
+      "sig_offset": "0x14b25"
+    },
+    "org/benf/cfr/reader/util/output/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Z",
+      "name_offset": "0x14b83",
+      "sig_offset": "0x14b25"
+    },
+    "j$/\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2064\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2063\u2060": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)V",
+      "name_offset": "0x14eae",
+      "sig_offset": "0x14ee5"
+    },
+    "org/checkerframework/common/subtyping/qual/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)V",
+      "name_offset": "0x14f0d",
+      "sig_offset": "0x14ee5"
+    },
+    "np/autoSign/activity/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2064\u2060\u2060\u2060\u2064\u2064\u2060\u2064\u2064\u2060\u2060\u2060\u2063\u2063\u2063": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)V",
+      "name_offset": "0x14f9f",
+      "sig_offset": "0x14ee5"
+    },
+    "player/normal/np/fragMent/dex/\u2064\u2064\u2060\u2064\u2064\u2063\u2060\u2060\u2064\u2060\u2063\u2063\u2063\u2063\u2063\u2064\u2064": {
+      "signature": "(Landroid/content/Context;)V",
+      "name_offset": "0x15018",
+      "sig_offset": "0x1506a"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/parse/wildcard/\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2064\u2060\u2060\u2064\u2063\u2060\u2060\u2064\u2060\u2060": {
+      "signature": "(Landroid/content/Context;)V",
+      "name_offset": "0x15087",
+      "sig_offset": "0x1506a"
+    },
+    "player/normal/np/util/apk/fancy/\u2064\u2064\u2060\u2064\u2064\u2060\u2063\u2064\u2063\u2064\u2063\u2063\u2064\u2063\u2060\u2063\u2064\u2060": {
+      "signature": "(Landroid/content/Context;)V",
+      "name_offset": "0x150f0",
+      "sig_offset": "0x1506a"
+    },
+    "org/objectweb/asm/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2064\u2060\u2064\u2064\u2064\u2060\u2064\u2060\u2063\u2063\u2063\u2063\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/pm/PackageManager;",
+      "name_offset": "0x1565b",
+      "sig_offset": "0x156cb"
+    },
+    "org/checkerframework/framework/qual/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2060\u2060\u2064\u2060\u2063\u2060\u2060\u2060": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/pm/PackageManager;",
+      "name_offset": "0x15703",
+      "sig_offset": "0x156cb"
+    },
+    "org/checkerframework/common/aliasing/qual/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2060\u2060\u2064\u2060\u2063\u2060\u2060\u2060": {
+      "signature": "(Ljava/lang/Object;I)Landroid/view/View;",
+      "name_offset": "0x922d5",
+      "sig_offset": "0x9234e"
+    },
+    "org/jaxen/javabean/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2060\u2060\u2064\u2063\u2064\u2064\u2063\u2064\u2064\u2064": {
+      "signature": "()Landroid/content/SharedPreferences;",
+      "name_offset": "0x9e26f",
+      "sig_offset": "0x9e2b6"
+    },
+    "org/bouncycastle/i18n/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2063\u2060\u2063\u2064\u2064\u2060\u2060\u2060\u2063\u2063\u2064": {
+      "signature": "()Landroid/content/Context;",
+      "name_offset": "0x15b14",
+      "sig_offset": "0x15af8"
+    },
+    "org/apache/commons/io/output/\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2064\u2060\u2060\u2064\u2063\u2064\u2064\u2063\u2064\u2064\u2064": {
+      "signature": "()Landroid/content/Context;",
+      "name_offset": "0x15b85",
+      "sig_offset": "0x15af8"
+    },
+    "org/w3c/dom/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2060\u2060\u2064\u2063\u2063\u2063\u2063\u2063\u2064": {
+      "signature": "(Z)V",
+      "name_offset": "0x985fb",
+      "sig_offset": "0x985f6"
+    },
+    "j$/util/\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2060\u2060\u2063\u2063\u2060": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/arsc/ArscSearchFragment;",
+      "name_offset": "0x8c45c",
+      "sig_offset": "0x8c4c0"
+    },
+    "org/bouncycastle/jcajce/provider/asymmetric/dstu/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
+      "name_offset": "0x16358",
+      "sig_offset": "0x1630d"
+    },
+    "player/normal/np/fragMent/AppListFragment$\u06e5\u06df\u06df\u06e0": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Class;",
+      "name_offset": "0x34b40",
+      "sig_offset": "0x34bd2"
+    },
+    "player/normal/np/fragMent/DialogJson$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Class;",
+      "name_offset": "0x34b73",
+      "sig_offset": "0x34bd2"
+    },
+    "player/normal/np/fragMent/NPManResponseFragment$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Class;",
+      "name_offset": "0x34b9b",
+      "sig_offset": "0x34bd2"
+    },
+    "player/normal/np/verify/enums/JsonBeanCodeEnum": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Class;",
+      "name_offset": "0x34bf8",
+      "sig_offset": "0x34bd2"
+    },
+    "org/benf/cfr/reader/api/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2060\u2060\u2064\u2063\u2063\u2064\u2064\u2063\u2060": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Class;",
+      "name_offset": "0x34c27",
+      "sig_offset": "0x34bd2"
+    },
+    "player/normal/np/activity/ArscTranslateActivity$\u06e5\u06df\u06e0\u06df": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Class;",
+      "name_offset": "0x34c94",
+      "sig_offset": "0x34bd2"
+    },
+    "player/normal/np/fragMent/DialogDex$\u06e5\u06df\u06df\u06e8": {
+      "signature": "(Lokhttp3/MediaType;Ljava/io/File;)Lokhttp3/RequestBody;",
+      "name_offset": "0x34f06",
+      "sig_offset": "0x34fa7"
+    },
+    "player/normal/np/fragMent/DialogApkEncryptStrings$\u06e5\u06df\u06df\u06e4": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/pm/ApplicationInfo;",
+      "name_offset": "0x894a3",
+      "sig_offset": "0x89550"
+    },
+    "player/normal/np/fragMent/NPManResponseBodyFragment$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/pm/ApplicationInfo;",
+      "name_offset": "0x894de",
+      "sig_offset": "0x89550"
+    },
+    "player/normal/np/activity/ArscTranslateActivity$\u06e5\u06df\u06df\u06e6": {
+      "signature": "()Lokhttp3/Response;",
+      "name_offset": "0x34fe0",
+      "sig_offset": "0x35054"
+    },
+    "player/normal/np/fragMent/DialogApkEncryptStrings$\u06e5\u06df\u06df\u06e2": {
+      "signature": "()Lokhttp3/Response;",
+      "name_offset": "0x35019",
+      "sig_offset": "0x35054"
+    },
+    "player/normal/np/adapter/AppAdapter": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/pm/ApplicationInfo;",
+      "name_offset": "0x895c2",
+      "sig_offset": "0x89550"
+    },
+    "player/normal/np/fragMent/DialogApkEncryptStrings$\u06e5\u06df\u06df\u06e3": {
+      "signature": "()Lokhttp3/Response;",
+      "name_offset": "0x3508d",
+      "sig_offset": "0x35054"
+    },
+    "player/normal/np/fragMent/DialogApkEncryptStrings$\u06e5\u06df\u06df\u06e0": {
+      "signature": "()Lokhttp3/Response;",
+      "name_offset": "0x350c8",
+      "sig_offset": "0x35054"
+    },
+    "player/normal/np/activity/ArscTranslateActivity$\u06e5\u06df\u06df\u06e1": {
+      "signature": "()Lokhttp3/Response;",
+      "name_offset": "0x35103",
+      "sig_offset": "0x35054"
+    },
+    "player/normal/np/fragMent/DialogCompareDexList": {
+      "signature": "(Ljava/lang/String;)Z",
+      "name_offset": "0x35177",
+      "sig_offset": "0x3521a"
+    },
+    "player/normal/np/activity/ArscTranslateActivity$\u06e5\u06df\u06df\u06e3": {
+      "signature": "(Ljava/lang/String;)Z",
+      "name_offset": "0x351a6",
+      "sig_offset": "0x3521a"
+    },
+    "player/normal/np/fragMent/DialogApkEncryptStrings$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Ljava/lang/String;)Z",
+      "name_offset": "0x351df",
+      "sig_offset": "0x3521a"
+    },
+    "player/normal/np/activity/ArscTranslateActivity$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Ljava/lang/String;)Z",
+      "name_offset": "0x35230",
+      "sig_offset": "0x3521a"
+    },
+    "player/normal/np/fragMent/arsc/ArscStringsFragment$\u06e5": {
+      "signature": "(Ljava/lang/String;)Z",
+      "name_offset": "0x35269",
+      "sig_offset": "0x3521a"
+    },
+    "player/normal/np/fragMent/DialogDex$\u06e5\u06df\u06e0\u06df": {
+      "signature": "(Ljava/lang/String;)Z",
+      "name_offset": "0x3529f",
+      "sig_offset": "0x3521a"
+    },
+    "player/normal/np/fragMent/DialogEncryptStrConfig": {
+      "signature": "(Ljava/lang/String;)Z",
+      "name_offset": "0x352cc",
+      "sig_offset": "0x3521a"
+    },
+    "player/normal/np/fragMent/DialogDex$\u06e5\u06df\u06e0\u06e0": {
+      "signature": "(II)I",
+      "name_offset": "0x352fd",
+      "sig_offset": "0x353ac"
+    },
+    "sjm/xuitls/view/annotation/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2060\u2063\u2064\u2063\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/Intent;",
+      "name_offset": "0x3532a",
+      "sig_offset": "0x353ec"
+    },
+    "player/normal/np/fragMent/dex/DexEditFragment$\u06e5\u06df\u06df\u06e8$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/Intent;",
+      "name_offset": "0x353b2",
+      "sig_offset": "0x353ec"
+    },
+    "player/normal/np/adapter/FileAdapter": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/Intent;",
+      "name_offset": "0x89a1c",
+      "sig_offset": "0x899bf"
+    },
+    "android/s/\u06e6\u06e8\u06e1\u06e8": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/Intent;",
+      "name_offset": "0x89a41",
+      "sig_offset": "0x899bf"
+    },
+    "android/widget/ImageView": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/Intent;",
+      "name_offset": "0x89a54",
+      "sig_offset": "0x899bf"
+    },
+    "player/normal/np/fragMent/DialogLogin$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/Intent;",
+      "name_offset": "0x3546a",
+      "sig_offset": "0x353ec"
+    },
+    "player/normal/np/fragMent/DialogLogin$\u06e5\u06df\u06df\u06e0": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/Intent;",
+      "name_offset": "0x35499",
+      "sig_offset": "0x353ec"
+    },
+    "player/normal/np/fragMent/NPManRequestHeaderFragment$\u06e5": {
+      "signature": "(Lokhttp3/Request;)Lokhttp3/Call;",
+      "name_offset": "0x355b2",
+      "sig_offset": "0x35675"
+    },
+    "player/normal/np/fragMent/DialogAddDialog": {
+      "signature": "(Lokhttp3/Request;)Lokhttp3/Call;",
+      "name_offset": "0x355ea",
+      "sig_offset": "0x35675"
+    },
+    "android/widget/TextView": {
+      "signature": "(Lokhttp3/Request;)Lokhttp3/Call;",
+      "name_offset": "0x35614",
+      "sig_offset": "0x35675"
+    },
+    "android/s/oa1": {
+      "signature": "(Lokhttp3/Request;)Lokhttp3/Call;",
+      "name_offset": "0x3562c",
+      "sig_offset": "0x35675"
+    },
+    "player/normal/np/fragMent/DialogDex$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Lokhttp3/Request;)Lokhttp3/Call;",
+      "name_offset": "0x3563a",
+      "sig_offset": "0x35675"
+    },
+    "android/s/qe1": {
+      "signature": "(Lokhttp3/Request;)Lokhttp3/Call;",
+      "name_offset": "0x35667",
+      "sig_offset": "0x35675"
+    },
+    "player/normal/np/fragMent/DialogDex$\u06e5\u06df\u06df\u06e2": {
+      "signature": "(Lokhttp3/Request;)Lokhttp3/Call;",
+      "name_offset": "0x35697",
+      "sig_offset": "0x35675"
+    },
+    "player/normal/np/fragMent/DialogDex$\u06e5\u06df\u06df\u06e3": {
+      "signature": "(Lokhttp3/Request;)Lokhttp3/Call;",
+      "name_offset": "0x356c4",
+      "sig_offset": "0x35675"
+    },
+    "player/normal/np/activity/PingActivity$\u06e5\u06df\u06df\u06e0": {
+      "signature": "(Lokhttp3/Request;)Lokhttp3/Call;",
+      "name_offset": "0x356f1",
+      "sig_offset": "0x35675"
+    },
+    "player/normal/np/fragMent/DialogDex$\u06e5\u06df\u06df\u06e0": {
+      "signature": "(Lokhttp3/Request;)Lokhttp3/Call;",
+      "name_offset": "0x35721",
+      "sig_offset": "0x35675"
+    },
+    "org/dom4j/dom/\u2063\u2064\u2060\u2060\u2060\u2064\u2060\u2064\u2060\u2064\u2064\u2060\u2064\u2060": {
+      "signature": "(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;)[B",
+      "name_offset": "0x35abf",
+      "sig_offset": "0x35b56"
+    },
+    "player/normal/np/fragMent/DialogLongClick": {
+      "signature": "(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;)[B",
+      "name_offset": "0x35af8",
+      "sig_offset": "0x35b56"
+    },
+    "player/normal/np/verify/enums/TranslationEngineEnum": {
+      "signature": "(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;)[B",
+      "name_offset": "0x35b22",
+      "sig_offset": "0x35b56"
+    },
+    "player/normal/np/fragMent/AppListFragment$\u06e5": {
+      "signature": "(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;)[B",
+      "name_offset": "0x35b8e",
+      "sig_offset": "0x35b56"
+    },
+    "player/normal/np/fragMent/DialogPdfDecrypt$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/StringBuilder;",
+      "name_offset": "0x8ac83",
+      "sig_offset": "0x8ad31"
+    },
+    "player/normal/np/activity/WebActivity$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V",
+      "name_offset": "0x36209",
+      "sig_offset": "0x361cf"
+    },
+    "player/normal/np/activity/JsonViewActivity$\u06e5\u06df$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V",
+      "name_offset": "0x36234",
+      "sig_offset": "0x361cf"
+    },
+    "player/normal/np/fragMent/DialogRegister$\u06e5\u06df\u06df\u06e0$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V",
+      "name_offset": "0x3626b",
+      "sig_offset": "0x361cf"
+    },
+    "player/normal/np/fragMent/DialogApkAddLogStr$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x363e8",
+      "sig_offset": "0x364a4"
+    },
+    "player/normal/np/activity/WebActivity": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x3641a",
+      "sig_offset": "0x364a4"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06e0": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x36440",
+      "sig_offset": "0x364a4"
+    },
+    "player/normal/np/fragMent/DialogApkProguardRes$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x36470",
+      "sig_offset": "0x364a4"
+    },
+    "org/apache/xerces/impl/\u2064\u2060\u2064\u2064\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2060\u2060\u2064\u2060\u2063": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x8b1a6",
+      "sig_offset": "0x8b172"
+    },
+    "player/normal/np/fragMent/DialogPdfEncrypt$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x8b1f1",
+      "sig_offset": "0x8b172"
+    },
+    "player/normal/np/fragMent/dex/DexEditFragment$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x36546",
+      "sig_offset": "0x364a4"
+    },
+    "player/normal/np/fragMent/NPManRequestBodyFragment$\u06e5\u06df\u06df\u06e0": {
+      "signature": "(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;",
+      "name_offset": "0x36901",
+      "sig_offset": "0x36990"
+    },
+    "android/s/k51$\u06e5\u06df\u06df\u06e3": {
+      "signature": "(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;",
+      "name_offset": "0x3693d",
+      "sig_offset": "0x36990"
+    },
+    "player/normal/np/fragMent/NPManRequestBodyFragment$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;",
+      "name_offset": "0x36954",
+      "sig_offset": "0x36990"
+    },
+    "player/normal/np/activity/CommonEditActivity$\u06e5\u06df$\u06e5$\u06e5": {
+      "signature": "(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;",
+      "name_offset": "0x369c5",
+      "sig_offset": "0x36990"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/parse/utils/finalhelp/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2063\u2063\u2063\u2064\u2064": {
+      "signature": "(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;",
+      "name_offset": "0x369fd",
+      "sig_offset": "0x36990"
+    },
+    "player/normal/np/fragMent/DialogChangePass": {
+      "signature": "(Ljava/lang/Object;)Ljava/util/List;",
+      "name_offset": "0x8ba16",
+      "sig_offset": "0x8ba41"
+    },
+    "okhttp3/Request$Builder": {
+      "signature": "(Lplayer/normal/np/service/NPMeasureService;)V",
+      "name_offset": "0x36bb4",
+      "sig_offset": "0x36c2b"
+    },
+    "player/normal/np/fragMent/DialogVideoExact$\u06e5\u06df": {
+      "signature": "(Lplayer/normal/np/service/NPMeasureService;)V",
+      "name_offset": "0x36bcc",
+      "sig_offset": "0x36c2b"
+    },
+    "player/normal/np/activity/NPManActivity$\u06e5\u06df\u06df": {
+      "signature": "(Lplayer/normal/np/service/NPMeasureService;)V",
+      "name_offset": "0x36bfc",
+      "sig_offset": "0x36c2b"
+    },
+    "player/normal/np/verify/enums/MessageEventEnum": {
+      "signature": "(Lplayer/normal/np/service/NPMeasureService;)V",
+      "name_offset": "0x36c5a",
+      "sig_offset": "0x36c2b"
+    },
+    "player/normal/np/fragMent/DialogKillSign$\u06e5": {
+      "signature": "(Lplayer/normal/np/service/NPMeasureService;)V",
+      "name_offset": "0x36c89",
+      "sig_offset": "0x36c2b"
+    },
+    "player/normal/np/fragMent/arsc/ArscSearchFragment": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x8bc04",
+      "sig_offset": "0x8bc5d"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/structured/\u2064\u2060\u2064\u2064": {
+      "signature": "(Lplayer/normal/np/service/NPMeasureService;)V",
+      "name_offset": "0x36ce7",
+      "sig_offset": "0x36c2b"
+    },
+    "np/annotation/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2063\u2060\u2063\u2064\u2063": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/String;",
+      "name_offset": "0x8c3b5",
+      "sig_offset": "0x8c435"
+    },
+    "player/normal/np/fragMent/DialogApkProguard2Res$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;I)V",
+      "name_offset": "0x37169",
+      "sig_offset": "0x3719e"
+    },
+    "player/normal/np/fragMent/DialogApkEncryptStrings$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;I)V",
+      "name_offset": "0x371b5",
+      "sig_offset": "0x3719e"
+    },
+    "player/normal/np/fragMent/dex/DexEditFragment$\u06e5\u06df\u06df\u06e8": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/arsc/ArscSearchFragment;",
+      "name_offset": "0x8c489",
+      "sig_offset": "0x8c4c0"
+    },
+    "player/normal/np/fragMent/dex/DexEditFragment$\u06e5\u06df\u06df\u06e6": {
+      "signature": "(Ljava/lang/Object;I)V",
+      "name_offset": "0x37223",
+      "sig_offset": "0x3719e"
+    },
+    "player/normal/np/fragMent/dex/DexEditFragment$\u06e5\u06df\u06df\u06e7": {
+      "signature": "(Ljava/lang/Object;I)V",
+      "name_offset": "0x3725a",
+      "sig_offset": "0x3719e"
+    },
+    "player/normal/np/fragMent/dex/DexEditFragment$\u06e5\u06df\u06df\u06e4": {
+      "signature": "()Ljava/lang/String;",
+      "name_offset": "0x373a5",
+      "sig_offset": "0x37462"
+    },
+    "player/normal/np/fragMent/dex/DexEditFragment$\u06e5\u06df\u06df\u06e5": {
+      "signature": "()Ljava/lang/String;",
+      "name_offset": "0x373dc",
+      "sig_offset": "0x37462"
+    },
+    "player/normal/np/fragMent/dex/DexEditFragment$\u06e5\u06df\u06df\u06e3": {
+      "signature": "()Ljava/lang/String;",
+      "name_offset": "0x37413",
+      "sig_offset": "0x37462"
+    },
+    "java/lang/StringBuilder": {
+      "signature": "()Ljava/lang/String;",
+      "name_offset": "0x8c906",
+      "sig_offset": "0x8c986"
+    },
+    "player/normal/np/activity/SplashActivity": {
+      "signature": "()Ljava/lang/String;",
+      "name_offset": "0x8c9cf",
+      "sig_offset": "0x8c986"
+    },
+    "player/normal/np/fragMent/arsc/ArscStringsFragment$\u06e5\u06df\u06df\u06df": {
+      "signature": "()Ljava/lang/String;",
+      "name_offset": "0x374a0",
+      "sig_offset": "0x37462"
+    },
+    "org/jf/dexlib2/util/\u2064\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2060\u2064\u2060": {
+      "signature": "(Lplayer/normal/np/activity/ArscLanguageActivity;)V",
+      "name_offset": "0x8d1b0",
+      "sig_offset": "0x8d0fd"
+    },
+    "player/normal/np/activity/ArscDictActivity$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/RadioGroup;",
+      "name_offset": "0x37872",
+      "sig_offset": "0x378d7"
+    },
+    "player/normal/np/fragMent/arsc/ArscSearchFragment$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/RadioGroup;",
+      "name_offset": "0x378a0",
+      "sig_offset": "0x378d7"
+    },
+    "player/normal/np/adapter/ArscTranslateAdapter$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/RadioGroup;",
+      "name_offset": "0x8d49f",
+      "sig_offset": "0x8d3de"
+    },
+    "player/normal/np/activity/AppListActivity": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/RadioGroup;",
+      "name_offset": "0x3793a",
+      "sig_offset": "0x378d7"
+    },
+    "player/normal/np/fragMent/DialogPdf$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/RadioGroup;",
+      "name_offset": "0x37964",
+      "sig_offset": "0x378d7"
+    },
+    "player/normal/np/fragMent/NPFloatRuler": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/RadioGroup;",
+      "name_offset": "0x3798f",
+      "sig_offset": "0x378d7"
+    },
+    "android/s/zd1": {
+      "signature": "()Lokhttp3/MultipartBody;",
+      "name_offset": "0x3846b",
+      "sig_offset": "0x384b3"
+    },
+    "player/normal/np/fragMent/dex/DexEditFragment$\u06e5\u06df\u06df\u06df$\u06e5": {
+      "signature": "()Lokhttp3/MultipartBody;",
+      "name_offset": "0x38479",
+      "sig_offset": "0x384b3"
+    },
+    "org/jaxen/pattern/\u2063\u2063\u2063\u2063\u2063\u2064\u2063\u2064\u2064\u2063\u2064\u2064\u2064": {
+      "signature": "()Lokhttp3/MultipartBody;",
+      "name_offset": "0x384cd",
+      "sig_offset": "0x384b3"
+    },
+    "java/lang/Throwable": {
+      "signature": "()Lokhttp3/MultipartBody;",
+      "name_offset": "0x38507",
+      "sig_offset": "0x384b3"
+    },
+    "player/normal/np/fragMent/DialogPdfEncrypt$\u06e5": {
+      "signature": "()Lokhttp3/MultipartBody;",
+      "name_offset": "0x3851b",
+      "sig_offset": "0x384b3"
+    },
+    "org/apache/xerces/xinclude/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2060\u2060\u2060": {
+      "signature": "()Lokhttp3/MultipartBody;",
+      "name_offset": "0x38549",
+      "sig_offset": "0x384b3"
+    },
+    "player/normal/np/util/apk/fancy/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2060\u2064\u2064\u2060\u2064\u2064": {
+      "signature": "()Ljava/util/Iterator;",
+      "name_offset": "0x38a4a",
+      "sig_offset": "0x38aee"
+    },
+    "player/normal/np/widget/FlowLayout": {
+      "signature": "()Ljava/util/Iterator;",
+      "name_offset": "0x38acb",
+      "sig_offset": "0x38aee"
+    },
+    "player/normal/np/fragMent/DialogApkAddLog$\u06e5\u06df": {
+      "signature": "()Ljava/util/Iterator;",
+      "name_offset": "0x38b05",
+      "sig_offset": "0x38aee"
+    },
+    "player/normal/np/activity/DexViewActivity$\u06e5": {
+      "signature": "()Ljava/util/Iterator;",
+      "name_offset": "0x38b34",
+      "sig_offset": "0x38aee"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/types/annotated/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2060\u2064\u2060": {
+      "signature": "()Ljava/util/Iterator;",
+      "name_offset": "0x38b61",
+      "sig_offset": "0x38aee"
+    },
+    "org/bouncycastle/jce/provider/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2063\u2064\u2064\u2063\u2060\u2060\u2063\u2064\u2063\u2064\u2063": {
+      "signature": "(F)I",
+      "name_offset": "0x38bf5",
+      "sig_offset": "0x38cb5"
+    },
+    "okhttp3/Call": {
+      "signature": "(F)I",
+      "name_offset": "0x38c7a",
+      "sig_offset": "0x38cb5"
+    },
+    "player/normal/np/fragMent/DialogVideoCut$\u06e5\u06df": {
+      "signature": "(F)I",
+      "name_offset": "0x38c87",
+      "sig_offset": "0x38cb5"
+    },
+    "player/normal/np/fragMent/DialogSuperProguardSimpleConfig$\u06e5\u06df\u06df": {
+      "signature": "(F)I",
+      "name_offset": "0x38cba",
+      "sig_offset": "0x38cb5"
+    },
+    "player/normal/np/fragMent/FloatWindow$\u06e5\u06df": {
+      "signature": "(F)I",
+      "name_offset": "0x38cfb",
+      "sig_offset": "0x38cb5"
+    },
+    "org/apache/xerces/impl/msg/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2063\u2064\u2060\u2060\u2060\u2060\u2063\u2063\u2064": {
+      "signature": "(F)I",
+      "name_offset": "0x38d26",
+      "sig_offset": "0x38cb5"
+    },
+    "player/normal/np/fragMent/DialogVideoTransform$\u06e5\u06df\u06df": {
+      "signature": "(Landroid/os/Bundle;)V",
+      "name_offset": "0x38dab",
+      "sig_offset": "0x38e41"
+    },
+    "player/normal/np/activity/NPUserInfoActivity$\u06e5\u06df\u06df": {
+      "signature": "(Landroid/os/Bundle;)V",
+      "name_offset": "0x38de1",
+      "sig_offset": "0x38e41"
+    },
+    "player/normal/np/fragMent/DialogApks$\u06e5\u06df\u06df": {
+      "signature": "(Landroid/os/Bundle;)V",
+      "name_offset": "0x8f64d",
+      "sig_offset": "0x8f679"
+    },
+    "player/normal/np/fragMent/DialogApkFunction$\u06e5\u06df\u06df": {
+      "signature": "(Landroid/os/Bundle;)V",
+      "name_offset": "0x8f690",
+      "sig_offset": "0x8f679"
+    },
+    "org/dom4j/dom/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2063\u2060\u2060\u2063": {
+      "signature": "(Landroid/os/Bundle;)V",
+      "name_offset": "0x8f6c3",
+      "sig_offset": "0x8f679"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/structured/expression/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2060\u2064\u2063\u2060\u2064\u2064\u2060\u2060\u2060\u2063\u2063\u2060": {
+      "signature": "(Landroid/os/Bundle;)V",
+      "name_offset": "0x38efd",
+      "sig_offset": "0x38e41"
+    },
+    "org/apache/commons/logging/impl/\u2063\u2063\u2064\u2064\u2063\u2060\u2063\u2060\u2060\u2064\u2060\u2060": {
+      "signature": "()Lokhttp3/OkHttpClient;",
+      "name_offset": "0x39277",
+      "sig_offset": "0x39316"
+    },
+    "org/benf/cfr/reader/util/lambda/\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2063\u2063\u2063\u2063\u2063\u2063\u2060": {
+      "signature": "(F)V",
+      "name_offset": "0x392bc",
+      "sig_offset": "0x3935e"
+    },
+    "player/normal/np/fragMent/DialogApkAddToast$\u06e5": {
+      "signature": "(F)V",
+      "name_offset": "0x3932f",
+      "sig_offset": "0x3935e"
+    },
+    "player/normal/np/fragMent/NPMeasureView": {
+      "signature": "(F)V",
+      "name_offset": "0x393bc",
+      "sig_offset": "0x3935e"
+    },
+    "player/normal/np/activity/FlowActivity$\u06e5": {
+      "signature": "(F)V",
+      "name_offset": "0x393e4",
+      "sig_offset": "0x3935e"
+    },
+    "player/normal/np/fragMent/DialogThemColorSetting$\u06e5": {
+      "signature": "(F)V",
+      "name_offset": "0x3941e",
+      "sig_offset": "0x3935e"
+    },
+    "player/normal/np/activity/NPManActivity": {
+      "signature": "(Ljava/lang/String;)I",
+      "name_offset": "0x903ea",
+      "sig_offset": "0x904a8"
+    },
+    "player/normal/np/fragMent/DialogAddDialog$\u06e5\u06df\u06df\u06e1": {
+      "signature": "(Ljava/lang/String;)I",
+      "name_offset": "0x90412",
+      "sig_offset": "0x904a8"
+    },
+    "player/normal/np/fragMent/DialogAddDialog$\u06e5\u06df\u06df\u06e0": {
+      "signature": "(Ljava/lang/String;)I",
+      "name_offset": "0x90445",
+      "sig_offset": "0x904a8"
+    },
+    "player/normal/np/fragMent/DialogAddDialog$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+      "name_offset": "0x3967f",
+      "sig_offset": "0x396b2"
+    },
+    "org/apache/xerces/stax/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2063\u2063\u2063\u2063\u2064": {
+      "signature": "(Ljava/lang/String;)I",
+      "name_offset": "0x904f5",
+      "sig_offset": "0x904a8"
+    },
+    "player/normal/np/activity/PingActivity": {
+      "signature": "(Ljava/lang/String;)V",
+      "name_offset": "0x39763",
+      "sig_offset": "0x397bf"
+    },
+    "player/normal/np/activity/PickColorActivity$\u06e5\u06df\u06df\u06e0": {
+      "signature": "(Ljava/lang/String;)V",
+      "name_offset": "0x3978a",
+      "sig_offset": "0x397bf"
+    },
+    "org/checkerframework/checker/tainting/qual/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2064\u2060\u2064\u2064": {
+      "signature": "(Ljava/lang/String;)V",
+      "name_offset": "0x907e5",
+      "sig_offset": "0x907cf"
+    },
+    "player/normal/np/activity/PickColorActivity$\u06e5\u06df\u06df\u06e2": {
+      "signature": "(Ljava/lang/String;)V",
+      "name_offset": "0x90868",
+      "sig_offset": "0x907cf"
+    },
+    "player/normal/np/activity/PickColorActivity$\u06e5\u06df\u06df\u06e1": {
+      "signature": "([SIII)Ljava/lang/String;",
+      "name_offset": "0x90950",
+      "sig_offset": "0x90985"
+    },
+    "org/eclipse/tm4e/core/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2064\u2063\u2060\u2064\u2063": {
+      "signature": "([SIII)Ljava/lang/String;",
+      "name_offset": "0x908d3",
+      "sig_offset": "0x90985"
+    },
+    "player/normal/np/fragMent/DialogLogin$\u06e5\u06df\u06df": {
+      "signature": "([SIII)Ljava/lang/String;",
+      "name_offset": "0x39a18",
+      "sig_offset": "0x39975"
+    },
+    "player/normal/np/fragMent/DialogSo$\u06e5\u06df\u06df": {
+      "signature": "(Lplayer/normal/np/activity/GuideActivity;)V",
+      "name_offset": "0x910f6",
+      "sig_offset": "0x911ae"
+    },
+    "player/normal/np/activity/DexViewActivity": {
+      "signature": "(Lplayer/normal/np/activity/GuideActivity;)V",
+      "name_offset": "0x91120",
+      "sig_offset": "0x911ae"
+    },
+    "player/normal/np/exception/UnZipException": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/Handler;",
+      "name_offset": "0x39ffd",
+      "sig_offset": "0x3a027"
+    },
+    "player/normal/np/fragMent/dex/DexSearchFragment": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/Handler;",
+      "name_offset": "0x91254",
+      "sig_offset": "0x91227"
+    },
+    "player/normal/np/fragMent/DialogKillSign$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/Handler;",
+      "name_offset": "0x3a080",
+      "sig_offset": "0x3a027"
+    },
+    "player/normal/np/fragMent/DialogCompareDexList$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/Handler;",
+      "name_offset": "0x3a0ae",
+      "sig_offset": "0x3a027"
+    },
+    "player/normal/np/fragMent/DialogSvg$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/Handler;",
+      "name_offset": "0x3a0e2",
+      "sig_offset": "0x3a027"
+    },
+    "player/normal/np/fragMent/dex/DexStringsFragment$\u06e5\u06df\u06df\u06df": {
+      "signature": "(D)Z",
+      "name_offset": "0x3a172",
+      "sig_offset": "0x3a21a"
+    },
+    "player/normal/np/fragMent/DialogFlowConfig": {
+      "signature": "(D)Z",
+      "name_offset": "0x3a1ac",
+      "sig_offset": "0x3a21a"
+    },
+    "okhttp3/Request": {
+      "signature": "(D)Z",
+      "name_offset": "0x3a1d7",
+      "sig_offset": "0x3a21a"
+    },
+    "player/normal/np/fragMent/dex/DexSearchFragment$\u06e5": {
+      "signature": "(D)Z",
+      "name_offset": "0x3a1e7",
+      "sig_offset": "0x3a21a"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06e3\u06e8": {
+      "signature": "(D)Z",
+      "name_offset": "0x3a21f",
+      "sig_offset": "0x3a21a"
+    },
+    "player/normal/np/widget/FlowLayout$LayoutParam": {
+      "signature": "(D)Z",
+      "name_offset": "0x3a251",
+      "sig_offset": "0x3a21a"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06e3\u06e7": {
+      "signature": "(D)Z",
+      "name_offset": "0x3a280",
+      "sig_offset": "0x3a21a"
+    },
+    "player/normal/np/fragMent/AppListFragment$\u06e5\u06df\u06df": {
+      "signature": "(D)Z",
+      "name_offset": "0x3a2b2",
+      "sig_offset": "0x3a21a"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06e3\u06df": {
+      "signature": "(Ljava/lang/Object;)Lplayer/normal/np/fragMent/FloatWindow;",
+      "name_offset": "0x3a480",
+      "sig_offset": "0x3a533"
+    },
+    "android/graphics/pdf/PdfRenderer": {
+      "signature": "(Ljava/lang/Object;)Lplayer/normal/np/fragMent/FloatWindow;",
+      "name_offset": "0x3a4b2",
+      "sig_offset": "0x3a533"
+    },
+    "player/normal/np/activity/CommonEditActivity$\u06e5\u06df\u06df\u06e1$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;)Lplayer/normal/np/fragMent/FloatWindow;",
+      "name_offset": "0x3a4d3",
+      "sig_offset": "0x3a533"
+    },
+    "player/normal/np/widget/MenuDialog": {
+      "signature": "(Ljava/lang/Object;)Lplayer/normal/np/fragMent/FloatWindow;",
+      "name_offset": "0x3a510",
+      "sig_offset": "0x3a533"
+    },
+    "okhttp3/Response": {
+      "signature": "(Ljava/lang/Object;)Lplayer/normal/np/fragMent/FloatWindow;",
+      "name_offset": "0x3a56f",
+      "sig_offset": "0x3a533"
+    },
+    "android/widget/Switch": {
+      "signature": "(Ljava/lang/Object;)Lplayer/normal/np/fragMent/FloatWindow;",
+      "name_offset": "0x3a580",
+      "sig_offset": "0x3a533"
+    },
+    "player/normal/np/fragMent/NPFloatRuler$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Lplayer/normal/np/fragMent/FloatWindow;",
+      "name_offset": "0x3a596",
+      "sig_offset": "0x3a533"
+    },
+    "player/normal/np/activity/NPNoticeActivity$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Lplayer/normal/np/fragMent/FloatWindow;",
+      "name_offset": "0x3a5c0",
+      "sig_offset": "0x3a533"
+    },
+    "player/normal/np/activity/CommonEditActivity$\u06e5\u06df$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Lplayer/normal/np/fragMent/FloatWindow;",
+      "name_offset": "0x3a5ee",
+      "sig_offset": "0x3a533"
+    },
+    "player/normal/np/fragMent/AddAndSubView$\u06e5\u06df": {
+      "signature": "(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x3a97a",
+      "sig_offset": "0x3aa2e"
+    },
+    "player/normal/np/fragMent/NPManRequestBodyFragment": {
+      "signature": "(Ljava/lang/Object;I)Landroid/view/View;",
+      "name_offset": "0x922a2",
+      "sig_offset": "0x9234e"
+    },
+    "player/normal/np/fragMent/AddAndSubView$\u06e5": {
+      "signature": "(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x3a9da",
+      "sig_offset": "0x3aa2e"
+    },
+    "player/normal/np/fragMent/DialogSmaliAttr": {
+      "signature": "(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x3aa6e",
+      "sig_offset": "0x3aa2e"
+    },
+    "player/normal/np/fragMent/DialogBatchReName$\u06e5\u06df": {
+      "signature": "(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x3aa98",
+      "sig_offset": "0x3aa2e"
+    },
+    "java/lang/Float": {
+      "signature": "(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x3aac9",
+      "sig_offset": "0x3aa2e"
+    },
+    "player/normal/np/activity/FlowActivity$\u06e5\u06df$\u06e5": {
+      "signature": "(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x3aad9",
+      "sig_offset": "0x3aa2e"
+    },
+    "player/normal/np/fragMent/DialogSetting$\u06e5\u06df\u06df\u06e6": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/Switch;",
+      "name_offset": "0x92918",
+      "sig_offset": "0x92980"
+    },
+    "player/normal/np/fragMent/DialogPdf$\u06e5\u06df\u06df\u06e0": {
+      "signature": "()Lokhttp3/ResponseBody;",
+      "name_offset": "0x3afdb",
+      "sig_offset": "0x3b06c"
+    },
+    "player/normal/np/fragMent/DialogFlowConfig$\u06e5\u06df\u06df\u06e3$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/Switch;",
+      "name_offset": "0x92949",
+      "sig_offset": "0x92980"
+    },
+    "player/normal/np/fragMent/DialogPdf$\u06e5\u06df\u06df\u06df": {
+      "signature": "()Lokhttp3/ResponseBody;",
+      "name_offset": "0x3b03f",
+      "sig_offset": "0x3b06c"
+    },
+    "player/normal/np/fragMent/DialogPdf$\u06e5\u06df\u06df\u06e6": {
+      "signature": "()Lokhttp3/ResponseBody;",
+      "name_offset": "0x3b085",
+      "sig_offset": "0x3b06c"
+    },
+    "player/normal/np/fragMent/DialogPdf$\u06e5\u06df\u06df\u06e5": {
+      "signature": "()Lokhttp3/ResponseBody;",
+      "name_offset": "0x3b0b2",
+      "sig_offset": "0x3b06c"
+    },
+    "player/normal/np/fragMent/DialogPdf$\u06e5\u06df\u06df\u06e4": {
+      "signature": "()Lokhttp3/ResponseBody;",
+      "name_offset": "0x3b0df",
+      "sig_offset": "0x3b06c"
+    },
+    "player/normal/np/fragMent/DialogPdf$\u06e5\u06df\u06df\u06e3": {
+      "signature": "()Lokhttp3/ResponseBody;",
+      "name_offset": "0x3b10c",
+      "sig_offset": "0x3b06c"
+    },
+    "android/app/Service": {
+      "signature": "()[S",
+      "name_offset": "0x3b5d7",
+      "sig_offset": "0x3b67e"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06df\u06e2": {
+      "signature": "()[S",
+      "name_offset": "0x3b5eb",
+      "sig_offset": "0x3b67e"
+    },
+    "player/normal/np/fragMent/AddAndSubView$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;I)I",
+      "name_offset": "0x92d8e",
+      "sig_offset": "0x92dee"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06df\u06df": {
+      "signature": "()[S",
+      "name_offset": "0x3b64c",
+      "sig_offset": "0x3b67e"
+    },
+    "player/normal/np/widget/SearchEditText$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;I)I",
+      "name_offset": "0x92dc2",
+      "sig_offset": "0x92dee"
+    },
+    "player/normal/np/fragMent/DialogPdfGetPages$\u06e5\u06df\u06df": {
+      "signature": "()[S",
+      "name_offset": "0x3b6af",
+      "sig_offset": "0x3b67e"
+    },
+    "player/normal/np/activity/NPMeasureActivity$\u06e5": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;I)V",
+      "name_offset": "0x92ed0",
+      "sig_offset": "0x92f80"
+    },
+    "org/apache/xerces/impl/xpath/regex/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2064\u2060\u2064\u2064\u2060\u2063\u2063": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;I)V",
+      "name_offset": "0x92eff",
+      "sig_offset": "0x92f80"
+    },
+    "player/normal/np/fragMent/DialogEncryptFile$\u06e5\u06df": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+      "name_offset": "0x3b8be",
+      "sig_offset": "0x3b952"
+    },
+    "player/normal/np/fragMent/DialogJson$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+      "name_offset": "0x3b8ef",
+      "sig_offset": "0x3b952"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06df\u06e8": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+      "name_offset": "0x3b920",
+      "sig_offset": "0x3b952"
+    },
+    "android/webkit/JsResult": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+      "name_offset": "0x3b980",
+      "sig_offset": "0x3b952"
+    },
+    "org/eclipse/tm4e/languageconfiguration/internal/\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2063\u2063\u2063\u2064\u2064\u2060\u2060\u2060": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+      "name_offset": "0x3b998",
+      "sig_offset": "0x3b952"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06e0\u06e5": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+      "name_offset": "0x3b9f6",
+      "sig_offset": "0x3b952"
+    },
+    "android/widget/AdapterView$OnItemClickListener": {
+      "signature": "(Ljava/lang/Object;)Lplayer/normal/np/fragMent/NPMeasureView;",
+      "name_offset": "0x3bbb9",
+      "sig_offset": "0x3bc52"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06e0\u06e0": {
+      "signature": "(Ljava/lang/Throwable;)V",
+      "name_offset": "0x3bbe8",
+      "sig_offset": "0x3bc90"
+    },
+    "player/normal/np/fragMent/DialogForgetPwd$\u06e5\u06df\u06df$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/Throwable;)V",
+      "name_offset": "0x3bc1a",
+      "sig_offset": "0x3bc90"
+    },
+    "player/normal/np/activity/NPManActivity$\u06e5\u06df\u06df\u06e5": {
+      "signature": "(Ljava/lang/Throwable;)V",
+      "name_offset": "0x3bca9",
+      "sig_offset": "0x3bc90"
+    },
+    "player/normal/np/fragMent/DialogJson$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Throwable;)V",
+      "name_offset": "0x3bcda",
+      "sig_offset": "0x3bc90"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06e2\u06e3$\u06e5": {
+      "signature": "(Ljava/lang/Throwable;)V",
+      "name_offset": "0x3bd04",
+      "sig_offset": "0x3bc90"
+    },
+    "player/normal/np/activity/NPManActivity$\u06e5\u06df\u06df\u06e4": {
+      "signature": "(Ljava/lang/Throwable;)V",
+      "name_offset": "0x3bd39",
+      "sig_offset": "0x3bc90"
+    },
+    "player/normal/np/fragMent/DialogFlowConfig$\u06e5\u06df\u06df\u06e3": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "name_offset": "0x3c0d4",
+      "sig_offset": "0x3c170"
+    },
+    "player/normal/np/fragMent/DialogFlowConfig$\u06e5\u06df\u06df\u06e2": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "name_offset": "0x3c108",
+      "sig_offset": "0x3c170"
+    },
+    "player/normal/np/fragMent/DialogFlowConfig$\u06e5\u06df\u06df\u06e1": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "name_offset": "0x3c13c",
+      "sig_offset": "0x3c170"
+    },
+    "android/graphics/pdf/PdfRenderer$Page": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "name_offset": "0x3c197",
+      "sig_offset": "0x3c170"
+    },
+    "player/normal/np/adapter/AppAdapter$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "name_offset": "0x3c1bd",
+      "sig_offset": "0x3c170"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06e2\u06e8": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "name_offset": "0x3c1e8",
+      "sig_offset": "0x3c170"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/structured/expression/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2064\u2063\u2060\u2064\u2063\u2060\u2060\u2063": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "name_offset": "0x3c21a",
+      "sig_offset": "0x3c170"
+    },
+    "player/normal/np/fragMent/DialogFlowConfig$\u06e5\u06df\u06df\u06e5": {
+      "signature": "(Lplayer/normal/np/service/PickColorService;)V",
+      "name_offset": "0x3c5b7",
+      "sig_offset": "0x3c673"
+    },
+    "player/normal/np/adapter/FileAdapter$\u06e5\u06df": {
+      "signature": "(Lplayer/normal/np/service/PickColorService;)V",
+      "name_offset": "0x3c5eb",
+      "sig_offset": "0x3c673"
+    },
+    "player/normal/np/activity/DexViewActivity$\u06e5\u06df$\u06e5": {
+      "signature": "(Lplayer/normal/np/service/PickColorService;)V",
+      "name_offset": "0x3c615",
+      "sig_offset": "0x3c673"
+    },
+    "player/normal/np/activity/PickColorActivity": {
+      "signature": "(Lplayer/normal/np/service/PickColorService;)V",
+      "name_offset": "0x3c647",
+      "sig_offset": "0x3c673"
+    },
+    "player/normal/np/fragMent/DialogChangePass$\u06e5\u06df\u06df": {
+      "signature": "(Lplayer/normal/np/service/PickColorService;)V",
+      "name_offset": "0x3c6a2",
+      "sig_offset": "0x3c673"
+    },
+    "player/normal/np/fragMent/DialogAddFile$\u06e5\u06df": {
+      "signature": "(Lplayer/normal/np/service/PickColorService;)V",
+      "name_offset": "0x3c6d4",
+      "sig_offset": "0x3c673"
+    },
+    "player/normal/np/activity/NPUserInfoActivity$\u06e5\u06df\u06df$\u06e5": {
+      "signature": "(Lplayer/normal/np/service/PickColorService;)V",
+      "name_offset": "0x3c701",
+      "sig_offset": "0x3c673"
+    },
+    "player/normal/np/fragMent/DialogApkAddLog": {
+      "signature": "(Lplayer/normal/np/service/PickColorService;)V",
+      "name_offset": "0x3c738",
+      "sig_offset": "0x3c673"
+    },
+    "org/eclipse/tm4e/core/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2060\u2060\u2064\u2060\u2060\u2060\u2060\u2063": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/StrictMode$ThreadPolicy;",
+      "name_offset": "0x94d5d",
+      "sig_offset": "0x94dc2"
+    },
+    "player/normal/np/fragMent/DialogAXML$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;ILjava/lang/Object;)V",
+      "name_offset": "0x3ce0a",
+      "sig_offset": "0x3cdbd"
+    },
+    "player/normal/np/fragMent/DialogJar$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;ILjava/lang/Object;)V",
+      "name_offset": "0x3ce36",
+      "sig_offset": "0x3cdbd"
+    },
+    "com/umeng/analytics/MobclickAgent$PageMode": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;ILjava/lang/Object;)V",
+      "name_offset": "0x3ce63",
+      "sig_offset": "0x3cdbd"
+    },
+    "player/normal/np/activity/DexViewActivity$\u06e5\u06df\u06df\u06e0": {
+      "signature": "()Landroid/s/j31;",
+      "name_offset": "0x3da4f",
+      "sig_offset": "0x3dae8"
+    },
+    "player/normal/np/activity/DexViewActivity$\u06e5\u06df\u06df\u06df": {
+      "signature": "()Landroid/s/j31;",
+      "name_offset": "0x3da82",
+      "sig_offset": "0x3dae8"
+    },
+    "player/normal/np/activity/DexViewActivity$\u06e5\u06df\u06df\u06e2": {
+      "signature": "()Landroid/s/j31;",
+      "name_offset": "0x3dab5",
+      "sig_offset": "0x3dae8"
+    },
+    "player/normal/np/activity/DexViewActivity$\u06e5\u06df\u06df\u06e1": {
+      "signature": "()Landroid/s/j31;",
+      "name_offset": "0x3dafa",
+      "sig_offset": "0x3dae8"
+    },
+    "player/normal/np/fragMent/DialogAXML$\u06e5\u06df\u06df\u06e4": {
+      "signature": "()Landroid/s/j31;",
+      "name_offset": "0x3db2d",
+      "sig_offset": "0x3dae8"
+    },
+    "org/apache/xerces/util/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2060\u2060\u2064\u2060\u2060\u2060\u2064\u2063\u2060\u2064\u2063": {
+      "signature": "()Landroid/s/j31;",
+      "name_offset": "0x3db5b",
+      "sig_offset": "0x3dae8"
+    },
+    "player/normal/np/fragMent/DialogAXML$\u06e5\u06df\u06df\u06e3": {
+      "signature": "(Ljava/lang/Object;)Lplayer/normal/np/fragMent/NPFloatRuler;",
+      "name_offset": "0x3dbd9",
+      "sig_offset": "0x3dc63"
+    },
+    "player/normal/np/fragMent/DialogAXML$\u06e5\u06df\u06df\u06e6": {
+      "signature": "(Ljava/lang/Object;)Lplayer/normal/np/fragMent/NPFloatRuler;",
+      "name_offset": "0x3dc07",
+      "sig_offset": "0x3dc63"
+    },
+    "player/normal/np/fragMent/DialogAXML$\u06e5\u06df\u06df\u06e5": {
+      "signature": "(Ljava/lang/Object;)Lplayer/normal/np/fragMent/NPFloatRuler;",
+      "name_offset": "0x3dc35",
+      "sig_offset": "0x3dc63"
+    },
+    "player/normal/np/fragMent/DialogAXML$\u06e5\u06df\u06df\u06e7": {
+      "signature": "(Ljava/lang/Object;)Lplayer/normal/np/fragMent/NPFloatRuler;",
+      "name_offset": "0x3dca0",
+      "sig_offset": "0x3dc63"
+    },
+    "player/normal/np/fragMent/DialogVideo": {
+      "signature": "(Ljava/lang/Object;F)V",
+      "name_offset": "0x96773",
+      "sig_offset": "0x967d8"
+    },
+    "player/normal/np/activity/ArscLanguageActivity$\u06e5\u06df$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Lplayer/normal/np/fragMent/NPFloatRuler;",
+      "name_offset": "0x3dcf4",
+      "sig_offset": "0x3dc63"
+    },
+    "player/normal/np/activity/ToolboxActivity$\u06e5\u06df\u06df\u06e2": {
+      "signature": "(Ljava/lang/Object;)V",
+      "name_offset": "0x3e1c8",
+      "sig_offset": "0x3e279"
+    },
+    "player/normal/np/activity/ToolboxActivity$\u06e5\u06df\u06df\u06e5": {
+      "signature": "(Ljava/lang/Object;F)F",
+      "name_offset": "0x3e246",
+      "sig_offset": "0x3e2f9"
+    },
+    "player/normal/np/activity/ToolboxActivity$\u06e5\u06df\u06df\u06e4": {
+      "signature": "(Ljava/lang/Object;F)F",
+      "name_offset": "0x3e28f",
+      "sig_offset": "0x3e2f9"
+    },
+    "player/normal/np/fragMent/DialogApkProguard2Res$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;F)F",
+      "name_offset": "0x3e2c2",
+      "sig_offset": "0x3e2f9"
+    },
+    "player/normal/np/activity/ToolboxActivity$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;F)F",
+      "name_offset": "0x3e310",
+      "sig_offset": "0x3e2f9"
+    },
+    "android/graphics/drawable/Drawable": {
+      "signature": "(Ljava/lang/Object;)Z",
+      "name_offset": "0x96c10",
+      "sig_offset": "0x96ccc"
+    },
+    "player/normal/np/fragMent/NPFloatRuler$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;)V",
+      "name_offset": "0x96be4",
+      "sig_offset": "0x96bce"
+    },
+    "player/normal/np/activity/ToolboxActivity$\u06e5\u06df\u06df\u06e1": {
+      "signature": "(Ljava/lang/Object;)Z",
+      "name_offset": "0x3e392",
+      "sig_offset": "0x3e3ea"
+    },
+    "player/normal/np/fragMent/DialogDict": {
+      "signature": "(Ljava/lang/Object;)Z",
+      "name_offset": "0x96ca7",
+      "sig_offset": "0x96ccc"
+    },
+    "player/normal/np/activity/ToolboxActivity$\u06e5\u06df\u06df\u06e0": {
+      "signature": "(Ljava/lang/Object;)Z",
+      "name_offset": "0x3e400",
+      "sig_offset": "0x3e3ea"
+    },
+    "android/os/ParcelFileDescriptor": {
+      "signature": "(Ljava/lang/Object;)Z",
+      "name_offset": "0x3e433",
+      "sig_offset": "0x3e3ea"
+    },
+    "org/eclipse/tm4e/core/registry/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2064\u2060\u2060\u2060\u2060\u2063\u2064\u2063\u2064\u2063\u2063\u2063\u2064\u2064\u2063\u2060": {
+      "signature": "(Ljava/lang/Object;)Z",
+      "name_offset": "0x96d87",
+      "sig_offset": "0x96ccc"
+    },
+    "scut/carson_ho/diy_view/\u2063\u2064\u2060\u2060\u2060\u2064\u2060\u2064\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;)I",
+      "name_offset": "0x96e34",
+      "sig_offset": "0x96eaf"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06e3\u06e8$\u06e5": {
+      "signature": "(Ljava/lang/Object;)I",
+      "name_offset": "0x3e537",
+      "sig_offset": "0x3e56c"
+    },
+    "player/normal/np/holder/ClassTreeItemHolder$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;)I",
+      "name_offset": "0x96ec5",
+      "sig_offset": "0x96eaf"
+    },
+    "player/normal/np/fragMent/NPManRequestHeaderFragment$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;)I",
+      "name_offset": "0x96ef6",
+      "sig_offset": "0x96eaf"
+    },
+    "player/normal/np/activity/ToolboxActivity$\u06e5\u06df\u06df\u06e7": {
+      "signature": "(Ljava/lang/Object;)I",
+      "name_offset": "0x3e5f1",
+      "sig_offset": "0x3e56c"
+    },
+    "player/normal/np/activity/ToolboxActivity$\u06e5\u06df\u06df\u06e6": {
+      "signature": "(Ljava/lang/Object;)Landroid/view/View;",
+      "name_offset": "0x3e624",
+      "sig_offset": "0x3e6bd"
+    },
+    "player/normal/np/activity/ToolboxActivity$\u06e5\u06df\u06df\u06e8": {
+      "signature": "(Ljava/lang/Object;)Landroid/view/View;",
+      "name_offset": "0x3e657",
+      "sig_offset": "0x3e6bd"
+    },
+    "player/normal/np/activity/ToolboxActivity$\u06e5\u06df\u06e0\u06e4": {
+      "signature": "(Ljava/lang/Object;)Landroid/view/View;",
+      "name_offset": "0x3e68a",
+      "sig_offset": "0x3e6bd"
+    },
+    "org/joni/constants/internal/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2060\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2063\u2063\u2063\u2064": {
+      "signature": "(Ljava/lang/Object;)Landroid/view/View;",
+      "name_offset": "0x3e6e5",
+      "sig_offset": "0x3e6bd"
+    },
+    "player/normal/np/activity/ToolboxActivity$\u06e5\u06df\u06e0\u06e3": {
+      "signature": "(Ljava/lang/Object;)Landroid/view/View;",
+      "name_offset": "0x3e756",
+      "sig_offset": "0x3e6bd"
+    },
+    "org/bouncycastle/jce/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2064\u2064\u2063\u2064\u2064\u2064": {
+      "signature": "(Lplayer/normal/np/activity/NPMainActivity;)V",
+      "name_offset": "0x972f0",
+      "sig_offset": "0x97390"
+    },
+    "org/checkerframework/checker/units/qual/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2064\u2060\u2064\u2064\u2063\u2060\u2060\u2064\u2060\u2060\u2063\u2060\u2060\u2064\u2060\u2063": {
+      "signature": "(Lplayer/normal/np/activity/NPMainActivity;)V",
+      "name_offset": "0x973d3",
+      "sig_offset": "0x97390"
+    },
+    "androidx/appcompat/app/AlertDialog": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Z",
+      "name_offset": "0x3ecd2",
+      "sig_offset": "0x3ed6c"
+    },
+    "org/benf/cfr/reader/util/lambda/\u2063\u2063\u2063\u2063\u2064\u2064\u2060\u2064\u2063\u2060\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Z",
+      "name_offset": "0x3ecf5",
+      "sig_offset": "0x3ed6c"
+    },
+    "player/normal/np/activity/CommonEditActivity$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Z",
+      "name_offset": "0x3ed3a",
+      "sig_offset": "0x3ed6c"
+    },
+    "player/normal/np/activity/ToolboxActivity$\u06e5\u06df\u06e1": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Z",
+      "name_offset": "0x3ed94",
+      "sig_offset": "0x3ed6c"
+    },
+    "player/normal/np/service/NPMeasureService$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Z",
+      "name_offset": "0x3edc5",
+      "sig_offset": "0x3ed6c"
+    },
+    "player/normal/np/fragMent/DialogVideoExact": {
+      "signature": "(Ljava/lang/Runnable;)V",
+      "name_offset": "0x976a8",
+      "sig_offset": "0x97750"
+    },
+    "org/benf/cfr/reader/entities/constantpool/\u2060\u2063\u2063\u2060\u2060\u2063\u2060\u2060\u2060\u2063\u2063\u2064": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Z",
+      "name_offset": "0x3ee1f",
+      "sig_offset": "0x3ed6c"
+    },
+    "j$/util/function/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2064\u2063\u2064\u2060\u2060\u2064": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)V",
+      "name_offset": "0x97792",
+      "sig_offset": "0x97853"
+    },
+    "player/normal/np/fragMent/DialogVideoCustomOrder": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)V",
+      "name_offset": "0x97822",
+      "sig_offset": "0x97853"
+    },
+    "org/eclipse/tm4e/core/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2060\u2060\u2064\u2060\u2060\u2060": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)V",
+      "name_offset": "0x9787b",
+      "sig_offset": "0x97853"
+    },
+    "player/normal/np/verify/enums/BingTranslateLangEnum": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)V",
+      "name_offset": "0x3f042",
+      "sig_offset": "0x3efac"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Landroid/net/Uri;",
+      "name_offset": "0x3f076",
+      "sig_offset": "0x3f126"
+    },
+    "player/normal/np/activity/NPMainActivity": {
+      "signature": "(Landroid/content/Context;)V",
+      "name_offset": "0x978e9",
+      "sig_offset": "0x9797c"
+    },
+    "android/widget/AdapterView$OnItemSelectedListener": {
+      "signature": "(Landroid/content/Context;)V",
+      "name_offset": "0x3f0cb",
+      "sig_offset": "0x3f176"
+    },
+    "player/normal/np/fragMent/DialogPdfSplit": {
+      "signature": "(Landroid/content/Context;)V",
+      "name_offset": "0x97929",
+      "sig_offset": "0x9797c"
+    },
+    "org/jf/dexlib2/dexbacked/DexBackedDexFile": {
+      "signature": "(Landroid/content/Context;)V",
+      "name_offset": "0x97952",
+      "sig_offset": "0x9797c"
+    },
+    "javax/xml/stream/events/\u2064\u2060\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2064\u2060\u2064\u2063": {
+      "signature": "(Landroid/content/Context;)V",
+      "name_offset": "0x97999",
+      "sig_offset": "0x9797c"
+    },
+    "player/normal/np/fragMent/DialogApkProguardRes$\u06e5": {
+      "signature": "(Landroid/content/Context;)V",
+      "name_offset": "0x3f1d3",
+      "sig_offset": "0x3f176"
+    },
+    "player/normal/np/fragMent/DialogSmaliGrammar$\u06e5\u06df": {
+      "signature": "(Landroid/content/Context;)V",
+      "name_offset": "0x3f205",
+      "sig_offset": "0x3f176"
+    },
+    "sun/misc/\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2060\u2060\u2063\u2063\u2064\u2060\u2063\u2063\u2060\u2060\u2063": {
+      "signature": "(Landroid/content/Context;)V",
+      "name_offset": "0x3f237",
+      "sig_offset": "0x3f176"
+    },
+    "android/s/ve1": {
+      "signature": "(Ljava/lang/String;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x3f3d1",
+      "sig_offset": "0x3f476"
+    },
+    "player/normal/np/fragMent/DialogSmaliGrammar": {
+      "signature": "(Ljava/lang/String;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x3f3df",
+      "sig_offset": "0x3f476"
+    },
+    "org/jaxen/function/xslt/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2064\u2060\u2064\u2060\u2060\u2064\u2063\u2060\u2064\u2064": {
+      "signature": "(Ljava/lang/String;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x3f40c",
+      "sig_offset": "0x3f476"
+    },
+    "player/normal/np/fragMent/DialogVideoCut": {
+      "signature": "(Ljava/lang/String;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x3f4a4",
+      "sig_offset": "0x3f476"
+    },
+    "player/normal/np/fragMent/DialogVideoTransform$\u06e5\u06df": {
+      "signature": "(Ljava/lang/String;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x3f4cd",
+      "sig_offset": "0x3f476"
+    },
+    "org/apache/xerces/xinclude/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2060\u2060\u2060\u2060\u2060\u2060\u2063\u2063\u2064\u2060\u2060\u2060\u2063\u2063\u2063": {
+      "signature": "(Ljava/lang/String;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x3f501",
+      "sig_offset": "0x3f476"
+    },
+    "org/jaxen/expr/iter/\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2060\u2060\u2064\u2060\u2063\u2060\u2064\u2063\u2060\u2064\u2064": {
+      "signature": "()Lokhttp3/Request;",
+      "name_offset": "0x3f880",
+      "sig_offset": "0x3f8fc"
+    },
+    "player/normal/np/listener/CompareApkBindListener": {
+      "signature": "()Lokhttp3/Request;",
+      "name_offset": "0x3f8cb",
+      "sig_offset": "0x3f8fc"
+    },
+    "java/util/Comparator": {
+      "signature": "()Lokhttp3/Request;",
+      "name_offset": "0x3f910",
+      "sig_offset": "0x3f8fc"
+    },
+    "player/normal/np/fragMent/DialogWord$\u06e5\u06df": {
+      "signature": "()Lokhttp3/Request;",
+      "name_offset": "0x3f925",
+      "sig_offset": "0x3f8fc"
+    },
+    "player/normal/np/base/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2060\u2064\u2060\u2064\u2060": {
+      "signature": "()Lokhttp3/Request;",
+      "name_offset": "0x3f94f",
+      "sig_offset": "0x3f8fc"
+    },
+    "sjm/xuitls/http/annotation/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2063\u2064": {
+      "signature": "(Z)V",
+      "name_offset": "0x3f9cc",
+      "sig_offset": "0x3fa6d"
+    },
+    "player/normal/np/util/FileList$\u06e5\u06df\u06df\u06e1": {
+      "signature": "(Z)V",
+      "name_offset": "0x98592",
+      "sig_offset": "0x985f6"
+    },
+    "player/normal/np/util/FileList$\u06e5\u06df\u06df\u06e0": {
+      "signature": "(Z)V",
+      "name_offset": "0x3fa72",
+      "sig_offset": "0x3fa6d"
+    },
+    "player/normal/np/util/FileList$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Z)V",
+      "name_offset": "0x3fa9a",
+      "sig_offset": "0x3fa6d"
+    },
+    "player/normal/np/activity/DexViewActivity$\u06e5\u06df$\u06e5\u06df": {
+      "signature": "(Z)V",
+      "name_offset": "0x3fb32",
+      "sig_offset": "0x3fa6d"
+    },
+    "javax/xml/stream/util/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2060\u2060\u2064": {
+      "signature": "(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x40296",
+      "sig_offset": "0x4030d"
+    },
+    "player/normal/np/fragMent/DialogApkAddLog$\u06e5": {
+      "signature": "(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x4033e",
+      "sig_offset": "0x4030d"
+    },
+    "player/normal/np/fragMent/DialogForgetPwd$\u06e5": {
+      "signature": "(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x4036b",
+      "sig_offset": "0x4030d"
+    },
+    "player/normal/np/widget/DZScrollView": {
+      "signature": "(Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;",
+      "name_offset": "0x40398",
+      "sig_offset": "0x4030d"
+    },
+    "difflib/myers/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2063\u2064\u2064\u2063\u2060\u2064\u2060\u2064\u2063": {
+      "signature": "(I)V",
+      "name_offset": "0x404fb",
+      "sig_offset": "0x4058a"
+    },
+    "sjm/xuitls/x$MockApplication": {
+      "signature": "(I)V",
+      "name_offset": "0x4056d",
+      "sig_offset": "0x4058a"
+    },
+    "org/jaxen/dom4j/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2060\u2064\u2064\u2064\u2060\u2064\u2063\u2064\u2060\u2064\u2060": {
+      "signature": "(I)V",
+      "name_offset": "0x9980f",
+      "sig_offset": "0x99793"
+    },
+    "player/normal/np/activity/NPUserInfoActivity$\u06e5\u06df\u06df\u06df$\u06e5": {
+      "signature": "(I)V",
+      "name_offset": "0x405f7",
+      "sig_offset": "0x4058a"
+    },
+    "player/normal/np/activity/CommonEditActivity": {
+      "signature": "(I)V",
+      "name_offset": "0x40630",
+      "sig_offset": "0x4058a"
+    },
+    "player/normal/np/fragMent/DialogDict$\u06e5\u06df": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/Long;",
+      "name_offset": "0x9a081",
+      "sig_offset": "0x9a113"
+    },
+    "player/normal/np/fragMent/NPManRequestHeaderFragment$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;",
+      "name_offset": "0x40d13",
+      "sig_offset": "0x40d4f"
+    },
+    "player/normal/np/activity/DexViewActivity$\u06e5\u06df": {
+      "signature": "(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;",
+      "name_offset": "0x40d95",
+      "sig_offset": "0x40d4f"
+    },
+    "player/normal/np/fragMent/DialogApks$\u06e5\u06df": {
+      "signature": "(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;",
+      "name_offset": "0x40dc4",
+      "sig_offset": "0x40d4f"
+    },
+    "org/eclipse/tm4e/core/internal/theme/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2064\u2060\u2064\u2064\u2064\u2064\u2060\u2064\u2064\u2060\u2060\u2063": {
+      "signature": "(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/MultipartBody$Builder;",
+      "name_offset": "0x40dee",
+      "sig_offset": "0x40d4f"
+    },
+    "android/widget/CheckBox": {
+      "signature": "(Landroid/content/Context;Ljava/util/List;)V",
+      "name_offset": "0x9a9b3",
+      "sig_offset": "0x9aa77"
+    },
+    "player/normal/np/fragMent/DialogVideo$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/Context;",
+      "name_offset": "0x41370",
+      "sig_offset": "0x413b3"
+    },
+    "java/util/concurrent/ExecutorService": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/Context;",
+      "name_offset": "0x413e1",
+      "sig_offset": "0x413b3"
+    },
+    "player/normal/np/fragMent/DialogSo": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/Context;",
+      "name_offset": "0x41406",
+      "sig_offset": "0x413b3"
+    },
+    "player/normal/np/fragMent/DialogChangePass$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/Context;",
+      "name_offset": "0x41429",
+      "sig_offset": "0x413b3"
+    },
+    "sun1/security/x509/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060\u2064\u2060\u2064\u2060\u2060\u2063\u2063\u2060\u2060\u2063": {
+      "signature": "(Lplayer/normal/np/activity/SplashActivity;)V",
+      "name_offset": "0x9acb9",
+      "sig_offset": "0x9ac8b"
+    },
+    "player/normal/np/fragMent/DialogPdfDecrypt$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Landroid/app/Application;",
+      "name_offset": "0x418e2",
+      "sig_offset": "0x41945"
+    },
+    "player/normal/np/verify/enums/BaiduTranslateLangEnum": {
+      "signature": "(Ljava/lang/Object;)Landroid/app/Application;",
+      "name_offset": "0x41910",
+      "sig_offset": "0x41945"
+    },
+    "player/normal/np/service/PickColorService$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/app/Application;",
+      "name_offset": "0x41973",
+      "sig_offset": "0x41945"
+    },
+    "android/text/TextWatcher": {
+      "signature": "(Ljava/lang/Object;)Landroid/app/Application;",
+      "name_offset": "0x419a4",
+      "sig_offset": "0x41945"
+    },
+    "org/benf/cfr/reader/util/collections/\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2060\u2060\u2064\u2060\u2060\u2060\u2060\u2063": {
+      "signature": "(Ljava/lang/Object;)Landroid/app/Application;",
+      "name_offset": "0x419bd",
+      "sig_offset": "0x41945"
+    },
+    "android/view/View$OnTouchListener": {
+      "signature": "()Ljava/util/Set;",
+      "name_offset": "0x41c9b",
+      "sig_offset": "0x41cd0"
+    },
+    "j$/util/Comparator": {
+      "signature": "()Ljava/util/Set;",
+      "name_offset": "0x41cbd",
+      "sig_offset": "0x41cd0"
+    },
+    "player/normal/np/fragMent/AppListFragment$\u06e5\u06df$\u06e5$\u06e5": {
+      "signature": "()Ljava/util/Set;",
+      "name_offset": "0x41ce2",
+      "sig_offset": "0x41cd0"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06e3\u06e8$\u06e5\u06df": {
+      "signature": "()Ljava/util/Set;",
+      "name_offset": "0x41d8d",
+      "sig_offset": "0x41cd0"
+    },
+    "player/normal/np/util/FileList$\u06e5": {
+      "signature": "()Lcom/umeng/analytics/MobclickAgent$PageMode;",
+      "name_offset": "0x42faf",
+      "sig_offset": "0x43076"
+    },
+    "android/widget/ScrollView": {
+      "signature": "()Lcom/umeng/analytics/MobclickAgent$PageMode;",
+      "name_offset": "0x42fd1",
+      "sig_offset": "0x43076"
+    },
+    "player/normal/np/listener/CompareDexBindListener$\u06e5": {
+      "signature": "()Lcom/umeng/analytics/MobclickAgent$PageMode;",
+      "name_offset": "0x42feb",
+      "sig_offset": "0x43076"
+    },
+    "okhttp3/MultipartBody$Builder": {
+      "signature": "()Lcom/umeng/analytics/MobclickAgent$PageMode;",
+      "name_offset": "0x4301f",
+      "sig_offset": "0x43076"
+    },
+    "player/normal/np/fragMent/arsc/ArscSearchFragment$\u06e5\u06df\u06df": {
+      "signature": "()Lcom/umeng/analytics/MobclickAgent$PageMode;",
+      "name_offset": "0x4303d",
+      "sig_offset": "0x43076"
+    },
+    "player/normal/np/fragMent/DialogFlowConfig$\u06e5\u06df\u06df\u06e2$\u06e5": {
+      "signature": "()Lcom/umeng/analytics/MobclickAgent$PageMode;",
+      "name_offset": "0x430a5",
+      "sig_offset": "0x43076"
+    },
+    "player/normal/np/fragMent/DialogAddFile": {
+      "signature": "(Ljava/lang/Object;I)Ljava/lang/String;",
+      "name_offset": "0x9de3c",
+      "sig_offset": "0x9deee"
+    },
+    "player/normal/np/fragMent/DialogJson": {
+      "signature": "(Ljava/lang/Object;I)Ljava/lang/String;",
+      "name_offset": "0x9de64",
+      "sig_offset": "0x9deee"
+    },
+    "player/normal/np/activity/NPNoticeActivity$\u06e5\u06df\u06df\u06e0": {
+      "signature": "()Lcom/umeng/analytics/MobclickAgent$PageMode;",
+      "name_offset": "0x43129",
+      "sig_offset": "0x43076"
+    },
+    "android/s/x91": {
+      "signature": "()Landroid/content/SharedPreferences;",
+      "name_offset": "0x43414",
+      "sig_offset": "0x434a8"
+    },
+    "player/normal/np/fragMent/DialogWord$\u06e5\u06df\u06df\u06df": {
+      "signature": "()Landroid/content/SharedPreferences;",
+      "name_offset": "0x9e241",
+      "sig_offset": "0x9e2b6"
+    },
+    "android/view/WindowManager": {
+      "signature": "()Landroid/content/SharedPreferences;",
+      "name_offset": "0x43450",
+      "sig_offset": "0x434a8"
+    },
+    "player/normal/np/fragMent/DialogPdfGetPages$\u06e5": {
+      "signature": "()Landroid/content/SharedPreferences;",
+      "name_offset": "0x4346b",
+      "sig_offset": "0x434a8"
+    },
+    "java/util/Set": {
+      "signature": "()Landroid/content/SharedPreferences;",
+      "name_offset": "0x9e2dc",
+      "sig_offset": "0x9e2b6"
+    },
+    "player/normal/np/fragMent/DialogChangePass$\u06e5\u06df": {
+      "signature": "()Landroid/content/SharedPreferences;",
+      "name_offset": "0x434ce",
+      "sig_offset": "0x434a8"
+    },
+    "player/normal/np/listener/CompareApkBindListener$\u06e5": {
+      "signature": "()Landroid/content/SharedPreferences;",
+      "name_offset": "0x434fe",
+      "sig_offset": "0x434a8"
+    },
+    "org/apache/commons/lang3/text/translate/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2060\u2063\u2064\u2063\u2064\u2060\u2064\u2060\u2064\u2063\u2063\u2060\u2060\u2064\u2060\u2060": {
+      "signature": "()Landroid/content/SharedPreferences;",
+      "name_offset": "0x9e363",
+      "sig_offset": "0x9e2b6"
+    },
+    "android/net/Uri": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Runnable;",
+      "name_offset": "0x43aad",
+      "sig_offset": "0x43b4f"
+    },
+    "player/normal/np/fragMent/DialogLongClick$\u06e5\u06df\u06df\u06e4": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Runnable;",
+      "name_offset": "0x43abd",
+      "sig_offset": "0x43b4f"
+    },
+    "player/normal/np/fragMent/FloatWindow$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Runnable;",
+      "name_offset": "0x43af0",
+      "sig_offset": "0x43b4f"
+    },
+    "player/normal/np/fragMent/arsc/ArscEditFragment$\u06e5$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Runnable;",
+      "name_offset": "0x43b19",
+      "sig_offset": "0x43b4f"
+    },
+    "player/normal/np/service/PickColorService$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Runnable;",
+      "name_offset": "0x43b78",
+      "sig_offset": "0x43b4f"
+    },
+    "player/normal/np/activity/ConstStringEditActivity$\u06e5\u06df\u06df\u06e6": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Runnable;",
+      "name_offset": "0x43ba5",
+      "sig_offset": "0x43b4f"
+    },
+    "player/normal/np/activity/ArscLanguageActivity": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Runnable;",
+      "name_offset": "0x43be0",
+      "sig_offset": "0x43b4f"
+    },
+    "player/normal/np/activity/ConstStringEditActivity$\u06e5\u06df\u06df\u06e5": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/Runnable;",
+      "name_offset": "0x43c0f",
+      "sig_offset": "0x43b4f"
+    },
+    "org/intellij/lang/annotations/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2063\u2064\u2064\u2063\u2060\u2063\u2064\u2060\u2060\u2063": {
+      "signature": "(Ljava/lang/Object;)Landroid/app/FragmentTransaction;",
+      "name_offset": "0x86dbb",
+      "sig_offset": "0x86e6f"
+    },
+    "player/normal/np/activity/ConstStringEditActivity": {
+      "signature": "(Ljava/lang/Object;)Landroid/app/FragmentTransaction;",
+      "name_offset": "0x86e3d",
+      "sig_offset": "0x86e6f"
+    },
+    "java/lang/Runnable": {
+      "signature": "(Ljava/lang/Object;)Landroid/app/FragmentTransaction;",
+      "name_offset": "0x86ea5",
+      "sig_offset": "0x86e6f"
+    },
+    "player/normal/np/fragMent/DialogApkAddToast$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/app/FragmentTransaction;",
+      "name_offset": "0x86eb8",
+      "sig_offset": "0x86e6f"
+    },
+    "org/bouncycastle/jcajce/provider/asymmetric/x509/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2060\u2064\u2063\u2060\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;)Landroid/app/FragmentTransaction;",
+      "name_offset": "0x86ee9",
+      "sig_offset": "0x86e6f"
+    },
+    "player/normal/np/activity/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2063\u2063\u2063\u2063\u2063\u2063\u2064": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/Button;",
+      "name_offset": "0x87062",
+      "sig_offset": "0x87114"
+    },
+    "XI/XI/XI/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2063\u2060\u2063\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;Z)V",
+      "name_offset": "0x870b3",
+      "sig_offset": "0x87140"
+    },
+    "java/lang/Thread": {
+      "signature": "(Ljava/lang/Object;Z)V",
+      "name_offset": "0x87157",
+      "sig_offset": "0x87140"
+    },
+    "android/webkit/WebView": {
+      "signature": "(Ljava/lang/Object;Z)V",
+      "name_offset": "0x87168",
+      "sig_offset": "0x87140"
+    },
+    "javax/xml/stream/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2060\u2060\u2064": {
+      "signature": "(Ljava/lang/Object;Z)V",
+      "name_offset": "0x8717f",
+      "sig_offset": "0x87140"
+    },
+    "org/checkerframework/checker/propkey/qual/\u2060\u2063\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;Z)V",
+      "name_offset": "0x871f4",
+      "sig_offset": "0x87140"
+    },
+    "org/dom4j/rule/pattern/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2060\u2064\u2064\u2064\u2060\u2064\u2064\u2060\u2060\u2063": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/ListView;",
+      "name_offset": "0x875f5",
+      "sig_offset": "0x87661"
+    },
+    "com/unnamed/b/atv/model/TreeNode$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/ListView;",
+      "name_offset": "0x8768f",
+      "sig_offset": "0x87661"
+    },
+    "org/checkerframework/common/reflection/qual/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2063\u2060\u2063\u2064\u2060": {
+      "signature": "()Landroid/s/y60;",
+      "name_offset": "0x87811",
+      "sig_offset": "0x87891"
+    },
+    "android/s/w31": {
+      "signature": "()Landroid/s/y60;",
+      "name_offset": "0x87883",
+      "sig_offset": "0x87891"
+    },
+    "org/eclipse/jdt/internal/compiler/flow/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2064\u2064\u2060\u2064\u2064": {
+      "signature": "()Landroid/s/y60;",
+      "name_offset": "0x878a3",
+      "sig_offset": "0x87891"
+    },
+    "okhttp3/internal/ws/\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2060\u2063": {
+      "signature": "()Landroid/s/y60;",
+      "name_offset": "0x87928",
+      "sig_offset": "0x87891"
+    },
+    "player/normal/np/fragMent/dex/DexSearchFragment$\u06e5\u06df\u06df\u06e1": {
+      "signature": "(Lplayer/normal/np/activity/PingActivity;)V",
+      "name_offset": "0x87ee8",
+      "sig_offset": "0x87f8c"
+    },
+    "player/normal/np/fragMent/NPManRequestFragment$\u06e5": {
+      "signature": "(Lplayer/normal/np/activity/PingActivity;)V",
+      "name_offset": "0x87f21",
+      "sig_offset": "0x87f8c"
+    },
+    "player/normal/np/fragMent/dex/DexSearchFragment$\u06e5\u06df\u06df\u06e2": {
+      "signature": "(Lplayer/normal/np/activity/PingActivity;)V",
+      "name_offset": "0x87f53",
+      "sig_offset": "0x87f8c"
+    },
+    "np/autoSign/fragment/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2064\u2060\u2064\u2064\u2060\u2060\u2063\u2064\u2060\u2064\u2064": {
+      "signature": "(Lplayer/normal/np/activity/PingActivity;)V",
+      "name_offset": "0x88017",
+      "sig_offset": "0x87f8c"
+    },
+    "player/normal/np/fragMent/dex/DexSearchFragment$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;J)Z",
+      "name_offset": "0x88220",
+      "sig_offset": "0x881f7"
+    },
+    "org/eclipse/tm4e/languageconfiguration/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2063\u2064\u2064\u2063\u2060": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;J)Z",
+      "name_offset": "0x88259",
+      "sig_offset": "0x881f7"
+    },
+    "player/normal/np/activity/ArscTranslateActivity$\u06e5\u06df\u06df\u06e5": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/pm/ApplicationInfo;",
+      "name_offset": "0x89517",
+      "sig_offset": "0x89550"
+    },
+    "player/normal/np/activity/ArscTranslateActivity$\u06e5\u06df\u06df\u06e7": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/pm/ApplicationInfo;",
+      "name_offset": "0x89589",
+      "sig_offset": "0x89550"
+    },
+    "player/normal/np/activity/ArscTranslateActivity$\u06e5\u06df\u06df\u06e0": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/pm/ApplicationInfo;",
+      "name_offset": "0x895e6",
+      "sig_offset": "0x89550"
+    },
+    "org/apache/xerces/impl/validation/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2064\u2063\u2060\u2060\u2064\u2060\u2060": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/Intent;",
+      "name_offset": "0x89939",
+      "sig_offset": "0x899bf"
+    },
+    "player/normal/np/fragMent/DialogForgetPwd$\u06e5$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/Intent;",
+      "name_offset": "0x899ec",
+      "sig_offset": "0x899bf"
+    },
+    "org/apache/commons/io/monitor/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2064\u2060\u2064\u2064\u2060\u2064\u2063\u2060\u2064\u2064\u2064\u2064\u2060\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;)Landroid/content/Intent;",
+      "name_offset": "0x89a6d",
+      "sig_offset": "0x899bf"
+    },
+    "org/benf/cfr/reader/util/graph/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2060\u2060\u2060\u2060\u2060\u2060\u2063\u2063\u2060": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/Bundle;",
+      "name_offset": "0x8a4de",
+      "sig_offset": "0x8a549"
+    },
+    "player/normal/np/util/apk/fancy/DexEditor$\u06e5$\u06e5\u06df\u06df\u06e1": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/Bundle;",
+      "name_offset": "0x8a571",
+      "sig_offset": "0x8a549"
+    },
+    "org/apache/commons/lang3/event/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2060\u2064\u2063\u2060\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/Bundle;",
+      "name_offset": "0x8a5a7",
+      "sig_offset": "0x8a549"
+    },
+    "player/normal/np/util/apk/fancy/DexEditor$\u06e5$\u06e5\u06df\u06df\u06e2": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/Bundle;",
+      "name_offset": "0x8a5fd",
+      "sig_offset": "0x8a549"
+    },
+    "org/dom4j/tree/\u2064\u2060\u2064\u2064\u2064\u2060\u2064\u2064\u2064\u2064\u2060\u2064\u2064": {
+      "signature": "()Lplayer/normal/np/fragMent/dex/DexEditFragment;",
+      "name_offset": "0x8aa53",
+      "sig_offset": "0x8aaf6"
+    },
+    "j$/util/stream/\u2063\u2064\u2060\u2060\u2060\u2060\u2063\u2063\u2060\u2060\u2063\u2060\u2064\u2063\u2060\u2064\u2063": {
+      "signature": "(Lplayer/normal/np/activity/NPManActivity;)V",
+      "name_offset": "0x8aa8a",
+      "sig_offset": "0x8ab28"
+    },
+    "org/slf4j/event/\u2063\u2064\u2060\u2060\u2060\u2060\u2060\u2063": {
+      "signature": "(Lplayer/normal/np/activity/NPManActivity;)V",
+      "name_offset": "0x8aacd",
+      "sig_offset": "0x8ab28"
+    },
+    "okhttp3/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2063\u2060\u2063\u2064\u2063\u2060\u2060\u2060\u2063\u2063\u2060": {
+      "signature": "(Ljava/lang/Object;)Lplayer/normal/np/fragMent/AddAndSubView;",
+      "name_offset": "0x8abe2",
+      "sig_offset": "0x8ac45"
+    },
+    "org/jaxen/saxpath/base/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2064\u2060\u2060\u2060\u2063\u2063\u2064": {
+      "signature": "(Ljava/lang/Object;)Landroid/view/View$OnClickListener;",
+      "name_offset": "0x8acb3",
+      "sig_offset": "0x8ad71"
+    },
+    "sjm/xuitls/cache/\u2063\u2064\u2063\u2060\u2063\u2064\u2060\u2063\u2064\u2060\u2060\u2063": {
+      "signature": "(Ljava/lang/Object;)Landroid/view/View$OnClickListener;",
+      "name_offset": "0x8ada9",
+      "sig_offset": "0x8ad71"
+    },
+    "android/s/bp0$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Landroid/view/View$OnClickListener;",
+      "name_offset": "0x8addf",
+      "sig_offset": "0x8ad71"
+    },
+    "player/normal/np/fragMent/arsc/ArscStringsFragment$\u06e5\u06df\u06df$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x8b0c3",
+      "sig_offset": "0x8b172"
+    },
+    "org/eclipse/jdt/core/compiler/\u2060\u2063\u2064\u2063\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x8b100",
+      "sig_offset": "0x8b172"
+    },
+    "android/s/hp0": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x8b131",
+      "sig_offset": "0x8b172"
+    },
+    "player/normal/np/util/apk/fancy/DexEditor$\u06e5$\u06e5$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x8b13f",
+      "sig_offset": "0x8b172"
+    },
+    "android/s/f1": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x8b199",
+      "sig_offset": "0x8b172"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/opgraph/op03obf/\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2064\u2060\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x8b221",
+      "sig_offset": "0x8b172"
+    },
+    "player/normal/np/fragMent/DialogEncryptStrConfig$ENCRYPT_WAY": {
+      "signature": "(Ljava/lang/Object;)Ljava/util/List;",
+      "name_offset": "0x8b9d9",
+      "sig_offset": "0x8ba41"
+    },
+    "org/apache/xerces/xni/grammars/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2064\u2060\u2060\u2060\u2064\u2060\u2064\u2063\u2063\u2063\u2064\u2064\u2063\u2060": {
+      "signature": "(Ljava/lang/Object;)Ljava/util/List;",
+      "name_offset": "0x8ba66",
+      "sig_offset": "0x8ba41"
+    },
+    "org/bouncycastle/jce/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2063\u2060\u2060\u2064\u2060\u2060\u2063\u2064\u2060\u2060\u2064": {
+      "signature": "(Ljava/lang/Object;)Ljava/util/List;",
+      "name_offset": "0x8bae6",
+      "sig_offset": "0x8ba41"
+    },
+    "player/normal/np/fragMent/NPManRequestFragment$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x8bbd0",
+      "sig_offset": "0x8bc5d"
+    },
+    "java/util/HashMap": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x8bc36",
+      "sig_offset": "0x8bc5d"
+    },
+    "android/s/p31$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x8bc48",
+      "sig_offset": "0x8bc5d"
+    },
+    "org/eclipse/jdt/internal/compiler/lookup/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2064\u2060\u2064\u2064\u2063\u2063\u2064\u2064\u2063\u2060": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x8bca8",
+      "sig_offset": "0x8bc5d"
+    },
+    "player/normal/np/NPApp": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x8bd23",
+      "sig_offset": "0x8bc5d"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/parse/expression/rewriteinterface/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;)Ljava/io/File;",
+      "name_offset": "0x8bd70",
+      "sig_offset": "0x8be1c"
+    },
+    "org/apache/batik/css/engine/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2064\u2060\u2060\u2064": {
+      "signature": "(Ljava/lang/Object;)Ljava/io/File;",
+      "name_offset": "0x8be51",
+      "sig_offset": "0x8be1c"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/opgraph/op4rewriters/transformers/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2060\u2063\u2064\u2063\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;)Ljava/io/File;",
+      "name_offset": "0x8bebf",
+      "sig_offset": "0x8be1c"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/structured/expression/\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2064\u2060\u2063\u2063": {
+      "signature": "(Ljava/lang/Object;I)Z",
+      "name_offset": "0x8c2cd",
+      "sig_offset": "0x8c33a"
+    },
+    "org/xml/sax/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2060\u2060\u2064\u2060\u2063\u2063\u2063\u2064\u2064\u2063\u2060": {
+      "signature": "(Ljava/lang/Object;I)Z",
+      "name_offset": "0x8c351",
+      "sig_offset": "0x8c33a"
+    },
+    "np/autoSign/fragment/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2063\u2060\u2063\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/arsc/ArscSearchFragment;",
+      "name_offset": "0x8c52c",
+      "sig_offset": "0x8c4c0"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/structured/statement/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2064\u2063\u2064\u2064\u2063\u2064\u2064\u2064": {
+      "signature": "(J)V",
+      "name_offset": "0x8c7a4",
+      "sig_offset": "0x8c849"
+    },
+    "player/normal/np/fragMent/dex/DexEditFragment$\u06e5\u06df\u06df\u06e2": {
+      "signature": "(J)V",
+      "name_offset": "0x8c84e",
+      "sig_offset": "0x8c849"
+    },
+    "sun/security/action/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2063\u2063\u2064\u2063\u2060\u2063\u2064\u2064": {
+      "signature": "(J)V",
+      "name_offset": "0x8c885",
+      "sig_offset": "0x8c849"
+    },
+    "javax/xml/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060\u2060\u2060\u2060\u2064\u2064\u2060\u2064\u2060": {
+      "signature": "()Ljava/lang/String;",
+      "name_offset": "0x8c91e",
+      "sig_offset": "0x8c986"
+    },
+    "androidx/coordinatorlayout/widget/CoordinatorLayout": {
+      "signature": "()Ljava/lang/String;",
+      "name_offset": "0x8c99b",
+      "sig_offset": "0x8c986"
+    },
+    "androidx/appcompat/widget/PopupMenu$OnMenuItemClickListener": {
+      "signature": "()Ljava/lang/String;",
+      "name_offset": "0x8c9f8",
+      "sig_offset": "0x8c986"
+    },
+    "player/normal/np/fragMent/arsc/ArscStringsFragment$\u06e5\u06df\u06df\u06e1": {
+      "signature": "(Lplayer/normal/np/activity/NPMeasureActivity;)V",
+      "name_offset": "0x8cc37",
+      "sig_offset": "0x8ccd6"
+    },
+    "player/normal/np/activity/AppListActivity$\u06e5\u06df\u06df": {
+      "signature": "(Lplayer/normal/np/activity/NPMeasureActivity;)V",
+      "name_offset": "0x8cc73",
+      "sig_offset": "0x8ccd6"
+    },
+    "net/sourceforge/pinyin4j/\u2064\u2064\u2060\u2064\u2063\u2060\u2063\u2063": {
+      "signature": "(Lplayer/normal/np/activity/NPMeasureActivity;)V",
+      "name_offset": "0x8cca4",
+      "sig_offset": "0x8ccd6"
+    },
+    "player/normal/np/widget/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2064\u2060\u2064\u2063\u2064\u2064\u2060\u2064\u2060": {
+      "signature": "(Lplayer/normal/np/activity/ArscDictActivity;)V",
+      "name_offset": "0x8cdab",
+      "sig_offset": "0x8cd7b"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/structured/statement/placeholder/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2064\u2060\u2060\u2064\u2064\u2060\u2064\u2060": {
+      "signature": "(Lplayer/normal/np/activity/ArscDictActivity;)V",
+      "name_offset": "0x8ce27",
+      "sig_offset": "0x8cd7b"
+    },
+    "sun1/security/timestamp/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2060\u2063\u2063\u2064\u2063\u2060\u2063\u2064\u2063": {
+      "signature": "(Lplayer/normal/np/activity/ArscLanguageActivity;)V",
+      "name_offset": "0x8d067",
+      "sig_offset": "0x8d0fd"
+    },
+    "androidx/appcompat/widget/AppCompatEditText": {
+      "signature": "(Lplayer/normal/np/activity/ArscLanguageActivity;)V",
+      "name_offset": "0x8d0d1",
+      "sig_offset": "0x8d0fd"
+    },
+    "org/checkerframework/checker/calledmethods/qual/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2060\u2064\u2063\u2060\u2064\u2064\u2064\u2060\u2064\u2063": {
+      "signature": "(Lplayer/normal/np/activity/ArscLanguageActivity;)V",
+      "name_offset": "0x8d131",
+      "sig_offset": "0x8d0fd"
+    },
+    "android/s/i51$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/RadioGroup;",
+      "name_offset": "0x8d48a",
+      "sig_offset": "0x8d3de"
+    },
+    "player/normal/np/fragMent/NPManResponseFragment$\u06e5": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/arsc/ArscStringsFragment;",
+      "name_offset": "0x8d9a3",
+      "sig_offset": "0x8da6a"
+    },
+    "android/widget/RadioGroup": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/arsc/ArscStringsFragment;",
+      "name_offset": "0x8d9d6",
+      "sig_offset": "0x8da6a"
+    },
+    "org/slf4j/event/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2060\u2060\u2063\u2063\u2064": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/arsc/ArscStringsFragment;",
+      "name_offset": "0x8d9f0",
+      "sig_offset": "0x8da6a"
+    },
+    "org/apache/xmlgraphics/image/codec/tiff/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2060\u2060\u2064\u2060\u2063": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/arsc/ArscStringsFragment;",
+      "name_offset": "0x8dad7",
+      "sig_offset": "0x8da6a"
+    },
+    "org/repackage/com/vivo/identifier/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2064\u2064\u2060\u2064\u2064\u2063\u2063\u2064\u2064\u2063\u2060\u2064\u2060\u2064\u2063": {
+      "signature": "(Landroid/os/Bundle;Landroid/os/PersistableBundle;)V",
+      "name_offset": "0x8deb3",
+      "sig_offset": "0x8df36"
+    },
+    "org/w3c/dom/xpath/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2064\u2060\u2060\u2060\u2060\u2064\u2063\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2064": {
+      "signature": "(Landroid/os/Bundle;Landroid/os/PersistableBundle;)V",
+      "name_offset": "0x8df6b",
+      "sig_offset": "0x8df36"
+    },
+    "player/normal/np/fragMent/DialogApkProguardRes$\u06e5\u06df\u06df": {
+      "signature": "(Landroid/os/Bundle;Landroid/os/PersistableBundle;)V",
+      "name_offset": "0x8dfe4",
+      "sig_offset": "0x8df36"
+    },
+    "player/normal/np/fragMent/DialogJar": {
+      "signature": "(Landroidx/appcompat/app/AppCompatActivity;)V",
+      "name_offset": "0x8e652",
+      "sig_offset": "0x8e6f9"
+    },
+    "player/normal/np/util/apk/lspatch/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2060\u2060\u2063\u2063\u2060\u2060\u2063\u2063": {
+      "signature": "(Landroidx/appcompat/app/AppCompatActivity;)V",
+      "name_offset": "0x8e676",
+      "sig_offset": "0x8e6f9"
+    },
+    "player/normal/np/util/apk/fancy/DexEditor$\u06e5": {
+      "signature": "(Landroidx/appcompat/app/AppCompatActivity;)V",
+      "name_offset": "0x8e727",
+      "sig_offset": "0x8e6f9"
+    },
+    "player/normal/np/fragMent/DialogOrderApp$\u06e5\u06df\u06df\u06e2": {
+      "signature": "(Landroidx/appcompat/app/AppCompatActivity;)V",
+      "name_offset": "0x8e754",
+      "sig_offset": "0x8e6f9"
+    },
+    "android/s/s51": {
+      "signature": "(Landroidx/appcompat/app/AppCompatActivity;)V",
+      "name_offset": "0x8e786",
+      "sig_offset": "0x8e6f9"
+    },
+    "org/eclipse/jdt/internal/compiler/classfmt/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2060\u2064\u2063\u2060\u2064\u2063": {
+      "signature": "(Landroidx/appcompat/app/AppCompatActivity;)V",
+      "name_offset": "0x8e794",
+      "sig_offset": "0x8e6f9"
+    },
+    "player/normal/np/widget/MenuDialog$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;IZ)V",
+      "name_offset": "0x8eae7",
+      "sig_offset": "0x8eb9d"
+    },
+    "player/normal/np/fragMent/DialogRegister": {
+      "signature": "(Ljava/lang/Object;IZ)V",
+      "name_offset": "0x8ebb5",
+      "sig_offset": "0x8eb9d"
+    },
+    "org/eclipse/tm4e/core/internal/grammar/reader/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2064\u2060\u2060\u2060\u2064\u2060\u2064\u2063\u2060\u2060\u2060": {
+      "signature": "(Ljava/lang/Object;IZ)V",
+      "name_offset": "0x8ebde",
+      "sig_offset": "0x8eb9d"
+    },
+    "player/normal/np/fragMent/DialogRegister$\u06e5\u06df$\u06e5": {
+      "signature": "(Landroid/os/Bundle;)V",
+      "name_offset": "0x8f61c",
+      "sig_offset": "0x8f679"
+    },
+    "org/objectweb/asm/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2064\u2063\u2060\u2064\u2064\u2060\u2060\u2060": {
+      "signature": "(Landroid/os/Bundle;)V",
+      "name_offset": "0x8f735",
+      "sig_offset": "0x8f679"
+    },
+    "player/normal/np/listener/CompareDexBindListener$\u06e5$\u06e5": {
+      "signature": "(F)V",
+      "name_offset": "0x8fe69",
+      "sig_offset": "0x8fef9"
+    },
+    "org/benf/cfr/reader/state/\u2064\u2064\u2060\u2064\u2064\u2060\u2060\u2060\u2063\u2063\u2064\u2060\u2060\u2060\u2063\u2063\u2064": {
+      "signature": "(F)V",
+      "name_offset": "0x8fefe",
+      "sig_offset": "0x8fef9"
+    },
+    "com/sjm/sjmsdk/ad/SjmSplashAd": {
+      "signature": "(F)V",
+      "name_offset": "0x8ff4c",
+      "sig_offset": "0x8fef9"
+    },
+    "org/bouncycastle/jcajce/provider/asymmetric/rsa/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2060\u2063\u2064\u2063\u2064\u2060\u2060\u2060\u2063\u2060\u2060\u2060\u2063\u2063\u2064": {
+      "signature": "(F)V",
+      "name_offset": "0x8ff7c",
+      "sig_offset": "0x8fef9"
+    },
+    "player/normal/np/util/FileList$AdapterDiffUtilCallback": {
+      "signature": "(Ljava/lang/String;)I",
+      "name_offset": "0x904be",
+      "sig_offset": "0x904a8"
+    },
+    "scut/carson_ho/diy_view/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060\u2064\u2060\u2064\u2063\u2063\u2064\u2063\u2060\u2063\u2064\u2060": {
+      "signature": "(Ljava/lang/String;)I",
+      "name_offset": "0x9056d",
+      "sig_offset": "0x904a8"
+    },
+    "android/s/wo0$\u06e5": {
+      "signature": "(Ljava/lang/String;)V",
+      "name_offset": "0x90743",
+      "sig_offset": "0x907cf"
+    },
+    "okhttp3/internal/http1/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2063\u2060\u2060\u2064\u2060\u2060": {
+      "signature": "(Ljava/lang/String;)V",
+      "name_offset": "0x90754",
+      "sig_offset": "0x907cf"
+    },
+    "player/normal/np/widget/SearchEditText": {
+      "signature": "(Ljava/lang/String;)F",
+      "name_offset": "0x90a28",
+      "sig_offset": "0x90adf"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06e4\u06e2$\u06e5": {
+      "signature": "(Ljava/lang/String;)F",
+      "name_offset": "0x90a83",
+      "sig_offset": "0x90adf"
+    },
+    "player/normal/np/activity/EditActivity": {
+      "signature": "(Ljava/lang/String;)F",
+      "name_offset": "0x90ab8",
+      "sig_offset": "0x90adf"
+    },
+    "java/lang/Double": {
+      "signature": "(Ljava/lang/String;)F",
+      "name_offset": "0x90af5",
+      "sig_offset": "0x90adf"
+    },
+    "javax/xml/namespace/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2060\u2063\u2063\u2063\u2064\u2064\u2063\u2060": {
+      "signature": "(Ljava/lang/String;)F",
+      "name_offset": "0x90b06",
+      "sig_offset": "0x90adf"
+    },
+    "player/normal/np/fragMent/dex/DexStringsFragment$\u06e5\u06df\u06df\u06e1": {
+      "signature": "(Ljava/lang/String;)F",
+      "name_offset": "0x90b7b",
+      "sig_offset": "0x90adf"
+    },
+    "player/normal/np/fragMent/dex/DexStringsFragment$\u06e5\u06df\u06df\u06df$\u06e5": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/Double;",
+      "name_offset": "0x90cea",
+      "sig_offset": "0x90d9a"
+    },
+    "org/antlr/runtime/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2060\u2060\u2060": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x90d27",
+      "sig_offset": "0x90dc1"
+    },
+    "android/s/a81$\u06e5\u06df\u06df\u06e3": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x90dfa",
+      "sig_offset": "0x90dc1"
+    },
+    "android/s/a81$\u06e5\u06df\u06df\u06e4": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;",
+      "name_offset": "0x90e11",
+      "sig_offset": "0x90dc1"
+    },
+    "np/hook/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2060\u2060\u2063\u2063\u2064": {
+      "signature": "(Lplayer/normal/np/activity/GuideActivity;)V",
+      "name_offset": "0x9114a",
+      "sig_offset": "0x911ae"
+    },
+    "sun1/security/provider/certpath/\u2064\u2060\u2064\u2064\u2064\u2060\u2064\u2060\u2064\u2064\u2060\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/Handler;",
+      "name_offset": "0x911df",
+      "sig_offset": "0x91227"
+    },
+    "org/apache/xerces/impl/validation/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2060\u2060\u2060\u2063\u2063\u2060\u2063\u2064\u2060\u2060\u2063": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/Handler;",
+      "name_offset": "0x91284",
+      "sig_offset": "0x91227"
+    },
+    "sun1/misc/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2063\u2064\u2063\u2064\u2063\u2064\u2064\u2060\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;I)Landroid/view/View;",
+      "name_offset": "0x92377",
+      "sig_offset": "0x9234e"
+    },
+    "org/checkerframework/checker/optional/qual/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2064\u2064\u2060\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;I)Landroid/view/View;",
+      "name_offset": "0x923e8",
+      "sig_offset": "0x9234e"
+    },
+    "org/eclipse/tm4e/core/internal/grammar/reader/\u2064\u2064\u2060\u2064\u2064\u2063\u2060\u2060\u2064\u2060\u2060\u2064\u2064\u2060\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/Switch;",
+      "name_offset": "0x928b9",
+      "sig_offset": "0x92980"
+    },
+    "org/eclipse/jdt/core/compiler/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2060\u2060\u2064\u2060\u2060\u2060\u2063\u2064\u2063\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/Switch;",
+      "name_offset": "0x929ac",
+      "sig_offset": "0x92980"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/opgraph/op4rewriters/transformers/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2060\u2064\u2064\u2064\u2060\u2064\u2060\u2063\u2063\u2063\u2063\u2063\u2060": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/Switch;",
+      "name_offset": "0x92a34",
+      "sig_offset": "0x92980"
+    },
+    "androidx/appcompat/widget/AppCompatImageView": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/Integer;",
+      "name_offset": "0x92cd6",
+      "sig_offset": "0x92d35"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06df\u06e6": {
+      "signature": "()[S",
+      "name_offset": "0x92d03",
+      "sig_offset": "0x92dbd"
+    },
+    "player/normal/np/activity/PickColorActivity$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;I)I",
+      "name_offset": "0x92d5d",
+      "sig_offset": "0x92dee"
+    },
+    "XI/XI/XI/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2064\u2064\u2060\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;I)I",
+      "name_offset": "0x92e60",
+      "sig_offset": "0x92dee"
+    },
+    "player/normal/np/activity/NPUserInfoActivity$\u06e5": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;I)V",
+      "name_offset": "0x92fa9",
+      "sig_offset": "0x92f80"
+    },
+    "apksigner/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2060\u2064\u2064\u2063\u2060\u2060\u2064\u2060\u2063\u2063\u2064\u2063\u2060\u2063\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;I)V",
+      "name_offset": "0x92fd9",
+      "sig_offset": "0x92f80"
+    },
+    "android/app/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2064\u2064\u2060\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;I)V",
+      "name_offset": "0x93047",
+      "sig_offset": "0x92f80"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06e0\u06e4": {
+      "signature": "(Ljava/lang/Object;)Landroid/app/FragmentManager;",
+      "name_offset": "0x9340a",
+      "sig_offset": "0x934a0"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06e0\u06e3": {
+      "signature": "(Ljava/lang/Object;)Landroid/app/FragmentManager;",
+      "name_offset": "0x9343c",
+      "sig_offset": "0x934a0"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06e0\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/app/FragmentManager;",
+      "name_offset": "0x9346e",
+      "sig_offset": "0x934a0"
+    },
+    "androidx/fragment/app/Fragment": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Z)Z",
+      "name_offset": "0x934d2",
+      "sig_offset": "0x93565"
+    },
+    "android/s/xo0$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Z)Z",
+      "name_offset": "0x934f1",
+      "sig_offset": "0x93565"
+    },
+    "org/greenrobot/eventbus/\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2060\u2063\u2063": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Z)Z",
+      "name_offset": "0x93508",
+      "sig_offset": "0x93565"
+    },
+    "android/s/xo0$\u06e5\u06df\u06df\u06e1": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Z)Z",
+      "name_offset": "0x9354e",
+      "sig_offset": "0x93565"
+    },
+    "org/eclipse/tm4e/core/internal/rule/\u2064\u2064\u2060\u2064\u2064\u2063\u2060\u2060\u2064\u2060\u2060\u2063\u2064\u2060\u2060\u2064": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Z)Z",
+      "name_offset": "0x9358e",
+      "sig_offset": "0x93565"
+    },
+    "player/normal/np/activity/NPManActivity$\u06e5\u06df\u06df\u06e3": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Z)Z",
+      "name_offset": "0x935e3",
+      "sig_offset": "0x93565"
+    },
+    "player/normal/np/activity/NPManActivity$\u06e5\u06df\u06df\u06e2": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Z)Z",
+      "name_offset": "0x93614",
+      "sig_offset": "0x93565"
+    },
+    "org/benf/cfr/reader/entities/classfilehelpers/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2064\u2060\u2064\u2064\u2060\u2063\u2063\u2063\u2064\u2063\u2060\u2063\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/StrictMode$ThreadPolicy$Builder;",
+      "name_offset": "0x93ab7",
+      "sig_offset": "0x93b43"
+    },
+    "android/text/Editable": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/StrictMode$ThreadPolicy$Builder;",
+      "name_offset": "0x93b84",
+      "sig_offset": "0x93b43"
+    },
+    "org/dom4j/tree/\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2063\u2063\u2060\u2063\u2064\u2063\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/StrictMode$ThreadPolicy$Builder;",
+      "name_offset": "0x93b9a",
+      "sig_offset": "0x93b43"
+    },
+    "okhttp3/internal/cache2/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2060\u2060\u2060\u2063\u2063\u2063\u2060\u2064\u2063\u2060\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/StrictMode$ThreadPolicy$Builder;",
+      "name_offset": "0x93bd7",
+      "sig_offset": "0x93b43"
+    },
+    "javax/xml/transform/stax/\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2060\u2060\u2063\u2063\u2064\u2063\u2064\u2063\u2060\u2063\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/StrictMode$ThreadPolicy;",
+      "name_offset": "0x94d0a",
+      "sig_offset": "0x94dc2"
+    },
+    "java/util/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2064\u2064\u2063\u2060": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/StrictMode$ThreadPolicy;",
+      "name_offset": "0x94dfb",
+      "sig_offset": "0x94dc2"
+    },
+    "player/normal/np/activity/NPMeasureActivity$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/os/StrictMode$ThreadPolicy;",
+      "name_offset": "0x94e66",
+      "sig_offset": "0x94dc2"
+    },
+    "player/normal/np/base/NPBaseDialog": {
+      "signature": "(Lplayer/normal/np/activity/NPMainActivity;Landroid/content/Context;)V",
+      "name_offset": "0x95169",
+      "sig_offset": "0x9521e"
+    },
+    "player/normal/np/activity/ArscDictActivity$\u06e5\u06df\u06df\u06e2": {
+      "signature": "(Lplayer/normal/np/activity/NPMainActivity;Landroid/content/Context;)V",
+      "name_offset": "0x9518c",
+      "sig_offset": "0x9521e"
+    },
+    "np/org/cf/simplify/util/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2060\u2063\u2060\u2060\u2063": {
+      "signature": "(Lplayer/normal/np/activity/NPMainActivity;Landroid/content/Context;)V",
+      "name_offset": "0x951c0",
+      "sig_offset": "0x9521e"
+    },
+    "okhttp3/internal/io/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2064\u2060\u2064\u2064\u2063\u2060\u2060\u2064\u2060\u2060": {
+      "signature": "(Lplayer/normal/np/activity/NPMainActivity;Landroid/content/Context;)V",
+      "name_offset": "0x95265",
+      "sig_offset": "0x9521e"
+    },
+    "org/jf/baksmali/Adaptors/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2064\u2064\u2060\u2064\u2064\u2063\u2063\u2064\u2064\u2063\u2060\u2064\u2060\u2064\u2063": {
+      "signature": "(Lplayer/normal/np/activity/NPMainActivity;Landroid/content/Context;)V",
+      "name_offset": "0x952d7",
+      "sig_offset": "0x9521e"
+    },
+    "okhttp3/internal/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060\u2064\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/dex/DexSearchFragment;",
+      "name_offset": "0x954e6",
+      "sig_offset": "0x9558e"
+    },
+    "player/normal/np/activity/ArscViewActivity$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/dex/DexSearchFragment;",
+      "name_offset": "0x9555e",
+      "sig_offset": "0x9558e"
+    },
+    "player/normal/np/fragMent/DialogArsc": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/dex/DexSearchFragment;",
+      "name_offset": "0x955f8",
+      "sig_offset": "0x9558e"
+    },
+    "org/benf/cfr/reader/util/lambda/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2060\u2060\u2064\u2060\u2060\u2060\u2060\u2060\u2063\u2063\u2063": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/dex/DexSearchFragment;",
+      "name_offset": "0x9561d",
+      "sig_offset": "0x9558e"
+    },
+    "player/normal/np/fragMent/DialogFileTranscoding$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/dex/DexEditFragment;",
+      "name_offset": "0x95aff",
+      "sig_offset": "0x95b89"
+    },
+    "org/checkerframework/checker/fenum/qual/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2064\u2060\u2064\u2060\u2060\u2060\u2063": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/dex/DexEditFragment;",
+      "name_offset": "0x95b36",
+      "sig_offset": "0x95b89"
+    },
+    "org/eclipse/tm4e/languageconfiguration/\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2063\u2063": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/dex/DexEditFragment;",
+      "name_offset": "0x95bf1",
+      "sig_offset": "0x95b89"
+    },
+    "javax/xml/validation/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2063\u2060\u2064\u2063\u2060\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/dex/DexEditFragment;",
+      "name_offset": "0x95c46",
+      "sig_offset": "0x95b89"
+    },
+    "org/eclipse/jdt/core/compiler/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2060\u2060\u2060\u2060\u2064\u2063\u2060\u2064\u2064\u2063\u2064\u2060\u2060\u2060": {
+      "signature": "(Lplayer/normal/np/activity/NPUserInfoActivity;Landroid/app/Activity;)V",
+      "name_offset": "0x95f73",
+      "sig_offset": "0x95f2b"
+    },
+    "org/objectweb/asm/tree/analysis/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2063\u2060\u2060\u2064\u2060\u2063\u2064\u2060\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;)Landroidx/appcompat/widget/Toolbar;",
+      "name_offset": "0x96164",
+      "sig_offset": "0x9622a"
+    },
+    "org/apache/xerces/impl/xs/\u2063\u2064\u2060\u2060\u2060\u2064\u2064\u2060\u2064\u2064\u2064\u2060\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;)Landroidx/appcompat/widget/Toolbar;",
+      "name_offset": "0x961e5",
+      "sig_offset": "0x9622a"
+    },
+    "org/jaxen/jdom/\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2063\u2064\u2063\u2064\u2063\u2063\u2064\u2060\u2060\u2064": {
+      "signature": "(Ljava/lang/Object;)Landroidx/appcompat/widget/Toolbar;",
+      "name_offset": "0x96262",
+      "sig_offset": "0x9622a"
+    },
+    "androidx/recyclerview/widget/RecyclerView$ItemDecoration": {
+      "signature": "(Ljava/lang/Object;)Landroidx/appcompat/widget/Toolbar;",
+      "name_offset": "0x962a5",
+      "sig_offset": "0x9622a"
+    },
+    "player/normal/np/fragMent/dex/DexStringsFragment$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroidx/appcompat/widget/Toolbar;",
+      "name_offset": "0x962de",
+      "sig_offset": "0x9622a"
+    },
+    "player/normal/np/activity/GuideActivity": {
+      "signature": "(Ljava/lang/Object;F)V",
+      "name_offset": "0x96799",
+      "sig_offset": "0x967d8"
+    },
+    "android/widget/Spinner": {
+      "signature": "(Ljava/lang/Object;F)V",
+      "name_offset": "0x967c1",
+      "sig_offset": "0x967d8"
+    },
+    "javax/xml/namespace/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2060\u2060\u2063\u2060\u2064\u2063\u2060\u2064\u2063": {
+      "signature": "(Ljava/lang/Object;F)V",
+      "name_offset": "0x967ef",
+      "sig_offset": "0x967d8"
+    },
+    "javax/xml/stream/util/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2060\u2063\u2063\u2060\u2063\u2063": {
+      "signature": "(Ljava/lang/Object;F)V",
+      "name_offset": "0x96852",
+      "sig_offset": "0x967d8"
+    },
+    "android/s/zo0$\u06e5": {
+      "signature": "(Ljava/lang/Object;)V",
+      "name_offset": "0x96b0b",
+      "sig_offset": "0x96bce"
+    },
+    "org/bouncycastle/jcajce/provider/symmetric/util/\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060": {
+      "signature": "(Ljava/lang/Object;)V",
+      "name_offset": "0x96b1c",
+      "sig_offset": "0x96bce"
+    },
+    "sun1/security/util/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2060\u2060\u2064": {
+      "signature": "(Ljava/lang/Object;)Z",
+      "name_offset": "0x96c33",
+      "sig_offset": "0x96ccc"
+    },
+    "android/s/xo0": {
+      "signature": "(Ljava/lang/Object;)Z",
+      "name_offset": "0x96ce2",
+      "sig_offset": "0x96ccc"
+    },
+    "org/eclipse/tm4e/languageconfiguration/internal/utils/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2064\u2060\u2064\u2064\u2063\u2064\u2064\u2063\u2064\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;)Z",
+      "name_offset": "0x96cf0",
+      "sig_offset": "0x96ccc"
+    },
+    "com/unnamed/b/atv/view/AndroidTreeView": {
+      "signature": "(Ljava/lang/Object;)I",
+      "name_offset": "0x96e0d",
+      "sig_offset": "0x96eaf"
+    },
+    "org/checkerframework/checker/tainting/qual/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2063\u2060\u2063\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;)I",
+      "name_offset": "0x96f34",
+      "sig_offset": "0x96eaf"
+    },
+    "player/normal/np/activity/NPUserInfoActivity$\u06e5$\u06e5": {
+      "signature": "(Lplayer/normal/np/activity/NPMainActivity;)V",
+      "name_offset": "0x9735d",
+      "sig_offset": "0x97390"
+    },
+    "android/s/r31$\u06e5\u06df\u06df": {
+      "signature": "(Lplayer/normal/np/activity/NPMainActivity;)V",
+      "name_offset": "0x973be",
+      "sig_offset": "0x97390"
+    },
+    "org/jf/dexlib2/iface/reference/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060\u2060\u2060\u2060\u2064\u2064\u2060\u2064\u2060": {
+      "signature": "(Ljava/lang/Runnable;)V",
+      "name_offset": "0x976d3",
+      "sig_offset": "0x97750"
+    },
+    "player/normal/np/adapter/GuidePageAdapter": {
+      "signature": "(Ljava/lang/Runnable;)V",
+      "name_offset": "0x97768",
+      "sig_offset": "0x97750"
+    },
+    "android/s/j51$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Landroid/content/Context;)V",
+      "name_offset": "0x97912",
+      "sig_offset": "0x9797c"
+    },
+    "com/scwang/smartrefresh/layout/SmartRefreshLayout": {
+      "signature": "(Landroid/content/Context;)V",
+      "name_offset": "0x979d9",
+      "sig_offset": "0x9797c"
+    },
+    "com/unnamed/b/atv/model/TreeNode$\u06e5": {
+      "signature": "(Landroid/content/Context;)V",
+      "name_offset": "0x97a0b",
+      "sig_offset": "0x9797c"
+    },
+    "org/apache/xmlgraphics/image/writer/\u2064\u2064\u2060\u2064\u2064\u2064\u2060\u2064\u2060\u2063\u2063\u2063\u2063\u2064\u2064": {
+      "signature": "(Landroid/content/Context;)V",
+      "name_offset": "0x97a2f",
+      "sig_offset": "0x9797c"
+    },
+    "org/apache/commons/lang3/concurrent/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2064\u2060\u2060\u2063": {
+      "signature": "()Landroid/widget/ImageView;",
+      "name_offset": "0x984f0",
+      "sig_offset": "0x98575"
+    },
+    "org/bouncycastle/asn1/eac/\u2060\u2063\u2064\u2063\u2064\u2063\u2063\u2064\u2060\u2060\u2064": {
+      "signature": "(Z)V",
+      "name_offset": "0x985ba",
+      "sig_offset": "0x985f6"
+    },
+    "player/normal/np/fragMent/DialogDexDecompile$\u06e5\u06df\u06df": {
+      "signature": "(Z)V",
+      "name_offset": "0x9866b",
+      "sig_offset": "0x985f6"
+    },
+    "org/apache/xmlgraphics/image/codec/tiff/\u2064\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2063\u2064\u2064\u2063\u2060": {
+      "signature": "(Z)V",
+      "name_offset": "0x9869f",
+      "sig_offset": "0x985f6"
+    },
+    "org/bouncycastle/pqc/jcajce/provider/mceliece/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2064\u2064\u2060\u2064\u2064\u2060\u2060\u2060\u2063\u2063\u2060\u2063\u2063\u2063\u2063\u2063\u2060": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/arsc/ArscEditFragment;",
+      "name_offset": "0x98d1d",
+      "sig_offset": "0x98daf"
+    },
+    "android/s/m5": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/dex/DexStringsFragment;",
+      "name_offset": "0x98e84",
+      "sig_offset": "0x98e19"
+    },
+    "org/apache/commons/lang3/math/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2064\u2060\u2060\u2064\u2064\u2064\u2060\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/dex/DexStringsFragment;",
+      "name_offset": "0x98e91",
+      "sig_offset": "0x98e19"
+    },
+    "player/normal/np/activity/ArscTranslateActivity$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/TextView;",
+      "name_offset": "0x992b7",
+      "sig_offset": "0x99325"
+    },
+    "player/normal/np/activity/ArscTranslateActivity$\u06e5\u06df\u06e0": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/TextView;",
+      "name_offset": "0x992ee",
+      "sig_offset": "0x99325"
+    },
+    "org/apache/xerces/util/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2060\u2060\u2060\u2060\u2060\u2060\u2063\u2064\u2060\u2060\u2060": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/TextView;",
+      "name_offset": "0x99353",
+      "sig_offset": "0x99325"
+    },
+    "player/normal/np/activity/NPMainActivity$\u06e5\u06df\u06e0\u06e8$\u06e5": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/TextView;",
+      "name_offset": "0x993c5",
+      "sig_offset": "0x99325"
+    },
+    "android/s/o51$\u06e5\u06df": {
+      "signature": "(I)V",
+      "name_offset": "0x9973f",
+      "sig_offset": "0x99793"
+    },
+    "org/benf/cfr/reader/util/\u2063\u2064\u2063\u2060\u2063\u2064\u2060\u2063\u2060\u2060\u2064\u2060\u2060": {
+      "signature": "(I)V",
+      "name_offset": "0x99752",
+      "sig_offset": "0x99793"
+    },
+    "org/dom4j/datatype/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2063\u2064\u2060\u2060\u2060\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2064\u2060\u2060\u2064": {
+      "signature": "(I)V",
+      "name_offset": "0x99798",
+      "sig_offset": "0x99793"
+    },
+    "org/apache/batik/css/parser/\u2064\u2060\u2064\u2060\u2064\u2060\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/PdfRendererBasicFragment;",
+      "name_offset": "0x99a26",
+      "sig_offset": "0x99a92"
+    },
+    "player/normal/np/listener/CompareApkBindListener$\u06e5$\u06e5": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/PdfRendererBasicFragment;",
+      "name_offset": "0x99a5b",
+      "sig_offset": "0x99a92"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/parse/utils/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2063\u2063\u2063\u2063\u2064\u2060\u2063\u2063": {
+      "signature": "(Ljava/lang/Object;Ljava/lang/Object;)Lplayer/normal/np/fragMent/PdfRendererBasicFragment;",
+      "name_offset": "0x99aed",
+      "sig_offset": "0x99a92"
+    },
+    "player/normal/np/fragMent/DialogJson$\u06e5\u06df\u06df\u06e3": {
+      "signature": "(Ljava/lang/Object;ILjava/lang/Object;Ljava/lang/Object;)Landroid/app/FragmentTransaction;",
+      "name_offset": "0x99d57",
+      "sig_offset": "0x99de3"
+    },
+    "player/normal/np/activity/AppListActivity$\u06e5\u06df\u06df\u06e0": {
+      "signature": "(Ljava/lang/Object;ILjava/lang/Object;Ljava/lang/Object;)Landroid/app/FragmentTransaction;",
+      "name_offset": "0x99d85",
+      "sig_offset": "0x99de3"
+    },
+    "player/normal/np/activity/GuideActivity$\u06e5": {
+      "signature": "(Ljava/lang/Object;ILjava/lang/Object;Ljava/lang/Object;)Landroid/app/FragmentTransaction;",
+      "name_offset": "0x99db8",
+      "sig_offset": "0x99de3"
+    },
+    "player/normal/np/activity/AppListActivity$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;ILjava/lang/Object;Ljava/lang/Object;)Landroid/app/FragmentTransaction;",
+      "name_offset": "0x99e3e",
+      "sig_offset": "0x99de3"
+    },
+    "org/eclipse/tm4e/core/internal/grammar/parser/\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2064\u2060\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;ILjava/lang/Object;Ljava/lang/Object;)Landroid/app/FragmentTransaction;",
+      "name_offset": "0x99e71",
+      "sig_offset": "0x99de3"
+    },
+    "java/lang/Long": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/Long;",
+      "name_offset": "0x9a072",
+      "sig_offset": "0x9a113"
+    },
+    "j$/util/concurrent/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2060": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/Long;",
+      "name_offset": "0x9a0ab",
+      "sig_offset": "0x9a113"
+    },
+    "android/s/z41$\u06e5\u06df\u06df\u06e2": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/Long;",
+      "name_offset": "0x9a138",
+      "sig_offset": "0x9a113"
+    },
+    "android/s/ua1": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/Long;",
+      "name_offset": "0x9a14f",
+      "sig_offset": "0x9a113"
+    },
+    "android/s/b41$\u06e5\u06df\u06df\u06e4": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/Long;",
+      "name_offset": "0x9a1c8",
+      "sig_offset": "0x9a113"
+    },
+    "androidx/recyclerview/widget/DiffUtil$Callback": {
+      "signature": "(Landroid/content/Context;Ljava/util/List;)V",
+      "name_offset": "0x9a9cb",
+      "sig_offset": "0x9aa77"
+    },
+    "org/bouncycastle/util/io/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2060\u2063\u2064\u2063\u2064\u2060\u2064\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064": {
+      "signature": "(Landroid/content/Context;Ljava/util/List;)V",
+      "name_offset": "0x9a9fa",
+      "sig_offset": "0x9aa77"
+    },
+    "org/bouncycastle/pqc/jcajce/provider/mceliece/\u2064\u2064\u2060\u2064\u2064\u2063\u2063\u2064\u2064\u2063\u2060\u2064\u2060\u2064\u2064": {
+      "signature": "(Landroid/content/Context;Ljava/util/List;)V",
+      "name_offset": "0x9aaea",
+      "sig_offset": "0x9aa77"
+    },
+    "player/normal/np/fragMent/NPManResponseFragment$\u06e5\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/text/Editable;",
+      "name_offset": "0x9abb9",
+      "sig_offset": "0x9ac5f"
+    },
+    "org/apache/commons/lang3/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2063\u2064\u2064\u2063\u2060\u2060\u2064\u2063\u2060\u2064\u2064": {
+      "signature": "(Lplayer/normal/np/activity/SplashActivity;)V",
+      "name_offset": "0x9abee",
+      "sig_offset": "0x9ac8b"
+    },
+    "j$/util/stream/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2063\u2060\u2060\u2063": {
+      "signature": "(Lplayer/normal/np/activity/SplashActivity;)V",
+      "name_offset": "0x9ad30",
+      "sig_offset": "0x9ac8b"
+    },
+    "org/benf/cfr/reader/util/output/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2060\u2060\u2063\u2060\u2063\u2063": {
+      "signature": "(Ljava/lang/Object;)Landroidx/appcompat/app/ActionBar;",
+      "name_offset": "0x9b48d",
+      "sig_offset": "0x9b4f0"
+    },
+    "player/normal/np/fragMent/DialogLogin": {
+      "signature": "(Ljava/lang/Object;)Landroidx/appcompat/app/ActionBar;",
+      "name_offset": "0x9b527",
+      "sig_offset": "0x9b4f0"
+    },
+    "org/benf/cfr/reader/bytecode/opcode/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2064\u2060\u2060\u2060\u2064\u2060\u2064\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064": {
+      "signature": "(Ljava/lang/Object;)Landroidx/appcompat/app/ActionBar;",
+      "name_offset": "0x9b54d",
+      "sig_offset": "0x9b4f0"
+    },
+    "player/normal/np/fragMent/DialogAddFile$\u06e5\u06df\u06df": {
+      "signature": "(Lplayer/normal/np/activity/PickColorActivity;)V",
+      "name_offset": "0x9c835",
+      "sig_offset": "0x9c890"
+    },
+    "player/normal/np/widget/MenuDialog$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Lplayer/normal/np/activity/PickColorActivity;)V",
+      "name_offset": "0x9c864",
+      "sig_offset": "0x9c890"
+    },
+    "org/checkerframework/checker/builder/qual/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2063\u2063\u2063\u2063\u2060\u2060\u2063\u2063": {
+      "signature": "(Lplayer/normal/np/activity/PickColorActivity;)V",
+      "name_offset": "0x9c8c1",
+      "sig_offset": "0x9c890"
+    },
+    "sun1/misc/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2063\u2064\u2064\u2063\u2060": {
+      "signature": "(Lplayer/normal/np/activity/PickColorActivity;)V",
+      "name_offset": "0x9c94c",
+      "sig_offset": "0x9c890"
+    },
+    "javax/xml/transform/stax/\u2064\u2060\u2064\u2060\u2060\u2064\u2063\u2060\u2064\u2063": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/Float;",
+      "name_offset": "0x9cbdf",
+      "sig_offset": "0x9cca3"
+    },
+    "org/eclipse/tm4e/core/internal/parser/json/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2064\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2064\u2060\u2060\u2064\u2064\u2060\u2064\u2060": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/Float;",
+      "name_offset": "0x9cc17",
+      "sig_offset": "0x9cca3"
+    },
+    "androidx/viewpager/widget/ViewPager$OnPageChangeListener": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/Float;",
+      "name_offset": "0x9ccc9",
+      "sig_offset": "0x9cca3"
+    },
+    "player/normal/np/util/apk/fancy/DexEditor$\u06e5$\u06e5": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/Float;",
+      "name_offset": "0x9cd02",
+      "sig_offset": "0x9cca3"
+    },
+    "android/os/StrictMode$ThreadPolicy": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/Float;",
+      "name_offset": "0x9cd32",
+      "sig_offset": "0x9cca3"
+    },
+    "android/s/ia1$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Ljava/lang/String;)Ljava/lang/Float;",
+      "name_offset": "0x9cd55",
+      "sig_offset": "0x9cca3"
+    },
+    "player/normal/np/activity/NPMeasureActivity$\u06e5\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/EditText;",
+      "name_offset": "0x9cf9f",
+      "sig_offset": "0x9d01e"
+    },
+    "org/checkerframework/checker/builder/qual/\u2063\u2063\u2063\u2063\u2063\u2060\u2063\u2064\u2060\u2060\u2063": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/EditText;",
+      "name_offset": "0x9cfd2",
+      "sig_offset": "0x9d01e"
+    },
+    "j$/util/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2060\u2060\u2064\u2060\u2063": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/EditText;",
+      "name_offset": "0x9d04c",
+      "sig_offset": "0x9d01e"
+    },
+    "player/normal/np/verify/enums/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063\u2064\u2060\u2060\u2063\u2064\u2064\u2060\u2064\u2064\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2060\u2063\u2063\u2060\u2060\u2063": {
+      "signature": "(Ljava/lang/Object;)Landroid/widget/EditText;",
+      "name_offset": "0x9d0b8",
+      "sig_offset": "0x9d01e"
+    },
+    "org/w3c/dom/xpath/\u2060\u2063\u2064\u2063\u2064\u2063\u2064\u2060\u2064\u2060": {
+      "signature": "(Ljava/lang/Object;I)Ljava/lang/String;",
+      "name_offset": "0x9de89",
+      "sig_offset": "0x9deee"
+    },
+    "player/normal/np/activity/NPNoticeActivity$\u06e5\u06df\u06df\u06df": {
+      "signature": "(Ljava/lang/Object;I)Ljava/lang/String;",
+      "name_offset": "0x9deba",
+      "sig_offset": "0x9deee"
+    },
+    "org/apache/xerces/jaxp/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2060\u2063\u2064\u2063\u2064\u2060\u2063\u2063\u2064\u2064\u2063\u2060\u2063\u2060\u2060\u2064\u2060\u2060": {
+      "signature": "(Ljava/lang/Object;I)Ljava/lang/String;",
+      "name_offset": "0x9df16",
+      "sig_offset": "0x9deee"
+    },
+    "org/benf/cfr/reader/bytecode/analysis/structured/\u2064\u2064\u2060\u2064\u2064\u2060\u2063\u2064\u2063\u2064\u2063\u2063\u2063\u2063\u2063\u2063\u2060": {
+      "signature": "(Ljava/lang/Object;I)Ljava/lang/String;",
+      "name_offset": "0x9df94",
+      "sig_offset": "0x9deee"
+    },
+    "okhttp3/internal/io/\u2064\u2064\u2060\u2064\u2064\u2060\u2063\u2064\u2063\u2064\u2063\u2064\u2064\u2060\u2064\u2063": {
+      "signature": "()Landroid/content/SharedPreferences;",
+      "name_offset": "0x9e1fc",
+      "sig_offset": "0x9e2b6"
+    },
+    "sjm/xuitls/config/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063\u2063\u2064\u2064\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2063\u2060\u2063\u2064\u2063\u2060\u2060\u2060\u2063\u2063\u2063": {
+      "signature": "()Landroid/content/SharedPreferences;",
+      "name_offset": "0x9e2ea",
+      "sig_offset": "0x9e2b6"
+    },
+    "startIntentSender": {
+      "signature": "(Landroid/content/Intent;Landroid/os/Bundle;)V",
+      "name_offset": "0xc207c",
+      "sig_offset": "0xc2129"
+    },
+    "unregisterOnProvideAssistDataListener": {
+      "signature": "(Landroid/content/Intent;Landroid/os/Bundle;)V",
+      "name_offset": "0xc20b3",
+      "sig_offset": "0xc2129"
+    },
+    "com/bytedance/pangle/wrapper/PluginApplicationWrapper": {
+      "signature": "(Landroid/content/res/Configuration;)V",
+      "name_offset": "0xc2158",
+      "sig_offset": "0xc21d9"
+    },
+    "android/app/Application$OnProvideAssistDataListener": {
+      "signature": "(Landroid/content/IntentSender;Landroid/content/Intent;III)V",
+      "name_offset": "0xc218e",
+      "sig_offset": "0xc2245"
+    },
+    "androidx/multidex/MultiDex": {
+      "signature": "(Landroid/content/Intent;)V",
+      "name_offset": "0xc222a",
+      "sig_offset": "0xc2299"
+    },
+    "com/bytedance/pangle/e": {
+      "signature": "(Landroid/app/Application$OnProvideAssistDataListener;)V",
+      "name_offset": "0xc2282",
+      "sig_offset": "0xc230a"
+    },
+    "java/io/File": {
+      "signature": "(Landroid/content/Context;)V",
+      "name_offset": "0xc22b5",
+      "sig_offset": "0xc2366"
+    },
+    "android/content/res/Configuration": {
+      "signature": "()Ljava/io/File;",
+      "name_offset": "0xc22c2",
+      "sig_offset": "0xc2383"
+    },
+    "androidx/multidex/MultiDexApplication": {
+      "signature": "(Landroid/app/Application$ActivityLifecycleCallbacks;)V",
+      "name_offset": "0xc22e4",
+      "sig_offset": "0xc2394"
+    },
+    "com/bytedance/pangle/PluginContext": {
+      "signature": "([Landroid/content/Intent;Landroid/os/Bundle;)V",
+      "name_offset": "0xc2343",
+      "sig_offset": "0xc2405"
+    },
+    "android/content/IntentSender": {
+      "signature": "(Landroid/content/IntentSender;Landroid/content/Intent;IIILandroid/os/Bundle;)V",
+      "name_offset": "0xc23cc",
+      "sig_offset": "0xc243a"
+    }
+  },
+  "init_functions": [],
+  "vmp_analysis": {},
+  "rodata_strings": [
+    {
+      "pattern": "Landroid/s/we1",
+      "offset": "0x5160e",
+      "context": "31;\u0000Landroid/s/w71;\u0000Landroid/s/we1$\u06e5\u06df\u06e0\u06e1;\u0000Landroid/s/we1$\u06e5\u06df\u06e0\u06e3;\u0000Land"
+    },
+    {
+      "pattern": "Landroid/s/we1",
+      "offset": "0x51627",
+      "context": "oid/s/we1$\u06e5\u06df\u06e0\u06e1;\u0000Landroid/s/we1$\u06e5\u06df\u06e0\u06e3;\u0000Landroid/s/we1$\u06e5\u06df\u06e0\u06e4;\u0000Land"
+    },
+    {
+      "pattern": "Landroid/s/we1",
+      "offset": "0x51640",
+      "context": "oid/s/we1$\u06e5\u06df\u06e0\u06e3;\u0000Landroid/s/we1$\u06e5\u06df\u06e0\u06e4;\u0000Landroid/s/wo0$\u06e5;\u0000Landroid/s"
+    },
+    {
+      "pattern": "LXI/CA/XI",
+      "offset": "0xe0b",
+      "context": "\u0000LLI\u0000LLIII\u0000LLL\u0000LLLL\u0000LXI/CA/XI/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063"
+    },
+    {
+      "pattern": "LXI/CA/XI",
+      "offset": "0xe6e",
+      "context": "\u2063\u2063\u2064\u2060\u2064\u2064;\u0000LXI/CA/XI/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063"
+    },
+    {
+      "pattern": "LXI/CA/XI",
+      "offset": "0x50a17",
+      "context": "LIII\u0000LLILL\u0000LLL\u0000LLLL\u0000LXI/CA/XI/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063\u2063"
+    },
+    {
+      "pattern": "LXI/CA/XI",
+      "offset": "0x50a7a",
+      "context": "\u2063\u2063\u2064\u2060\u2064\u2064;\u0000LXI/CA/XI/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063"
+    },
+    {
+      "pattern": "LXI/XI/K0",
+      "offset": "0xee0",
+      "context": "\u2063\u2064\u2064\u2060\u2064\u2060;\u0000LXI/XI/K0/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2064\u2060\u2064\u2063\u2064\u2060"
+    },
+    {
+      "pattern": "LXI/XI/K0",
+      "offset": "0x50b4f",
+      "context": "\u2060\u2064\u2063\u2060\u2064\u2063;\u0000LXI/XI/K0/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2064\u2060\u2064\u2063\u2064\u2060"
+    },
+    {
+      "pattern": "LXI/XI/XI",
+      "offset": "0xf19",
+      "context": "\u2064\u2063\u2064\u2060\u2064\u2063;\u0000LXI/XI/XI/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063"
+    },
+    {
+      "pattern": "LXI/XI/XI",
+      "offset": "0x1cf99",
+      "context": "LO\u0000LOGIN_USER\u0000LT\u0000LV\u0000LXI/XI/XI/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063"
+    },
+    {
+      "pattern": "LXI/XI/XI",
+      "offset": "0x50b88",
+      "context": "\u2064\u2063\u2064\u2060\u2064\u2063;\u0000LXI/XI/XI/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063"
+    },
+    {
+      "pattern": "LXI/XI/XI",
+      "offset": "0x50bfa",
+      "context": "\u2064\u2064\u2064\u2060\u2064\u2064;\u0000LXI/XI/XI/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064\u2063"
+    },
+    {
+      "pattern": "LXI/xo/XI",
+      "offset": "0xf7c",
+      "context": "\u2064\u2063\u2060\u2063\u2064\u2060;\u0000LXI/xo/XI/XI/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063"
+    },
+    {
+      "pattern": "LXI/xo/XI",
+      "offset": "0xfeb",
+      "context": "\u2060\u2060\u2060\u2063\u2063\u2060;\u0000LXI/xo/XI/XI/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064"
+    },
+    {
+      "pattern": "LXI/xo/XI",
+      "offset": "0x50c5d",
+      "context": "\u2064\u2063\u2060\u2063\u2064\u2060;\u0000LXI/xo/XI/XI/\u2063\u2063\u2063\u2063\u2063\u2060\u2064\u2060\u2064\u2064\u2063\u2063"
+    },
+    {
+      "pattern": "LXI/xo/XI",
+      "offset": "0x50ccc",
+      "context": "\u2060\u2060\u2060\u2063\u2063\u2060;\u0000LXI/xo/XI/XI/\u2063\u2064\u2060\u2060\u2060\u2063\u2064\u2064\u2063\u2064\u2064\u2064"
+    },
+    {
+      "pattern": "we1",
+      "offset": "0x51619",
+      "context": "d/s/w71;\u0000Landroid/s/we1$\u06e5\u06df\u06e0\u06e1;\u0000Landroid/s/we1$\u06e5\u06df\u06e0\u06e3;\u0000Land"
+    },
+    {
+      "pattern": "we1",
+      "offset": "0x51632",
+      "context": "\ufffd\u06df\u06e0\u06e1;\u0000Landroid/s/we1$\u06e5\u06df\u06e0\u06e3;\u0000Landroid/s/we1$\u06e5\u06df\u06e0\u06e4;\u0000Land"
+    },
+    {
+      "pattern": "we1",
+      "offset": "0x5164b",
+      "context": "\ufffd\u06df\u06e0\u06e3;\u0000Landroid/s/we1$\u06e5\u06df\u06e0\u06e4;\u0000Landroid/s/wo0$\u06e5;\u0000Landroid/s"
+    },
+    {
+      "pattern": "we1",
+      "offset": "0x8e8e8",
+      "context": "\u06e5$\u06e5\u06df\u06df\u0000android/s/we1$\u06e5\u06df\u06e0\u06e3\u0000android/s/we1$\u06e5\u06df\u06e0\u06e4\u0000android"
+    },
+    {
+      "pattern": "we1",
+      "offset": "0x8e8ff",
+      "context": "$\u06e5\u06df\u06e0\u06e3\u0000android/s/we1$\u06e5\u06df\u06e0\u06e4\u0000android/s/we1$\u06e5\u06df\u06e0\u06e1\u0000org/jax"
+    },
+    {
+      "pattern": "we1",
+      "offset": "0x8e916",
+      "context": "$\u06e5\u06df\u06e0\u06e4\u0000android/s/we1$\u06e5\u06df\u06e0\u06e1\u0000org/jaxen/pattern/\u2063\u2063\u2063\u2063"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x28c76",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5;\u0000Lplayer/normal/np/fragMent/DialogLo"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x28ca1",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5\u06df;\u0000Lplayer/normal/np/fragMent/Dialog"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x28cce",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5\u06df\u06df;\u0000Lplayer/normal/np/fragMent/Dial"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x28cfd",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5\u06df\u06df\u06df$\u06e5$\u06e5;\u0000Lplayer/normal/np/fragM"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x28d34",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5\u06df\u06df\u06df$\u06e5;\u0000Lplayer/normal/np/fragMent"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x28d68",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5\u06df\u06df\u06df;\u0000Lplayer/normal/np/fragMent/Di"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x28d99",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5\u06df\u06df\u06e0$\u06e5;\u0000Lplayer/normal/np/fragMent"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x28dcd",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5\u06df\u06df\u06e0;\u0000Lplayer/normal/np/fragMent/Di"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x28dfe",
+      "context": "/normal/np/fragMent/DialogLogin;\u0000Lplayer/normal/np/fragMent/DialogLongC"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x33db4",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5\u0000android/webkit/WebViewClient\u0000player/"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x345b4",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5\u06df\u06df\u06e0$\u06e5\u0000org/apache/xerces/impl/xs/o"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x35484",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5\u06df\u06df\u06df\u0000player/normal/np/fragMent/Dial"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x354b3",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5\u06df\u06df\u06e0\u0000player/normal/np/base/\u2063\u2063\ufffd"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x36d3f",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5\u06df\u0000java/util/HashMap\u0000player/normal/np"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x39a32",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5\u06df\u06df\u0000player/normal/np/fragMent/Dialog"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x3caed",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5\u06df\u06df\u06df$\u06e5\u0000player/normal/np/activity/N"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x41852",
+      "context": "/normal/np/fragMent/DialogLogin\u0000org/apache/xerces/impl/xpath/\u2063\u2064\u2060\ufffd"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x4215f",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5\u06df\u06df\u06df$\u06e5$\u06e5\u0000scut/carson_ho/diy_view/"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x64631",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5\u06df\u06df\u06e0;\u0000Lplayer/normal/np/fragMent/Di"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x64662",
+      "context": "/normal/np/fragMent/DialogLogin;\u0000Lplayer/normal/np/fragMent/DialogLongC"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x89b9d",
+      "context": "/normal/np/fragMent/DialogLogin$\u06e5\u06df\u06df\u06e0\u0000android/s/\u06e6\u06e8\u06e1\u06e4\u0000player/norm"
+    },
+    {
+      "pattern": "DialogLogin",
+      "offset": "0x9b541",
+      "context": "/normal/np/fragMent/DialogLogin\u0000org/benf/cfr/reader/bytecode/opcode/\u2063"
+    },
+    {
+      "pattern": "EXPIRED",
+      "offset": "0x1ce93",
+      "context": "\u0000ERROR\u0000ES\u0000EST\u0000ET\u0000EU\u0000EXPIRED\u0000F\u0000FA\u0000FERNFLOWER_DECOMPILE\u0000FI\u0000FIL\u0000FIN\u0000FJ"
+    },
+    {
+      "pattern": "UN_LOGIN",
+      "offset": "0x2d7b7",
+      "context": "\u0000TO\u0000TR\u0000TT\u0000TY\u0000UDM\u0000UK\u0000UN_LOGIN\u0000UPDATE_USER_STATUS\u0000UR\u0000USER_FORBIDDEN\u0000US"
+    },
+    {
+      "pattern": "INVALID",
+      "offset": "0x1cf2b",
+      "context": "F\u0000III\u0000IL\u0000IMPORT_KEY\u0000INVALID\u0000IS\u0000IT\u0000JA\u0000JADX_DECOMPILE\u0000JP\u0000JV\u0000KA\u0000KK\u0000KM\u0000"
+    },
+    {
+      "pattern": "USER_FORBIDDEN",
+      "offset": "0x2d7d6",
+      "context": "DATE_USER_STATUS\u0000UR\u0000USER_FORBIDDEN\u0000USER_NOT_EXIST\u0000USE_VPN\u0000UZ\u0000V\u0000VF\u0000VI\u0000VIE\u0000V"
+    },
+    {
+      "pattern": "DEVICE_LOGIN_REPEAT",
+      "offset": "0x1cd95",
+      "context": "Y\u0000CS\u0000CY\u0000D\u0000DA\u0000DAN\u0000DE\u0000DEVICE_LOGIN_REPEAT\u0000DPT_SHELL\u0000EL\u0000EN\u0000ENCRYPT_1\u0000ENCRYPT_1_Plu"
+    },
+    {
+      "pattern": "USER_NOT_EXIST",
+      "offset": "0x2d7e5",
+      "context": "S\u0000UR\u0000USER_FORBIDDEN\u0000USER_NOT_EXIST\u0000USE_VPN\u0000UZ\u0000V\u0000VF\u0000VI\u0000VIE\u0000VL\u0000VLI\u0000VLL\u0000VLLL\u0000"
+    },
+    {
+      "pattern": "JsonBeanCodeEnum",
+      "offset": "0x2cab9",
+      "context": "mal/np/verify/enums/JsonBeanCodeEnum;\u0000Lplayer/normal/np/verify/enums/Message"
+    },
+    {
+      "pattern": "JsonBeanCodeEnum",
+      "offset": "0x2da2b",
+      "context": "mal/np/verify/enums/JsonBeanCodeEnum;\u0000[Lplayer/normal/np/verify/enums/Messag"
+    },
+    {
+      "pattern": "JsonBeanCodeEnum",
+      "offset": "0x34c16",
+      "context": "mal/np/verify/enums/JsonBeanCodeEnum\u0000org/benf/cfr/reader/api/\u2063\u2064\u2060\u2060\u2060"
+    },
+    {
+      "pattern": "MessageEventEnum",
+      "offset": "0x2caea",
+      "context": "mal/np/verify/enums/MessageEventEnum;\u0000Lplayer/normal/np/verify/enums/Transla"
+    },
+    {
+      "pattern": "MessageEventEnum",
+      "offset": "0x2da5d",
+      "context": "mal/np/verify/enums/MessageEventEnum;\u0000[Lplayer/normal/np/verify/enums/Transl"
+    },
+    {
+      "pattern": "MessageEventEnum",
+      "offset": "0x36c78",
+      "context": "mal/np/verify/enums/MessageEventEnum\u0000player/normal/np/fragMent/DialogKillSig"
+    },
+    {
+      "pattern": "DEFAULT_URL",
+      "offset": "0x50921",
+      "context": "\u0000DEFAULT_FILL_COLOR\u0000DEFAULT_URL\u0000F\u0000FL\u0000FRAGMENT_PDF_RENDERER_BASIC\u0000GET_UN"
+    },
+    {
+      "pattern": "Function_url",
+      "offset": "0x1cee6",
+      "context": "tion_No\u0000Function_qq\u0000Function_url\u0000GA\u0000GD\u0000GL\u0000GU\u0000HE\u0000HI\u0000HR\u0000HT\u0000HU\u0000HY\u0000I\u0000ID\u0000IF\u0000I"
+    },
+    {
+      "pattern": "desKey",
+      "offset": "0x6892e",
+      "context": "h\u0000delete_x\u0000delete_y\u0000desKey\u0000dexClassDefs\u0000dexClassList\u0000dexEditFragme"
+    },
+    {
+      "pattern": "tvVip",
+      "offset": "0x6977a",
+      "context": "sterTime\u0000tvUserCode\u0000tvVip\u0000tv_show\u0000userApps\u0000userFragment\u0000valueOf\u0000v"
+    },
+    {
+      "pattern": "np/manager/Protect",
+      "offset": "0x66",
+      "context": "Init0\u0000classes6Init0\u0000np/manager/Protect\u0000classes2Init0\u0000classes4Init0\u0000L\u0000Landroid/"
+    },
+    {
+      "pattern": "classes2Init0",
+      "offset": "0x79",
+      "context": "\u0000np/manager/Protect\u0000classes2Init0\u0000classes4Init0\u0000L\u0000Landroid/app/Applicatio"
+    },
+    {
+      "pattern": "classes3Init0",
+      "offset": "0x1c",
+      "context": "Init0\u0000classes8Init0\u0000classes3Init0\u0000classesInit0\u0000(I)V\u0000classes9Init0\u0000classes"
+    }
+  ],
+  "verification_classes": []
+}

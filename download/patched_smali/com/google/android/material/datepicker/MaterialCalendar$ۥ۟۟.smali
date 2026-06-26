@@ -1,0 +1,118 @@
+# classes.dex
+
+.class public Lcom/google/android/material/datepicker/MaterialCalendar$ۥ۟۟;
+.super Landroid/s/ۥۡۧۦ;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/google/android/material/datepicker/MaterialCalendar;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic ۥ:I
+
+.field public final synthetic ۥ۟:Lcom/google/android/material/datepicker/MaterialCalendar;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/material/datepicker/MaterialCalendar;Landroid/content/Context;IZI)V
+    .registers 6
+
+    .line 1
+    iput-object p1, p0, Lcom/google/android/material/datepicker/MaterialCalendar$ۥ۟۟;->ۥ۟:Lcom/google/android/material/datepicker/MaterialCalendar;
+
+    iput p5, p0, Lcom/google/android/material/datepicker/MaterialCalendar$ۥ۟۟;->ۥ:I
+
+    invoke-direct {p0, p2, p3, p4}, Landroid/s/ۥۡۧۦ;-><init>(Landroid/content/Context;IZ)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public calculateExtraLayoutSpace(Landroidx/recyclerview/widget/RecyclerView$State;[I)V
+    .registers 5
+    .param p1  # Landroidx/recyclerview/widget/RecyclerView$State;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2  # [I
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+
+    .line 1
+    iget p1, p0, Lcom/google/android/material/datepicker/MaterialCalendar$ۥ۟۟;->ۥ:I
+
+    const/4 v0, 0x1
+
+    const/4 v1, 0x0
+
+    if-nez p1, :cond_1f
+
+    .line 2
+    iget-object p1, p0, Lcom/google/android/material/datepicker/MaterialCalendar$ۥ۟۟;->ۥ۟:Lcom/google/android/material/datepicker/MaterialCalendar;
+
+    invoke-static {p1}, Lcom/google/android/material/datepicker/MaterialCalendar;->access$000(Lcom/google/android/material/datepicker/MaterialCalendar;)Landroidx/recyclerview/widget/RecyclerView;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/view/ViewGroup;->getWidth()I
+
+    move-result p1
+
+    aput p1, p2, v1
+
+    .line 3
+    iget-object p1, p0, Lcom/google/android/material/datepicker/MaterialCalendar$ۥ۟۟;->ۥ۟:Lcom/google/android/material/datepicker/MaterialCalendar;
+
+    invoke-static {p1}, Lcom/google/android/material/datepicker/MaterialCalendar;->access$000(Lcom/google/android/material/datepicker/MaterialCalendar;)Landroidx/recyclerview/widget/RecyclerView;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/view/ViewGroup;->getWidth()I
+
+    move-result p1
+
+    aput p1, p2, v0
+
+    goto :goto_37
+
+    .line 4
+    :cond_1f
+    iget-object p1, p0, Lcom/google/android/material/datepicker/MaterialCalendar$ۥ۟۟;->ۥ۟:Lcom/google/android/material/datepicker/MaterialCalendar;
+
+    invoke-static {p1}, Lcom/google/android/material/datepicker/MaterialCalendar;->access$000(Lcom/google/android/material/datepicker/MaterialCalendar;)Landroidx/recyclerview/widget/RecyclerView;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/view/ViewGroup;->getHeight()I
+
+    move-result p1
+
+    aput p1, p2, v1
+
+    .line 5
+    iget-object p1, p0, Lcom/google/android/material/datepicker/MaterialCalendar$ۥ۟۟;->ۥ۟:Lcom/google/android/material/datepicker/MaterialCalendar;
+
+    invoke-static {p1}, Lcom/google/android/material/datepicker/MaterialCalendar;->access$000(Lcom/google/android/material/datepicker/MaterialCalendar;)Landroidx/recyclerview/widget/RecyclerView;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/view/ViewGroup;->getHeight()I
+
+    move-result p1
+
+    aput p1, p2, v0
+
+    :goto_37
+    return-void
+.end method

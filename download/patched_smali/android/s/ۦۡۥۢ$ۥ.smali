@@ -61,10 +61,10 @@
     .line 2
     invoke-virtual {p2}, Ljava/lang/Throwable;->printStackTrace()V
 
-    # PATCHED: Do not exit the app - just return
-    # Original code:
-    # const/4 p1, 0x0
-    # invoke-static {p1}, Ljava/lang/System;->exit(I)V
+    const/4 p1, 0x0
+
+    .line 3
+    invoke-static {p1}, Ljava/lang/System;->exit(I)V
 
     return-void
 .end method

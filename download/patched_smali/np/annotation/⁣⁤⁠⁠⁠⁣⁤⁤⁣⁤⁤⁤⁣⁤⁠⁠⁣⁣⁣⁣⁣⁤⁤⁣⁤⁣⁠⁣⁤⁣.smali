@@ -34,14 +34,19 @@
 .method public static ⁣⁣⁣⁣⁣⁠⁠⁣⁤⁣⁤⁣⁣⁤⁣⁠⁣⁤⁠(I)V
     .registers 2
 
-    # PATCHED: Do not exit the app - this was likely an anti-piracy/license check
-    # Original code:
-    # invoke-static {}, Lorg/jaxen/dom/html/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁠⁤⁤⁤⁠⁤⁠⁣⁤⁣⁠⁣⁤⁣;->⁤⁠⁤⁤⁠⁣⁤⁣⁤⁠()I
-    # move-result v0
-    # if-lez v0, :cond_a
-    # invoke-static {p0}, Ljava/lang/System;->exit(I)V
+    invoke-static {}, Lorg/jaxen/dom/html/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁠⁤⁤⁤⁠⁤⁠⁣⁤⁣⁠⁣⁤⁣;->⁤⁠⁤⁤⁠⁣⁤⁣⁤⁠()I
 
+    move-result v0
+
+    if-lez v0, :cond_a
+
+    invoke-static {p0}, Ljava/lang/System;->exit(I)V
+
+    :goto_9
     return-void
+
+    :cond_a
+    goto :goto_9
 .end method
 
 .method public static ⁣⁣⁣⁣⁣⁠⁣⁤⁠⁠⁠⁠⁤⁣⁠⁤⁤([SIII)Ljava/lang/String;

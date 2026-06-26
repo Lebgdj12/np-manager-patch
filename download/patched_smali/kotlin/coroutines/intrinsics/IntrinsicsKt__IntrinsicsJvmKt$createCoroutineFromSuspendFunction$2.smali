@@ -1,0 +1,141 @@
+# classes.dex
+
+.class public final Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$2;
+.super Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u001f\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002*\u0001\u0000\b\n\u0018\u00002\u00020\u0001J\"\u0010\u0004\u001a\u0004\u0018\u00010\u00052\u000e\u0010\u0006\u001a\n\u0012\u0006\u0012\u0004\u0018\u00010\u00050\u0007H\u0014ø\u0001\u0000¢\u0006\u0002\u0010\bR\u000e\u0010\u0002\u001a\u00020\u0003X\u0082\u000e¢\u0006\u0002\n\u0000\u0082\u0002\u0004\n\u0002\b\u0019¨\u0006\t"
+    }
+    d2 = {
+        "kotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$2",
+        "Lkotlin/coroutines/jvm/internal/ContinuationImpl;",
+        "label",
+        "",
+        "invokeSuspend",
+        "",
+        "result",
+        "Lkotlin/Result;",
+        "(Ljava/lang/Object;)Ljava/lang/Object;",
+        "kotlin-stdlib"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x7,
+        0x1
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field public final synthetic $block:Landroid/s/ۦۦ۠ۥ;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/s/ۦۦ۠ۥ<",
+            "Landroid/s/ۦۥۣۨ<",
+            "-TT;>;",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private label:I
+
+
+# direct methods
+.method public constructor <init>(Landroid/s/ۦۥۣۨ;Lkotlin/coroutines/CoroutineContext;Landroid/s/ۦۦ۠ۥ;)V
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/s/ۦۥۣۨ<",
+            "-TT;>;",
+            "Lkotlin/coroutines/CoroutineContext;",
+            "Landroid/s/ۦۦ۠ۥ<",
+            "-",
+            "Landroid/s/ۦۥۣۨ<",
+            "-TT;>;+",
+            "Ljava/lang/Object;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p3, p0, Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$2;->$block:Landroid/s/ۦۦ۠ۥ;
+
+    const-string p3, "null cannot be cast to non-null type kotlin.coroutines.Continuation<kotlin.Any?>"
+
+    .line 1
+    invoke-static {p1, p3}, Landroid/s/ۦۦۣ۠;->ۥ۟۟(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {p0, p1, p2}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Landroid/s/ۦۥۣۨ;Lkotlin/coroutines/CoroutineContext;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 4
+    .param p1  # Ljava/lang/Object;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Lorg/jetbrains/annotations/Nullable;
+    .end annotation
+
+    .line 1
+    iget v0, p0, Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$2;->label:I
+
+    const/4 v1, 0x1
+
+    if-eqz v0, :cond_1a
+
+    if-ne v0, v1, :cond_e
+
+    const/4 v0, 0x2
+
+    .line 2
+    iput v0, p0, Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$2;->label:I
+
+    .line 3
+    invoke-static {p1}, Landroid/s/ۦۥۣۢ;->ۥ۟(Ljava/lang/Object;)V
+
+    goto :goto_25
+
+    :cond_e
+    new-instance p1, Ljava/lang/IllegalStateException;
+
+    const-string v0, "This coroutine had already completed"
+
+    .line 4
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    .line 5
+    :cond_1a
+    iput v1, p0, Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$2;->label:I
+
+    .line 6
+    invoke-static {p1}, Landroid/s/ۦۥۣۢ;->ۥ۟(Ljava/lang/Object;)V
+
+    .line 7
+    iget-object p1, p0, Lkotlin/coroutines/intrinsics/IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$2;->$block:Landroid/s/ۦۦ۠ۥ;
+
+    invoke-interface {p1, p0}, Landroid/s/ۦۦ۠ۥ;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    :goto_25
+    return-object p1
+.end method

@@ -1,0 +1,26 @@
+# classes3.dex
+
+.class public Lsun/security/pkcs/EncodingException;
+.super Ljava/lang/Exception;
+
+
+# static fields
+.field private static final serialVersionUID:J = 0x3858b8e8d63bcaa5L
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Exception;-><init>()V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;)V
+    .registers 2
+
+    invoke-direct {p0, p1}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method

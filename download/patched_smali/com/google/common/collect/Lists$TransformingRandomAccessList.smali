@@ -1,0 +1,294 @@
+# classes.dex
+
+.class public Lcom/google/common/collect/Lists$TransformingRandomAccessList;
+.super Ljava/util/AbstractList;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/RandomAccess;
+.implements Ljava/io/Serializable;
+.implements Lj$/util/List;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/Lists;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "TransformingRandomAccessList"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<F:",
+        "Ljava/lang/Object;",
+        "T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/util/AbstractList<",
+        "TT;>;",
+        "Ljava/util/RandomAccess;",
+        "Ljava/io/Serializable;",
+        "Lj$/util/List;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final serialVersionUID:J
+
+
+# instance fields
+.field public final fromList:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "TF;>;"
+        }
+    .end annotation
+.end field
+
+.field public final function:Landroid/s/ۥۢۧ۠;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/s/ۥۢۧ۠<",
+            "-TF;+TT;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Ljava/util/List;Landroid/s/ۥۢۧ۠;)V
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "TF;>;",
+            "Landroid/s/ۥۢۧ۠<",
+            "-TF;+TT;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Ljava/util/AbstractList;-><init>()V
+
+    .line 2
+    invoke-static {p1}, Landroid/s/ۥۢۧۧ;->ۥ۟۠ۡ(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Ljava/util/List;
+
+    iput-object p1, p0, Lcom/google/common/collect/Lists$TransformingRandomAccessList;->fromList:Ljava/util/List;
+
+    .line 3
+    invoke-static {p2}, Landroid/s/ۥۢۧۧ;->ۥ۟۠ۡ(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/s/ۥۢۧ۠;
+
+    iput-object p1, p0, Lcom/google/common/collect/Lists$TransformingRandomAccessList;->function:Landroid/s/ۥۢۧ۠;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public clear()V
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/google/common/collect/Lists$TransformingRandomAccessList;->fromList:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->clear()V
+
+    return-void
+.end method
+
+.method public synthetic forEach(Lj$/util/function/Consumer;)V
+    .registers 2
+
+    invoke-static {p0, p1}, Lj$/lang/Iterable$-CC;->$default$forEach(Ljava/lang/Iterable;Lj$/util/function/Consumer;)V
+
+    return-void
+.end method
+
+.method public get(I)Ljava/lang/Object;
+    .registers 4
+    .annotation runtime Lcom/google/common/collect/ParametricNullness;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I)TT;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/google/common/collect/Lists$TransformingRandomAccessList;->function:Landroid/s/ۥۢۧ۠;
+
+    iget-object v1, p0, Lcom/google/common/collect/Lists$TransformingRandomAccessList;->fromList:Ljava/util/List;
+
+    invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    invoke-interface {v0, p1}, Landroid/s/ۥۢۧ۠;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public isEmpty()Z
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/google/common/collect/Lists$TransformingRandomAccessList;->fromList:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public iterator()Ljava/util/Iterator;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Iterator<",
+            "TT;>;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0}, Ljava/util/AbstractList;->listIterator()Ljava/util/ListIterator;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public listIterator(I)Ljava/util/ListIterator;
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I)",
+            "Ljava/util/ListIterator<",
+            "TT;>;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lcom/google/common/collect/Lists$TransformingRandomAccessList$ۥ;
+
+    iget-object v1, p0, Lcom/google/common/collect/Lists$TransformingRandomAccessList;->fromList:Ljava/util/List;
+
+    invoke-interface {v1, p1}, Ljava/util/List;->listIterator(I)Ljava/util/ListIterator;
+
+    move-result-object p1
+
+    invoke-direct {v0, p0, p1}, Lcom/google/common/collect/Lists$TransformingRandomAccessList$ۥ;-><init>(Lcom/google/common/collect/Lists$TransformingRandomAccessList;Ljava/util/ListIterator;)V
+
+    return-object v0
+.end method
+
+.method public synthetic parallelStream()Lj$/util/stream/Stream;
+    .registers 2
+
+    invoke-static {p0}, Lj$/util/Collection$-CC;->$default$parallelStream(Ljava/util/Collection;)Lj$/util/stream/Stream;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public remove(I)Ljava/lang/Object;
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I)TT;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/google/common/collect/Lists$TransformingRandomAccessList;->function:Landroid/s/ۥۢۧ۠;
+
+    iget-object v1, p0, Lcom/google/common/collect/Lists$TransformingRandomAccessList;->fromList:Ljava/util/List;
+
+    invoke-interface {v1, p1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    invoke-interface {v0, p1}, Landroid/s/ۥۢۧ۠;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public synthetic removeIf(Lj$/util/function/Predicate;)Z
+    .registers 2
+
+    invoke-static {p0, p1}, Lj$/util/Collection$-CC;->$default$removeIf(Ljava/util/Collection;Lj$/util/function/Predicate;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public synthetic replaceAll(Lj$/util/function/UnaryOperator;)V
+    .registers 2
+
+    invoke-static {p0, p1}, Lj$/util/List$-CC;->$default$replaceAll(Ljava/util/List;Lj$/util/function/UnaryOperator;)V
+
+    return-void
+.end method
+
+.method public size()I
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/google/common/collect/Lists$TransformingRandomAccessList;->fromList:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public synthetic sort(Ljava/util/Comparator;)V
+    .registers 2
+
+    invoke-static {p0, p1}, Lj$/util/List$-CC;->$default$sort(Ljava/util/List;Ljava/util/Comparator;)V
+
+    return-void
+.end method
+
+.method public synthetic spliterator()Lj$/util/Spliterator;
+    .registers 2
+
+    invoke-static {p0}, Lj$/util/List$-CC;->$default$spliterator(Ljava/util/List;)Lj$/util/Spliterator;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public synthetic stream()Lj$/util/stream/Stream;
+    .registers 2
+
+    invoke-static {p0}, Lj$/util/Collection$-CC;->$default$stream(Ljava/util/Collection;)Lj$/util/stream/Stream;
+
+    move-result-object v0
+
+    return-object v0
+.end method

@@ -1,0 +1,42 @@
+# classes.dex
+
+.class public abstract Lcom/android/dx/cf/attrib/BaseAttribute;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/android/dx/cf/iface/Attribute;
+
+
+# instance fields
+.field private final name:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .registers 3
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, "name == null"
+
+    .line 2
+    invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+
+    .line 3
+    iput-object p1, p0, Lcom/android/dx/cf/attrib/BaseAttribute;->name:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getName()Ljava/lang/String;
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Lcom/android/dx/cf/attrib/BaseAttribute;->name:Ljava/lang/String;
+
+    return-object v0
+.end method
