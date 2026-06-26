@@ -1,0 +1,124 @@
+# classes.dex
+
+.class public abstract Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$SampleSizeRounding;,
+        Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ۟۟;,
+        Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ۟۟ۡ;,
+        Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ۟;,
+        Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ;,
+        Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ۟۟۟;,
+        Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ۟۟۠;
+    }
+.end annotation
+
+
+# static fields
+.field public static final ۥ:Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
+
+.field public static final ۥ۟:Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
+
+.field public static final ۥ۟۟:Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
+
+.field public static final ۥ۟۟۟:Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
+
+.field public static final ۥ۟۟۠:Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
+
+.field public static final ۥ۟۟ۡ:Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
+
+.field public static final ۥ۟۟ۢ:Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
+
+.field public static final ۥۣ۟۟:Landroid/s/ۥ۟ۥۢ;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/s/ۥ۟ۥۢ<",
+            "Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .registers 2
+
+    .line 1
+    new-instance v0, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ۟۟۠;
+
+    invoke-direct {v0}, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ۟۟۠;-><init>()V
+
+    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;->ۥ:Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
+
+    .line 2
+    new-instance v0, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ۟۟۟;
+
+    invoke-direct {v0}, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ۟۟۟;-><init>()V
+
+    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;->ۥ۟:Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
+
+    .line 3
+    new-instance v1, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ;
+
+    invoke-direct {v1}, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ;-><init>()V
+
+    sput-object v1, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;->ۥ۟۟:Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
+
+    .line 4
+    new-instance v1, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ۟;
+
+    invoke-direct {v1}, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ۟;-><init>()V
+
+    sput-object v1, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;->ۥ۟۟۟:Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
+
+    .line 5
+    new-instance v1, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ۟۟;
+
+    invoke-direct {v1}, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ۟۟;-><init>()V
+
+    sput-object v1, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;->ۥ۟۟۠:Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
+
+    .line 6
+    new-instance v1, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ۟۟ۡ;
+
+    invoke-direct {v1}, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$ۥ۟۟ۡ;-><init>()V
+
+    sput-object v1, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;->ۥ۟۟ۡ:Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
+
+    .line 7
+    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;->ۥ۟۟ۢ:Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
+
+    const-string v1, "com.bumptech.glide.load.resource.bitmap.Downsampler.DownsampleStrategy"
+
+    .line 8
+    invoke-static {v1, v0}, Landroid/s/ۥ۟ۥۢ;->ۥ۟۟ۡ(Ljava/lang/String;Ljava/lang/Object;)Landroid/s/ۥ۟ۥۢ;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;->ۥۣ۟۟:Landroid/s/ۥ۟ۥۢ;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .registers 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract ۥ(IIII)Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy$SampleSizeRounding;
+.end method
+
+.method public abstract ۥ۟(IIII)F
+.end method

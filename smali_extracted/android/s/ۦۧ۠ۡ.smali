@@ -1,0 +1,15 @@
+# classes2.dex
+
+.class public interface abstract Landroid/s/ۦۧ۠ۡ;
+.super Ljava/lang/Object;
+
+
+# virtual methods
+.method public abstract ۥ(Landroid/s/gh0;)Z
+.end method
+
+.method public abstract ۥ۟(Landroid/s/nh0;)Z
+.end method
+
+.method public abstract ۥ۟۟(Landroid/s/jh0;)Z
+.end method

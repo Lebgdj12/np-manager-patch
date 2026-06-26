@@ -1,0 +1,114 @@
+# classes.dex
+
+.class public Lcom/itextpdf/text/pdf/parser/PdfContentStreamProcessor$ResourceDictionary;
+.super Lcom/itextpdf/text/pdf/PdfDictionary;
+.source "SourceFile"
+
+
+# instance fields
+.field private final resourcesStack:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/itextpdf/text/pdf/PdfDictionary;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 2
+
+    .line 1
+    invoke-direct {p0}, Lcom/itextpdf/text/pdf/PdfDictionary;-><init>()V
+
+    .line 2
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/itextpdf/text/pdf/parser/PdfContentStreamProcessor$ResourceDictionary;->resourcesStack:Ljava/util/List;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getDirectObject(Lcom/itextpdf/text/pdf/PdfName;)Lcom/itextpdf/text/pdf/PdfObject;
+    .registers 4
+
+    .line 1
+    iget-object v0, p0, Lcom/itextpdf/text/pdf/parser/PdfContentStreamProcessor$ResourceDictionary;->resourcesStack:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    move-result v0
+
+    add-int/lit8 v0, v0, -0x1
+
+    :goto_8
+    if-ltz v0, :cond_1e
+
+    .line 2
+    iget-object v1, p0, Lcom/itextpdf/text/pdf/parser/PdfContentStreamProcessor$ResourceDictionary;->resourcesStack:Ljava/util/List;
+
+    invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/itextpdf/text/pdf/PdfDictionary;
+
+    if-eqz v1, :cond_1b
+
+    .line 3
+    invoke-virtual {v1, p1}, Lcom/itextpdf/text/pdf/PdfDictionary;->getDirectObject(Lcom/itextpdf/text/pdf/PdfName;)Lcom/itextpdf/text/pdf/PdfObject;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_1b
+
+    return-object v1
+
+    :cond_1b
+    add-int/lit8 v0, v0, -0x1
+
+    goto :goto_8
+
+    .line 4
+    :cond_1e
+    invoke-super {p0, p1}, Lcom/itextpdf/text/pdf/PdfDictionary;->getDirectObject(Lcom/itextpdf/text/pdf/PdfName;)Lcom/itextpdf/text/pdf/PdfObject;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public pop()V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/itextpdf/text/pdf/parser/PdfContentStreamProcessor$ResourceDictionary;->resourcesStack:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    move-result v1
+
+    add-int/lit8 v1, v1, -0x1
+
+    invoke-interface {v0, v1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
+
+    return-void
+.end method
+
+.method public push(Lcom/itextpdf/text/pdf/PdfDictionary;)V
+    .registers 3
+
+    .line 1
+    iget-object v0, p0, Lcom/itextpdf/text/pdf/parser/PdfContentStreamProcessor$ResourceDictionary;->resourcesStack:Ljava/util/List;
+
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    return-void
+.end method

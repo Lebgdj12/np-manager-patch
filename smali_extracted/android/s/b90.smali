@@ -1,0 +1,41 @@
+# classes2.dex
+
+.class public final synthetic Landroid/s/b90;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Landroid/s/f90$ۥ۟;
+
+
+# instance fields
+.field public final synthetic ۥ:Landroid/s/u90;
+
+.field public final synthetic ۥ۟:Lorg/jf/dexlib2/iface/reference/Reference;
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroid/s/u90;Lorg/jf/dexlib2/iface/reference/Reference;)V
+    .registers 3
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Landroid/s/b90;->ۥ:Landroid/s/u90;
+
+    iput-object p2, p0, Landroid/s/b90;->ۥ۟:Lorg/jf/dexlib2/iface/reference/Reference;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final ۥ()V
+    .registers 3
+
+    iget-object v0, p0, Landroid/s/b90;->ۥ:Landroid/s/u90;
+
+    iget-object v1, p0, Landroid/s/b90;->ۥ۟:Lorg/jf/dexlib2/iface/reference/Reference;
+
+    invoke-static {v0, v1}, Landroid/s/f90;->ۥ۟۠۠(Landroid/s/u90;Lorg/jf/dexlib2/iface/reference/Reference;)V
+
+    return-void
+.end method

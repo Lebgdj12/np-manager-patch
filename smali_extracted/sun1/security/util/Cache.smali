@@ -1,0 +1,101 @@
+# classes4.dex
+
+.class public abstract Lsun1/security/util/Cache;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lsun1/security/util/Cache$EqualByteArray;
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static newHardMemoryCache(I)Lsun1/security/util/Cache;
+    .registers 3
+
+    .line 1
+    new-instance v0, Lsun1/security/util/MemoryCache;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1, p0}, Lsun1/security/util/MemoryCache;-><init>(ZI)V
+
+    return-object v0
+.end method
+
+.method public static newHardMemoryCache(II)Lsun1/security/util/Cache;
+    .registers 4
+
+    .line 2
+    new-instance v0, Lsun1/security/util/MemoryCache;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1, p0, p1}, Lsun1/security/util/MemoryCache;-><init>(ZII)V
+
+    return-object v0
+.end method
+
+.method public static newNullCache()Lsun1/security/util/Cache;
+    .registers 1
+
+    .line 1
+    sget-object v0, Lsun1/security/util/NullCache;->INSTANCE:Lsun1/security/util/Cache;
+
+    return-object v0
+.end method
+
+.method public static newSoftMemoryCache(I)Lsun1/security/util/Cache;
+    .registers 3
+
+    .line 1
+    new-instance v0, Lsun1/security/util/MemoryCache;
+
+    const/4 v1, 0x1
+
+    invoke-direct {v0, v1, p0}, Lsun1/security/util/MemoryCache;-><init>(ZI)V
+
+    return-object v0
+.end method
+
+.method public static newSoftMemoryCache(II)Lsun1/security/util/Cache;
+    .registers 4
+
+    .line 2
+    new-instance v0, Lsun1/security/util/MemoryCache;
+
+    const/4 v1, 0x1
+
+    invoke-direct {v0, v1, p0, p1}, Lsun1/security/util/MemoryCache;-><init>(ZII)V
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public abstract clear()V
+.end method
+
+.method public abstract get(Ljava/lang/Object;)Ljava/lang/Object;
+.end method
+
+.method public abstract put(Ljava/lang/Object;Ljava/lang/Object;)V
+.end method
+
+.method public abstract remove(Ljava/lang/Object;)V
+.end method
+
+.method public abstract size()I
+.end method

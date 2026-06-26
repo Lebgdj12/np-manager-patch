@@ -1,0 +1,26 @@
+# classes3.dex
+
+.class public Lorg/xml/sax/SAXNotRecognizedException;
+.super Lorg/xml/sax/SAXException;
+
+
+# static fields
+.field public static final serialVersionUID:J = 0x4b808ff241a211ddL
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Lorg/xml/sax/SAXException;-><init>()V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;)V
+    .registers 2
+
+    invoke-direct {p0, p1}, Lorg/xml/sax/SAXException;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method

@@ -1,0 +1,24 @@
+# classes3.dex
+
+.class public Lorg/jaxen/JaxenException;
+.super Lorg/jaxen/saxpath/SAXPathException;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .registers 2
+
+    .line 1
+    invoke-direct {p0, p1}, Lorg/jaxen/saxpath/SAXPathException;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/Throwable;)V
+    .registers 2
+
+    .line 2
+    invoke-direct {p0, p1}, Lorg/jaxen/saxpath/SAXPathException;-><init>(Ljava/lang/Throwable;)V
+
+    return-void
+.end method

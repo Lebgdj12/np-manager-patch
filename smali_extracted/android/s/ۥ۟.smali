@@ -1,0 +1,42 @@
+# classes2.dex
+
+.class public abstract Landroid/s/ۥ۟;
+.super Ljava/lang/Object;
+
+
+# static fields
+.field public static final ۥ:Ljava/util/concurrent/ThreadPoolExecutor;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .registers 9
+
+    new-instance v8, Ljava/util/concurrent/ThreadPoolExecutor;
+
+    sget-object v5, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
+
+    new-instance v6, Ljava/util/concurrent/LinkedBlockingQueue;
+
+    const/16 v0, 0x800
+
+    invoke-direct {v6, v0}, Ljava/util/concurrent/LinkedBlockingQueue;-><init>(I)V
+
+    new-instance v7, Ljava/util/concurrent/ThreadPoolExecutor$DiscardPolicy;
+
+    invoke-direct {v7}, Ljava/util/concurrent/ThreadPoolExecutor$DiscardPolicy;-><init>()V
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x3
+
+    const-wide/16 v3, 0x3c
+
+    move-object v0, v8
+
+    invoke-direct/range {v0 .. v7}, Ljava/util/concurrent/ThreadPoolExecutor;-><init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/RejectedExecutionHandler;)V
+
+    sput-object v8, Landroid/s/ۥ۟;->ۥ:Ljava/util/concurrent/ThreadPoolExecutor;
+
+    return-void
+.end method

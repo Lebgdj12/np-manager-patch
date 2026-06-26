@@ -1,0 +1,36 @@
+# classes2.dex
+
+.class public abstract Lorg/apache/xerces/impl/xpath/regex/RegularExpression$ExpressionTarget;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/apache/xerces/impl/xpath/regex/RegularExpression;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "ExpressionTarget"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract charAt(I)C
+.end method
+
+.method public abstract regionMatches(ZIIII)Z
+.end method
+
+.method public abstract regionMatches(ZIILjava/lang/String;I)Z
+.end method

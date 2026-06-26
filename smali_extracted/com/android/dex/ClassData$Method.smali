@@ -1,0 +1,73 @@
+# classes.dex
+
+.class public Lcom/android/dex/ClassData$Method;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/android/dex/ClassData;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Method"
+.end annotation
+
+
+# instance fields
+.field private final accessFlags:I
+
+.field private final codeOffset:I
+
+.field private final methodIndex:I
+
+
+# direct methods
+.method public constructor <init>(III)V
+    .registers 4
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput p1, p0, Lcom/android/dex/ClassData$Method;->methodIndex:I
+
+    .line 3
+    iput p2, p0, Lcom/android/dex/ClassData$Method;->accessFlags:I
+
+    .line 4
+    iput p3, p0, Lcom/android/dex/ClassData$Method;->codeOffset:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getAccessFlags()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/android/dex/ClassData$Method;->accessFlags:I
+
+    return v0
+.end method
+
+.method public getCodeOffset()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/android/dex/ClassData$Method;->codeOffset:I
+
+    return v0
+.end method
+
+.method public getMethodIndex()I
+    .registers 2
+
+    .line 1
+    iget v0, p0, Lcom/android/dex/ClassData$Method;->methodIndex:I
+
+    return v0
+.end method

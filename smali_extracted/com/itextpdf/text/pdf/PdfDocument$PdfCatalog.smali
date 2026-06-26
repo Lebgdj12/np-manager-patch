@@ -1,0 +1,314 @@
+# classes.dex
+
+.class public Lcom/itextpdf/text/pdf/PdfDocument$PdfCatalog;
+.super Lcom/itextpdf/text/pdf/PdfDictionary;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/itextpdf/text/pdf/PdfDocument;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "PdfCatalog"
+.end annotation
+
+
+# instance fields
+.field public writer:Lcom/itextpdf/text/pdf/PdfWriter;
+
+
+# direct methods
+.method public constructor <init>(Lcom/itextpdf/text/pdf/PdfIndirectReference;Lcom/itextpdf/text/pdf/PdfWriter;)V
+    .registers 4
+
+    .line 1
+    sget-object v0, Lcom/itextpdf/text/pdf/PdfDictionary;->CATALOG:Lcom/itextpdf/text/pdf/PdfName;
+
+    invoke-direct {p0, v0}, Lcom/itextpdf/text/pdf/PdfDictionary;-><init>(Lcom/itextpdf/text/pdf/PdfName;)V
+
+    .line 2
+    iput-object p2, p0, Lcom/itextpdf/text/pdf/PdfDocument$PdfCatalog;->writer:Lcom/itextpdf/text/pdf/PdfWriter;
+
+    .line 3
+    sget-object p2, Lcom/itextpdf/text/pdf/PdfName;->PAGES:Lcom/itextpdf/text/pdf/PdfName;
+
+    invoke-virtual {p0, p2, p1}, Lcom/itextpdf/text/pdf/PdfDictionary;->put(Lcom/itextpdf/text/pdf/PdfName;Lcom/itextpdf/text/pdf/PdfObject;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public ۥ۟(Ljava/util/TreeMap;Ljava/util/HashMap;Ljava/util/HashMap;Lcom/itextpdf/text/pdf/PdfWriter;)V
+    .registers 10
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/TreeMap<",
+            "Ljava/lang/String;",
+            "Lcom/itextpdf/text/pdf/PdfDocument$ۥ;",
+            ">;",
+            "Ljava/util/HashMap<",
+            "Ljava/lang/String;",
+            "Lcom/itextpdf/text/pdf/PdfObject;",
+            ">;",
+            "Ljava/util/HashMap<",
+            "Ljava/lang/String;",
+            "Lcom/itextpdf/text/pdf/PdfObject;",
+            ">;",
+            "Lcom/itextpdf/text/pdf/PdfWriter;",
+            ")V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p1}, Ljava/util/TreeMap;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_13
+
+    invoke-virtual {p2}, Ljava/util/HashMap;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_13
+
+    invoke-virtual {p3}, Ljava/util/HashMap;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_13
+
+    return-void
+
+    .line 2
+    :cond_13
+    :try_start_13
+    new-instance v0, Lcom/itextpdf/text/pdf/PdfDictionary;
+
+    invoke-direct {v0}, Lcom/itextpdf/text/pdf/PdfDictionary;-><init>()V
+
+    .line 3
+    invoke-virtual {p1}, Ljava/util/TreeMap;->isEmpty()Z
+
+    move-result v1
+
+    if-nez v1, :cond_65
+
+    .line 4
+    new-instance v1, Ljava/util/HashMap;
+
+    invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
+
+    .line 5
+    invoke-virtual {p1}, Ljava/util/TreeMap;->entrySet()Ljava/util/Set;
+
+    move-result-object p1
+
+    invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    :goto_2b
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_4e
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/util/Map$Entry;
+
+    .line 6
+    invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Ljava/lang/String;
+
+    .line 7
+    invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/itextpdf/text/pdf/PdfDocument$ۥ;
+
+    .line 8
+    iget-object v4, v2, Lcom/itextpdf/text/pdf/PdfDocument$ۥ;->ۥ۟۟:Lcom/itextpdf/text/pdf/PdfDestination;
+
+    if-nez v4, :cond_48
+
+    goto :goto_2b
+
+    .line 9
+    :cond_48
+    iget-object v2, v2, Lcom/itextpdf/text/pdf/PdfDocument$ۥ;->ۥ۟:Lcom/itextpdf/text/pdf/PdfIndirectReference;
+
+    invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    goto :goto_2b
+
+    .line 10
+    :cond_4e
+    invoke-virtual {v1}, Ljava/util/HashMap;->size()I
+
+    move-result p1
+
+    if-lez p1, :cond_65
+
+    .line 11
+    sget-object p1, Lcom/itextpdf/text/pdf/PdfName;->DESTS:Lcom/itextpdf/text/pdf/PdfName;
+
+    invoke-static {v1, p4}, Landroid/s/ۥۧۡۢ;->ۥ۟۟(Ljava/util/HashMap;Lcom/itextpdf/text/pdf/PdfWriter;)Lcom/itextpdf/text/pdf/PdfDictionary;
+
+    move-result-object v1
+
+    invoke-virtual {p4, v1}, Lcom/itextpdf/text/pdf/PdfWriter;->ۥ۟ۡ۠(Lcom/itextpdf/text/pdf/PdfObject;)Landroid/s/ۥۧۡ۟;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/s/ۥۧۡ۟;->ۥ()Lcom/itextpdf/text/pdf/PdfIndirectReference;
+
+    move-result-object v1
+
+    invoke-virtual {v0, p1, v1}, Lcom/itextpdf/text/pdf/PdfDictionary;->put(Lcom/itextpdf/text/pdf/PdfName;Lcom/itextpdf/text/pdf/PdfObject;)V
+
+    .line 12
+    :cond_65
+    invoke-virtual {p2}, Ljava/util/HashMap;->isEmpty()Z
+
+    move-result p1
+
+    if-nez p1, :cond_7c
+
+    .line 13
+    invoke-static {p2, p4}, Landroid/s/ۥۧۡۢ;->ۥ۟۟(Ljava/util/HashMap;Lcom/itextpdf/text/pdf/PdfWriter;)Lcom/itextpdf/text/pdf/PdfDictionary;
+
+    move-result-object p1
+
+    .line 14
+    sget-object p2, Lcom/itextpdf/text/pdf/PdfName;->JAVASCRIPT:Lcom/itextpdf/text/pdf/PdfName;
+
+    invoke-virtual {p4, p1}, Lcom/itextpdf/text/pdf/PdfWriter;->ۥ۟ۡ۠(Lcom/itextpdf/text/pdf/PdfObject;)Landroid/s/ۥۧۡ۟;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/s/ۥۧۡ۟;->ۥ()Lcom/itextpdf/text/pdf/PdfIndirectReference;
+
+    move-result-object p1
+
+    invoke-virtual {v0, p2, p1}, Lcom/itextpdf/text/pdf/PdfDictionary;->put(Lcom/itextpdf/text/pdf/PdfName;Lcom/itextpdf/text/pdf/PdfObject;)V
+
+    .line 15
+    :cond_7c
+    invoke-virtual {p3}, Ljava/util/HashMap;->isEmpty()Z
+
+    move-result p1
+
+    if-nez p1, :cond_93
+
+    .line 16
+    sget-object p1, Lcom/itextpdf/text/pdf/PdfName;->EMBEDDEDFILES:Lcom/itextpdf/text/pdf/PdfName;
+
+    invoke-static {p3, p4}, Landroid/s/ۥۧۡۢ;->ۥ۟۟(Ljava/util/HashMap;Lcom/itextpdf/text/pdf/PdfWriter;)Lcom/itextpdf/text/pdf/PdfDictionary;
+
+    move-result-object p2
+
+    invoke-virtual {p4, p2}, Lcom/itextpdf/text/pdf/PdfWriter;->ۥ۟ۡ۠(Lcom/itextpdf/text/pdf/PdfObject;)Landroid/s/ۥۧۡ۟;
+
+    move-result-object p2
+
+    invoke-virtual {p2}, Landroid/s/ۥۧۡ۟;->ۥ()Lcom/itextpdf/text/pdf/PdfIndirectReference;
+
+    move-result-object p2
+
+    invoke-virtual {v0, p1, p2}, Lcom/itextpdf/text/pdf/PdfDictionary;->put(Lcom/itextpdf/text/pdf/PdfName;Lcom/itextpdf/text/pdf/PdfObject;)V
+
+    .line 17
+    :cond_93
+    invoke-virtual {v0}, Lcom/itextpdf/text/pdf/PdfDictionary;->size()I
+
+    move-result p1
+
+    if-lez p1, :cond_a6
+
+    .line 18
+    sget-object p1, Lcom/itextpdf/text/pdf/PdfName;->NAMES:Lcom/itextpdf/text/pdf/PdfName;
+
+    invoke-virtual {p4, v0}, Lcom/itextpdf/text/pdf/PdfWriter;->ۥ۟ۡ۠(Lcom/itextpdf/text/pdf/PdfObject;)Landroid/s/ۥۧۡ۟;
+
+    move-result-object p2
+
+    invoke-virtual {p2}, Landroid/s/ۥۧۡ۟;->ۥ()Lcom/itextpdf/text/pdf/PdfIndirectReference;
+
+    move-result-object p2
+
+    invoke-virtual {p0, p1, p2}, Lcom/itextpdf/text/pdf/PdfDictionary;->put(Lcom/itextpdf/text/pdf/PdfName;Lcom/itextpdf/text/pdf/PdfObject;)V
+    :try_end_a6
+    .catch Ljava/io/IOException; {:try_start_13 .. :try_end_a6} :catch_a7
+
+    :cond_a6
+    return-void
+
+    :catch_a7
+    move-exception p1
+
+    .line 19
+    new-instance p2, Lcom/itextpdf/text/ExceptionConverter;
+
+    invoke-direct {p2, p1}, Lcom/itextpdf/text/ExceptionConverter;-><init>(Ljava/lang/Exception;)V
+
+    throw p2
+.end method
+
+.method public ۥ۟۟(Lcom/itextpdf/text/pdf/PdfDictionary;)V
+    .registers 4
+
+    .line 1
+    :try_start_0
+    sget-object v0, Lcom/itextpdf/text/pdf/PdfName;->AA:Lcom/itextpdf/text/pdf/PdfName;
+
+    iget-object v1, p0, Lcom/itextpdf/text/pdf/PdfDocument$PdfCatalog;->writer:Lcom/itextpdf/text/pdf/PdfWriter;
+
+    invoke-virtual {v1, p1}, Lcom/itextpdf/text/pdf/PdfWriter;->ۥ۟ۡ۠(Lcom/itextpdf/text/pdf/PdfObject;)Landroid/s/ۥۧۡ۟;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/s/ۥۧۡ۟;->ۥ()Lcom/itextpdf/text/pdf/PdfIndirectReference;
+
+    move-result-object p1
+
+    invoke-virtual {p0, v0, p1}, Lcom/itextpdf/text/pdf/PdfDictionary;->put(Lcom/itextpdf/text/pdf/PdfName;Lcom/itextpdf/text/pdf/PdfObject;)V
+    :try_end_f
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_f} :catch_10
+
+    return-void
+
+    :catch_10
+    move-exception p1
+
+    .line 2
+    new-instance v0, Lcom/itextpdf/text/ExceptionConverter;
+
+    invoke-direct {v0, p1}, Lcom/itextpdf/text/ExceptionConverter;-><init>(Ljava/lang/Exception;)V
+
+    throw v0
+.end method
+
+.method public ۥ۟۟ۤ(Lcom/itextpdf/text/pdf/PdfAction;)V
+    .registers 3
+
+    .line 1
+    sget-object v0, Lcom/itextpdf/text/pdf/PdfName;->OPENACTION:Lcom/itextpdf/text/pdf/PdfName;
+
+    invoke-virtual {p0, v0, p1}, Lcom/itextpdf/text/pdf/PdfDictionary;->put(Lcom/itextpdf/text/pdf/PdfName;Lcom/itextpdf/text/pdf/PdfObject;)V
+
+    return-void
+.end method

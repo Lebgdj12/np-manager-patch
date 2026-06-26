@@ -1,0 +1,15 @@
+# classes2.dex
+
+.class public interface abstract Ljavax/xml/transform/ErrorListener;
+.super Ljava/lang/Object;
+
+
+# virtual methods
+.method public abstract error(Ljavax/xml/transform/TransformerException;)V
+.end method
+
+.method public abstract fatalError(Ljavax/xml/transform/TransformerException;)V
+.end method
+
+.method public abstract warning(Ljavax/xml/transform/TransformerException;)V
+.end method

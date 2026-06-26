@@ -1,0 +1,1212 @@
+     1→# classes3.dex
+     2→
+     3→.class public abstract Lplayer/normal/np/base/NPBaseActivity;
+     4→.super Landroidx/appcompat/app/AppCompatActivity;
+     5→
+     6→
+     7→# static fields
+     8→.field private static final short:[S
+     9→
+    10→.field public static themeColor:I
+    11→
+    12→
+    13→# direct methods
+    14→.method static constructor <clinit>()V
+    15→    .registers 10
+    16→
+    17→    const/4 v0, 0x6
+    18→
+    19→    invoke-static {v0}, Lnp/manager/Protect;->classes9Init0(I)V
+    20→
+    21→    const-string v0, "ۤ۟ۡ"
+    22→
+    23→    invoke-static {v0}, Lorg/apache/xmlgraphics/ps/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁤⁠⁠⁠⁣⁣⁣⁣⁣⁤⁤⁠⁤⁣;->⁣⁤⁠⁠⁤⁠⁤⁣⁠⁤⁤(Ljava/lang/Object;)I
+    24→
+    25→    move-result v1
+    26→
+    27→    const/4 v2, 0x0
+    28→
+    29→    const/4 v3, 0x0
+    30→
+    31→    move-object v4, v2
+    32→
+    33→    const/4 v5, 0x0
+    34→
+    35→    const/4 v6, 0x0
+    36→
+    37→    :goto_f
+    38→    const-string v7, "ۡۥ۟"
+    39→
+    40→    const/4 v8, 0x1
+    41→
+    42→    sparse-switch v1, :sswitch_data_100
+    43→
+    44→    goto :goto_f
+    45→
+    46→    :sswitch_16
+    47→    aget-object v1, v2, v8
+    48→
+    49→    check-cast v1, Ljava/lang/Integer;
+    50→
+    51→    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+    52→
+    53→    move-result v6
+    54→
+    55→    invoke-static {}, Lorg/apache/xmlgraphics/image/codec/util/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁣⁣⁣⁣⁠⁣⁣⁣⁣⁤⁤⁣⁤⁠⁠⁤;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁤⁠⁤⁤⁣⁣⁣⁣⁣⁠⁠⁣⁣()I
+    56→
+    57→    move-result v1
+    58→
+    59→    if-ltz v1, :cond_cf
+    60→
+    61→    const-string v7, "ۣۣۧ"
+    62→
+    63→    goto/16 :goto_cf
+    64→
+    65→    :sswitch_28
+    66→    return-void
+    67→
+    68→    :sswitch_29
+    69→    invoke-static {}, Lorg/benf/cfr/reader/entities/classfilehelpers/⁣⁤⁠⁠⁠⁣⁣⁣⁣⁣⁠⁠⁣⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁠⁠⁠⁤⁣⁠⁤⁣()I
+    70→
+    71→    move-result v1
+    72→
+    73→    if-ltz v1, :cond_39
+    74→
+    75→    invoke-static {}, Lorg/apache/xerces/impl/xs/identity/⁣⁤⁠⁠⁤⁤⁠⁤⁠;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁠⁤⁤⁠⁤⁣⁠⁤⁤()I
+    76→
+    77→    const-string v1, "ۨۡۦ"
+    78→
+    79→    invoke-static {v1}, Lorg/jaxen/function/ext/⁤⁤⁠⁤⁤⁤⁤⁠⁤⁣⁤⁠⁤⁤;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁣⁣⁣⁣⁠⁤⁤⁠⁤⁠⁣⁤⁣⁠⁣⁤⁣(Ljava/lang/Object;)I
+    80→
+    81→    move-result v1
+    82→
+    83→    goto :goto_f
+    84→
+    85→    :cond_39
+    86→    invoke-static {v0}, Lorg/bouncycastle/jce/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁠⁠⁠⁠⁠⁠⁣⁣⁠⁤⁤⁠⁤⁠;->⁤⁠⁤⁤⁠⁣⁤⁣⁤⁠⁠⁠⁣(Ljava/lang/Object;)I
+    87→
+    88→    move-result v1
+    89→
+    90→    goto :goto_f
+    91→
+    92→    :sswitch_3e
+    93→    new-instance v1, Ljava/lang/Integer;
+    94→
+    95→    const v7, 0x1a01c0
+    96→
+    97→    invoke-direct {v1, v7}, Ljava/lang/Integer;-><init>(I)V
+    98→
+    99→    aput-object v1, v2, v3
+   100→
+   101→    invoke-static {}, Lorg/dom4j/tree/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁠⁤⁤⁣⁠⁠⁤⁠⁣⁤⁠⁤⁣;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁤⁠⁠⁠⁠⁣⁤⁣⁤⁣⁣⁤⁠⁠⁠()I
+   102→
+   103→    move-result v1
+   104→
+   105→    if-ltz v1, :cond_4f
+   106→
+   107→    goto :goto_a2
+   108→
+   109→    :cond_4f
+   110→    const-string v1, "ۢۡۡ"
+   111→
+   112→    goto :goto_a4
+   113→
+   114→    :sswitch_52
+   115→    invoke-static {}, Lorg/apache/xerces/dom/events/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁤⁤⁠⁤⁤⁣⁤⁤⁣⁤⁤⁤⁤⁤⁠⁤⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁠⁠⁠⁠⁣⁣⁠⁠⁣⁠⁤⁣⁠⁤⁣()I
+   116→
+   117→    move-result v1
+   118→
+   119→    sput v1, Lplayer/normal/np/base/NPBaseActivity;->themeColor:I
+   120→
+   121→    invoke-static {}, Lorg/benf/cfr/reader/bytecode/analysis/opgraph/op4rewriters/matchutil/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁠⁠⁠⁠⁤⁣⁠⁤⁣⁠⁣⁣⁠⁠⁣;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁤⁠⁠⁠⁣⁠⁠⁤⁠⁠⁠⁠⁣()I
+   122→
+   123→    const-string v1, "ۧۤۨ"
+   124→
+   125→    invoke-static {v1}, Lnp/annotation/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁤⁤⁣⁤⁣⁠⁣⁤⁣;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁤⁠⁠⁠⁣⁤⁣⁠⁣⁤⁣⁠⁠⁠⁣⁣⁤(Ljava/lang/Object;)I
+   126→
+   127→    move-result v1
+   128→
+   129→    goto :goto_f
+   130→
+   131→    :sswitch_62
+   132→    xor-int/lit8 v1, v5, -0x1
+   133→
+   134→    const v7, 0x1a01c2
+   135→
+   136→    and-int/2addr v1, v7
+   137→
+   138→    const v7, -0x1a01c3
+   139→
+   140→    and-int/2addr v7, v5
+   141→
+   142→    or-int/2addr v1, v7
+   143→
+   144→    xor-int/lit8 v7, v6, -0x1
+   145→
+   146→    const v8, 0x8f8ce9
+   147→
+   148→    and-int/2addr v7, v8
+   149→
+   150→    const v8, -0x8f8cea
+   151→
+   152→    and-int/2addr v8, v6
+   153→
+   154→    or-int/2addr v7, v8
+   155→
+   156→    invoke-static {v4, v3, v1, v7}, Ljavax/xml/stream/util/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁤⁠⁤⁤⁠⁣⁣⁠⁣⁣;->⁣⁤⁠⁠⁠⁤⁤⁠⁤⁣⁠⁤⁣⁠⁤⁤([SIII)Ljava/lang/String;
+   157→
+   158→    move-result-object v1
+   159→
+   160→    invoke-static {v1}, Lorg/apache/xerces/impl/xs/⁣⁤⁠⁠⁠⁤⁤⁠⁤⁤⁤⁠⁤⁤;->⁣⁠⁠⁤⁠⁣⁠⁠⁠⁣⁣⁤(Ljava/lang/Object;)V
+   161→
+   162→    invoke-static {}, Lorg/eclipse/tm4e/languageconfiguration/internal/⁤⁤⁠⁤⁤⁠⁤⁣⁠⁤⁤⁤⁠⁤⁣;->⁤⁤⁠⁤⁤⁠⁤⁣⁠⁤⁣⁠⁣⁤⁣⁤⁣()I
+   163→
+   164→    move-result v1
+   165→
+   166→    const-string v7, "ۥۨۤ"
+   167→
+   168→    if-gtz v1, :cond_8c
+   169→
+   170→    invoke-static {v7}, Lorg/eclipse/tm4e/core/registry/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁤⁠⁤⁤⁠⁠⁠⁣⁣⁤⁣⁠⁠⁤⁠⁣;->⁤⁤⁠⁤⁤⁣⁣⁣⁣⁣⁠⁣⁣⁣⁣⁣⁠(Ljava/lang/Object;)I
+   171→
+   172→    move-result v1
+   173→
+   174→    goto :goto_f
+   175→
+   176→    :cond_8c
+   177→    move-object v1, v7
+   178→
+   179→    goto :goto_a4
+   180→
+   181→    :sswitch_8e
+   182→    sget-object v1, Lorg/w3c/dom/events/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁠⁠⁠⁠⁠⁠⁣⁣⁤⁠⁠⁠;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁠⁤⁤⁣⁠⁠⁤⁠⁠⁤⁤⁠⁤⁣:[S
+   183→
+   184→    const/4 v1, 0x2
+   185→
+   186→    new-array v2, v1, [Ljava/lang/Object;
+   187→
+   188→    invoke-static {}, Lsun1/security/action/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁤⁠⁠⁠⁤⁠⁤⁤⁣⁤⁣⁠⁣⁤⁣;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁠⁠⁣⁣()I
+   189→
+   190→    move-result v1
+   191→
+   192→    if-ltz v1, :cond_a2
+   193→
+   194→    invoke-static {}, Lorg/jaxen/function/ext/⁠⁤⁣⁠⁤⁣⁣⁠⁠⁤⁠⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁤⁠⁤⁣⁠⁠⁠⁣⁣⁤()I
+   195→
+   196→    invoke-static {v0}, Lorg/benf/cfr/reader/bytecode/analysis/opgraph/op2rewriters/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁣⁣⁣⁣⁠⁠⁣⁤⁣⁤⁣⁤⁤⁠⁤⁣;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁠⁤⁤⁣⁤⁤⁣⁤⁤⁤⁣⁠⁠⁤⁠⁠(Ljava/lang/Object;)I
+   197→
+   198→    move-result v1
+   199→
+   200→    goto/16 :goto_f
+   201→
+   202→    :cond_a2
+   203→    :goto_a2
+   204→    const-string v1, "۟ۥۦ"
+   205→
+   206→    :goto_a4
+   207→    invoke-static {v1}, Lorg/eclipse/tm4e/core/registry/⁤⁤⁠⁤⁤⁠⁣⁣⁠⁣⁤⁣⁤⁠;->⁣⁣⁣⁣⁣⁠⁣⁤⁣⁠⁣⁤⁠⁤⁤⁠⁤⁠(Ljava/lang/Object;)I
+   208→
+   209→    move-result v1
+   210→
+   211→    goto/16 :goto_f
+   212→
+   213→    :sswitch_aa
+   214→    const/16 v1, 0x22
+   215→
+   216→    new-array v1, v1, [S
+   217→
+   218→    fill-array-data v1, :array_12e
+   219→
+   220→    sput-object v1, Lplayer/normal/np/base/NPBaseActivity;->short:[S
+   221→
+   222→    invoke-static {}, Lorg/checkerframework/checker/tainting/qual/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁣⁤⁣⁤⁣⁤⁤⁠⁤⁣;->⁠⁣⁤⁣⁤⁠⁣⁤⁣⁠⁣⁤⁠⁠⁣⁣⁠⁠⁣()I
+   223→
+   224→    const-string v1, "ۥۥ"
+   225→
+   226→    invoke-static {v1}, Lorg/slf4j/event/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁣⁤⁣⁤⁠⁣⁣⁣⁣⁣⁠⁠⁠⁠⁣⁣⁤;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁠⁠⁠⁣⁤⁠⁠⁠⁣⁤⁣⁠⁣⁤⁤(Ljava/lang/Object;)I
+   227→
+   228→    move-result v1
+   229→
+   230→    goto/16 :goto_f
+   231→
+   232→    :sswitch_be
+   233→    aget-object v1, v2, v3
+   234→
+   235→    check-cast v1, Ljava/lang/Integer;
+   236→
+   237→    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+   238→
+   239→    move-result v5
+   240→
+   241→    invoke-static {}, Lj$/util/stream/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁣⁤⁣⁤⁠⁣⁤⁣⁠⁣⁤⁤⁣⁤⁣⁠⁣⁤⁤;->⁣⁤⁠⁠⁠⁤⁠⁤⁣⁣⁣⁣⁣⁤⁤()I
+   242→
+   243→    move-result v1
+   244→
+   245→    const-string v7, "ۣۤ۟"
+   246→
+   247→    if-gtz v1, :cond_cf
+   248→
+   249→    goto :goto_fa
+   250→
+   251→    :cond_cf
+   252→    :goto_cf
+   253→    invoke-static {v7}, Lj$/util/concurrent/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁤⁠⁠⁠⁣⁤⁣⁠⁣⁤⁠;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁤⁠⁠⁠⁣⁠⁠⁤⁠⁠⁣⁣⁤⁤⁣⁠(Ljava/lang/Object;)I
+   254→
+   255→    move-result v1
+   256→
+   257→    goto/16 :goto_f
+   258→
+   259→    :sswitch_d5
+   260→    new-instance v1, Ljava/lang/Integer;
+   261→
+   262→    const v9, 0x8f8b6a
+   263→
+   264→    invoke-direct {v1, v9}, Ljava/lang/Integer;-><init>(I)V
+   265→
+   266→    aput-object v1, v2, v8
+   267→
+   268→    invoke-static {}, Lorg/checkerframework/common/aliasing/qual/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁣⁤⁣⁤⁠⁠⁣⁣⁠⁠⁣⁠⁠⁠⁣⁣⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁤⁠⁤⁤⁣⁠⁠⁤⁠⁣⁤⁤⁠⁤⁣()I
+   269→
+   270→    move-result v1
+   271→
+   272→    if-ltz v1, :cond_eb
+   273→
+   274→    invoke-static {v7}, Lorg/benf/cfr/reader/bytecode/analysis/parse/literal/⁤⁠⁤⁤⁣⁠⁠⁤⁠⁣⁣⁤⁠⁠⁣;->⁤⁠⁤⁤⁣⁣⁣⁣⁣⁠⁤⁠⁤⁠(Ljava/lang/Object;)I
+   275→
+   276→    move-result v1
+   277→
+   278→    goto/16 :goto_f
+   279→
+   280→    :cond_eb
+   281→    const-string v1, "ۦۥۨ"
+   282→
+   283→    invoke-static {v1}, Ln/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁣⁤⁠⁠⁠⁠⁣⁤⁣⁤⁣⁣⁤⁣⁠⁣⁤⁠;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁤⁠⁤⁤⁤⁠⁤⁣⁣⁣⁣⁣⁤⁤(Ljava/lang/Object;)I
+   284→
+   285→    move-result v1
+   286→
+   287→    goto/16 :goto_f
+   288→
+   289→    :sswitch_f3
+   290→    invoke-static {}, Lplayer/normal/np/base/NPBaseActivity;->⁠⁣⁤⁣⁤⁠⁣⁣⁣⁣⁣⁠⁣⁤⁣⁠⁣⁤⁣()[S
+   291→
+   292→    move-result-object v1
+   293→
+   294→    const-string v7, "ۨۨۡ"
+   295→
+   296→    move-object v4, v1
+   297→
+   298→    :goto_fa
+   299→    invoke-static {v7}, Lorg/checkerframework/common/aliasing/qual/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁠⁠⁤⁠⁣⁠⁠⁠;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁣⁣⁣⁣⁣⁠⁠⁣⁣(Ljava/lang/Object;)I
+   300→
+   301→    move-result v1
+   302→
+   303→    goto/16 :goto_f
+   304→
+   305→    :sswitch_data_100
+   306→    .sparse-switch
+   307→        0xdca0 -> :sswitch_f3
+   308→        0x1aa7c0 -> :sswitch_d5
+   309→        0x1aaf3b -> :sswitch_be
+   310→        0x1ab282 -> :sswitch_aa
+   311→        0x1ab9c6 -> :sswitch_8e
+   312→        0x1ab9c8 -> :sswitch_62
+   313→        0x1abea1 -> :sswitch_52
+   314→        0x1ac209 -> :sswitch_3e
+   315→        0x1ac587 -> :sswitch_29
+   316→        0x1ac5ab -> :sswitch_28
+   317→        0x1ac9e1 -> :sswitch_16
+   318→    .end sparse-switch
+   319→
+   320→    :array_12e
+   321→    .array-data 2
+   322→        0x7eds
+   323→        0x7f3s
+   324→        0xc00s
+   325→        0xc2ds
+   326→        0xc69s
+   327→        0xc07s
+   328→        0xc3cs
+   329→        0xc25s
+   330→        0xc25s
+   331→        0x4b4s
+   332→        0x488s
+   333→        0x485s
+   334→        0x48ds
+   335→        0x485s
+   336→        0x4a3s
+   337→        0x48fs
+   338→        0x48cs
+   339→        0x48fs
+   340→        0x492s
+   341→        0x4d1s
+   342→        0x18fs
+   343→        0x1a9s
+   344→        0x1bfs
+   345→        0x1a8s
+   346→        0x185s
+   347→        0x197s
+   348→        0x1afs
+   349→        0x1a9s
+   350→        0x1aes
+   351→        0x185s
+   352→        0x191s
+   353→        0x1b4s
+   354→        0x1b5s
+   355→        0x1ads
+   356→    .end array-data
+   357→.end method
+   358→
+   359→.method public constructor <init>()V
+   360→    .registers 6
+   361→
+   362→    invoke-direct {p0}, Landroidx/appcompat/app/AppCompatActivity;-><init>()V
+   363→
+   364→    const-string v0, "ۨۧ"
+   365→
+   366→    invoke-static {v0}, Lorg/benf/cfr/reader/bytecode/analysis/structured/expression/⁠⁣⁤⁣⁤⁠⁣⁤⁣⁠⁣⁤⁤⁠⁣⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁣⁣⁣⁣⁣⁠⁠⁣⁣⁠⁠⁣⁣⁣⁣⁣⁣⁠(Ljava/lang/Object;)I
+   367→
+   368→    move-result v1
+   369→
+   370→    const/4 v2, 0x0
+   371→
+   372→    :goto_a
+   373→    const-string v3, "ۣۡۧ"
+   374→
+   375→    const-string v4, "ۢۤ"
+   376→
+   377→    sparse-switch v1, :sswitch_data_88
+   378→
+   379→    goto :goto_a
+   380→
+   381→    :sswitch_12
+   382→    invoke-static {}, Lorg/benf/cfr/reader/util/bytestream/⁣⁤⁠⁠⁠⁠⁤⁣⁠⁤⁣⁤⁠⁤⁤;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁤⁠⁠⁠⁠⁣⁣⁠⁠⁣⁠⁤⁣⁠⁤⁣()I
+   383→
+   384→    move-result v1
+   385→
+   386→    if-gtz v1, :cond_1e
+   387→
+   388→    invoke-static {}, Lokhttp3/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁣⁠⁣⁤⁣⁠⁠⁠⁣⁣⁠;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁠⁠⁠⁣⁤⁠⁠⁣⁠⁠⁠()I
+   389→
+   390→    const-string v3, "ۤ۟ۤ"
+   391→
+   392→    goto :goto_6f
+   393→
+   394→    :cond_1e
+   395→    move-object v3, v0
+   396→
+   397→    goto :goto_6f
+   398→
+   399→    :sswitch_20
+   400→    sget-object v1, Ljava/lang/System;->out:Ljava/io/PrintStream;
+   401→
+   402→    invoke-virtual {v1, v2}, Ljava/io/PrintStream;->println(I)V
+   403→
+   404→    invoke-static {}, Lorg/apache/xerces/impl/xpath/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁠⁠⁠⁣⁣⁣⁣⁣⁤⁣⁠⁠⁤⁠⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁤⁠⁤⁤⁠⁤⁣⁠⁤⁣⁣⁣⁤⁤⁣⁠()I
+   405→
+   406→    move-result v1
+   407→
+   408→    if-gtz v1, :cond_33
+   409→
+   410→    invoke-static {}, Lorg/apache/commons/io/monitor/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁤⁠⁤⁤⁠⁤⁣⁠⁤⁤⁤⁤⁠⁤⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁠⁠⁤⁤⁠⁤⁤()I
+   411→
+   412→    invoke-static {v3}, Lorg/bouncycastle/jcajce/provider/asymmetric/x509/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁠⁤⁣⁠⁤⁣;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁣⁣⁣⁣⁠⁠⁣⁤⁣⁤⁠⁠⁣⁤⁣⁤⁣(Ljava/lang/Object;)I
+   413→
+   414→    move-result v1
+   415→
+   416→    goto :goto_a
+   417→
+   418→    :cond_33
+   419→    invoke-static {v4}, Lplayer/normal/np/fragMent/arsc/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁤⁠⁠⁠⁤⁤⁠⁤⁤⁠⁠⁠⁣⁣⁣;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁤⁠⁠⁠⁠⁣⁣⁠⁤⁣⁠⁤⁤(Ljava/lang/Object;)I
+   420→
+   421→    move-result v1
+   422→
+   423→    goto :goto_a
+   424→
+   425→    :sswitch_38
+   426→    const-string v1, "uDsXyHwqRSEXM"
+   427→
+   428→    invoke-static {v1}, Lsun/security/x509/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁠⁠⁤⁠⁠;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁣⁣⁣⁣⁣⁠⁣⁣⁣⁣⁤⁤⁣⁠⁠⁤⁠⁣(Ljava/lang/String;)Ljava/lang/String;
+   429→
+   430→    move-result-object v1
+   431→
+   432→    invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+   433→
+   434→    move-result v2
+   435→
+   436→    invoke-static {}, Lorg/benf/cfr/reader/entities/classfilehelpers/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁣⁤⁣⁤⁠⁣⁣⁣⁣⁣⁤⁣⁣⁣⁣⁤⁤;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁤⁠⁤⁤⁤⁠⁤⁣⁣⁤⁣⁠⁣⁤⁤()I
+   437→
+   438→    move-result v1
+   439→
+   440→    if-ltz v1, :cond_50
+   441→
+   442→    invoke-static {}, Lorg/apache/xerces/impl/validation/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁤⁠⁤⁤⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁠⁤⁤⁤⁠⁤⁤⁣⁣⁣⁣⁣⁤()I
+   443→
+   444→    invoke-static {v4}, Lorg/apache/commons/lang3/tuple/⁣⁣⁣⁣⁣⁠⁤⁤⁠⁤⁣⁠⁣⁣;->⁣⁤⁠⁠⁠⁤⁠⁤⁤⁠⁠⁣(Ljava/lang/Object;)I
+   445→
+   446→    move-result v1
+   447→
+   448→    goto :goto_a
+   449→
+   450→    :cond_50
+   451→    const-string v1, "ۣ۠ۢ"
+   452→
+   453→    invoke-static {v1}, Lorg/apache/xmlgraphics/image/codec/util/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁣⁣⁣⁣⁠⁣⁣⁣⁣⁤⁤⁣⁤⁠⁠⁤;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁣⁤⁣⁤⁣⁤⁠⁤⁠(Ljava/lang/Object;)I
+   454→
+   455→    move-result v1
+   456→
+   457→    goto :goto_a
+   458→
+   459→    :sswitch_57
+   460→    sget-object v1, LXI/XI/K0/⁣⁣⁣⁣⁣⁠⁤⁤⁠⁤⁣⁤⁠⁤⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁠⁠⁣⁣⁠⁣⁣⁣⁣⁣⁤:[S
+   461→
+   462→    invoke-static {}, Lorg/bouncycastle/util/io/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁠⁠⁠⁤⁤⁠⁤⁠⁠⁠⁠⁣⁣⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁤⁠⁤⁠⁣⁣⁣⁣⁣⁤()I
+   463→
+   464→    move-result v1
+   465→
+   466→    if-ltz v1, :cond_74
+   467→
+   468→    invoke-static {}, Lorg/apache/xerces/impl/dtd/models/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁤⁤⁣⁠⁠⁣⁣⁠⁠⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁤⁠⁤⁤⁣⁠⁠⁤⁠⁠⁠⁠⁠⁣⁣⁣()I
+   469→
+   470→    move-result v1
+   471→
+   472→    if-gtz v1, :cond_6f
+   473→
+   474→    invoke-static {}, Lorg/benf/cfr/reader/util/graph/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁣⁤⁣⁠⁣⁤⁠⁤⁠⁤⁣;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁣⁤⁣⁤⁠⁠⁠⁣⁠⁣⁣⁠⁠⁣()I
+   475→
+   476→    const-string v1, "ۨۦۨ"
+   477→
+   478→    invoke-static {v1}, Lorg/benf/cfr/reader/bytecode/analysis/parse/statement/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁤⁤⁠⁤⁤⁣⁤⁣⁠⁣⁤⁠⁤⁤⁠⁤⁠;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁣⁣⁣⁣⁠⁠⁠⁠⁣⁣⁤(Ljava/lang/Object;)I
+   479→
+   480→    move-result v1
+   481→
+   482→    goto :goto_a
+   483→
+   484→    :cond_6f
+   485→    :goto_6f
+   486→    invoke-static {v3}, LXI/xo/XI/XI/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁤⁠⁤⁤⁤⁤⁠⁤⁣⁠⁠⁠⁣⁣⁠;->⁠⁣⁤⁣⁤⁠⁠⁠⁠⁤⁤⁠⁤⁠(Ljava/lang/Object;)I
+   487→
+   488→    move-result v1
+   489→
+   490→    goto :goto_a
+   491→
+   492→    :cond_74
+   493→    :sswitch_74
+   494→    invoke-static {}, Lorg/apache/xerces/dom3/as/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁠⁠⁣⁣⁣⁠⁤⁣⁠⁤⁤;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁤⁠⁤⁤⁣⁣⁣⁣⁣⁠⁠⁣⁣()I
+   495→
+   496→    move-result v1
+   497→
+   498→    if-ltz v1, :cond_81
+   499→
+   500→    const-string v1, "۟ۦۡ"
+   501→
+   502→    invoke-static {v1}, LXI/K0/XI/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁤⁣⁠⁣⁤⁣⁠⁤⁣⁠⁤⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁠⁠⁠⁣⁤⁣⁠⁣⁤⁣⁣⁣⁤⁤⁣⁠(Ljava/lang/Object;)I
+   503→
+   504→    move-result v1
+   505→
+   506→    goto :goto_a
+   507→
+   508→    :cond_81
+   509→    invoke-static {v4}, Lorg/apache/wml/dom/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁤⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁣⁣⁠⁠⁣;->⁠⁠⁠⁣⁣⁣⁠⁠⁠⁣⁣⁠(Ljava/lang/Object;)I
+   510→
+   511→    move-result v1
+   512→
+   513→    goto :goto_a
+   514→
+   515→    :sswitch_86
+   516→    return-void
+   517→
+   518→    nop
+   519→
+   520→    :sswitch_data_88
+   521→    .sparse-switch
+   522→        0xdc42 -> :sswitch_86
+   523→        0xdcff -> :sswitch_57
+   524→        0x1aaf7d -> :sswitch_38
+   525→        0x1ab625 -> :sswitch_20
+   526→        0x1abe41 -> :sswitch_12
+   527→        0x1ac9aa -> :sswitch_74
+   528→    .end sparse-switch
+   529→.end method
+   530→
+   531→.method public static ⁠⁣⁤⁣⁤⁠⁣⁣⁣⁣⁣⁠⁣⁤⁣⁠⁣⁤⁣()[S
+   532→    .registers 8
+   533→
+   534→    const-string v0, "۠۠"
+   535→
+   536→    invoke-static {v0}, Lorg/checkerframework/checker/fenum/qual/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁤⁣⁠⁤⁤⁤⁠⁤⁠;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁤⁠⁤⁤⁣⁣⁤⁤⁣⁠⁠⁠⁣(Ljava/lang/Object;)I
+   537→
+   538→    move-result v1
+   539→
+   540→    const/4 v2, 0x0
+   541→
+   542→    move-object v3, v2
+   543→
+   544→    move-object v4, v3
+   545→
+   546→    :goto_9
+   547→    const-string v5, "ۥ۟ۡ"
+   548→
+   549→    const-string v6, "ۡۨۦ"
+   550→
+   551→    const-string v7, "ۣ۠ۤ"
+   552→
+   553→    sparse-switch v1, :sswitch_data_b0
+   554→
+   555→    goto :goto_9
+   556→
+   557→    :sswitch_13
+   558→    invoke-static {}, Lsun/misc/⁣⁣⁣⁣⁣⁠⁠⁠⁠⁣⁣⁤⁠⁣⁣⁠⁠⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁣⁣⁣⁣⁣⁠⁣⁤⁣⁠⁣⁤⁠⁣⁤⁣⁠⁣⁤⁣()I
+   559→
+   560→    move-result v1
+   561→
+   562→    if-gtz v1, :cond_1d
+   563→
+   564→    const-string v6, "۟ۥۢ"
+   565→
+   566→    goto/16 :goto_aa
+   567→
+   568→    :cond_1d
+   569→    move-object v6, v0
+   570→
+   571→    goto/16 :goto_aa
+   572→
+   573→    :sswitch_20
+   574→    invoke-static {}, Lorg/eclipse/tm4e/core/theme/css/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁣⁣⁣⁣⁣⁠⁤⁠⁤⁠⁤⁤⁠⁤⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁣⁣⁣⁣⁣⁠⁣⁣⁣⁣⁤⁤⁣⁤⁣⁠⁣⁤⁣()I
+   575→
+   576→    move-result v1
+   577→
+   578→    if-gtz v1, :cond_2e
+   579→
+   580→    const-string v1, "ۧۢۨ"
+   581→
+   582→    invoke-static {v1}, Lsun/security/util/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁣⁣⁣⁣⁣⁠⁤⁠⁤⁠⁤⁠⁤⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁠(Ljava/lang/Object;)I
+   583→
+   584→    move-result v1
+   585→
+   586→    move-object v3, v2
+   587→
+   588→    goto :goto_9
+   589→
+   590→    :cond_2e
+   591→    const-string v1, "ۣۢ۟"
+   592→
+   593→    move-object v3, v2
+   594→
+   595→    goto :goto_67
+   596→
+   597→    :sswitch_32
+   598→    invoke-static {}, Lorg/bouncycastle/ocsp/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁣⁣⁣⁣⁤⁣⁣⁣⁣⁤⁤;->⁣⁤⁠⁠⁣⁣⁠⁠⁤⁠⁠()I
+   599→
+   600→    move-result v1
+   601→
+   602→    if-gtz v1, :cond_3c
+   603→
+   604→    const-string v1, "۟ۦۧ"
+   605→
+   606→    move-object v3, v4
+   607→
+   608→    goto :goto_67
+   609→
+   610→    :cond_3c
+   611→    invoke-static {v7}, Lorg/apache/commons/lang3/event/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁠⁤⁣⁠⁤⁣;->⁤⁤⁠⁤⁤⁠⁣⁤⁣⁤⁣⁠⁠⁠⁣⁣⁠(Ljava/lang/Object;)I
+   612→
+   613→    move-result v1
+   614→
+   615→    move-object v3, v4
+   616→
+   617→    goto :goto_9
+   618→
+   619→    :sswitch_42
+   620→    sget-object v4, Lplayer/normal/np/base/NPBaseActivity;->short:[S
+   621→
+   622→    invoke-static {}, Lplayer/normal/np/fragMent/⁣⁣⁣⁣⁣⁠⁠⁤⁣⁠⁤⁤⁣⁤⁣⁠⁣⁤⁤;->⁤⁤⁠⁤⁤⁤⁤⁠⁤⁤⁠⁤⁣⁠⁤⁣()I
+   623→
+   624→    move-result v1
+   625→
+   626→    if-gtz v1, :cond_52
+   627→
+   628→    invoke-static {}, Lplayer/normal/np/fragMent/arsc/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁤⁠⁠⁠⁤⁤⁠⁤⁤⁠⁠⁠⁣⁣⁣;->⁤⁤⁠⁤⁤⁣⁣⁣⁣⁣⁠⁣⁤⁣⁠⁣⁤⁠()I
+   629→
+   630→    invoke-static {v5}, Lorg/apache/commons/lang3/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁣⁣⁤⁤⁣⁠⁠⁤⁣⁠⁤⁤;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁠⁠⁤⁠⁣⁣⁤⁠⁠⁤(Ljava/lang/Object;)I
+   631→
+   632→    move-result v1
+   633→
+   634→    goto :goto_9
+   635→
+   636→    :cond_52
+   637→    const-string v1, "ۥۣ۠"
+   638→
+   639→    invoke-static {v1}, Lplayer/normal/np/fragMent/dex/⁤⁤⁠⁤⁤⁣⁠⁠⁤⁠⁣⁣⁣⁣⁣⁤⁤;->⁤⁠⁤⁤⁠⁠⁠(Ljava/lang/Object;)I
+   640→
+   641→    move-result v1
+   642→
+   643→    goto :goto_9
+   644→
+   645→    :sswitch_59
+   646→    return-object v3
+   647→
+   648→    :sswitch_5a
+   649→    invoke-static {}, Lorg/benf/cfr/reader/entities/classfilehelpers/⁣⁤⁠⁠⁠⁣⁣⁣⁣⁣⁠⁠⁣⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁠⁠⁠⁤⁣⁠⁤⁣()I
+   650→
+   651→    move-result v1
+   652→
+   653→    if-ltz v1, :cond_65
+   654→
+   655→    invoke-static {v6}, Lapksigner/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁠⁤⁤⁣⁠⁠⁤⁠⁣⁣⁤⁣⁠⁣⁤⁠;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁤⁠⁤⁤⁣⁤⁠⁠⁠⁠⁣⁤⁣⁤⁠(Ljava/lang/Object;)I
+   656→
+   657→    move-result v1
+   658→
+   659→    goto :goto_9
+   660→
+   661→    :cond_65
+   662→    const-string v1, "ۥ۠۠"
+   663→
+   664→    :goto_67
+   665→    invoke-static {v1}, Lorg/w3c/dom/xpath/⁠⁣⁤⁣⁤⁣⁤⁠⁤⁠;->⁣⁣⁣⁣⁣⁠⁠⁣⁤⁣⁤⁠⁣⁣⁣⁣⁤⁤(Ljava/lang/Object;)I
+   666→
+   667→    move-result v1
+   668→
+   669→    goto :goto_9
+   670→
+   671→    :sswitch_6c
+   672→    invoke-static {}, Lorg/checkerframework/checker/propkey/qual/⁠⁤⁣⁠⁤⁣⁠⁣⁤⁣⁤⁣;->⁠⁣⁤⁣⁤⁠⁣⁤⁠⁠⁠⁣⁣⁣⁣⁤⁤()I
+   673→
+   674→    move-result v1
+   675→
+   676→    if-gtz v1, :cond_77
+   677→
+   678→    invoke-static {v7}, Lorg/jaxen/util/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁣⁤⁠⁠⁤⁠⁤⁣⁠⁤⁣;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁠⁤⁠⁣⁤⁣⁠⁣⁤⁣(Ljava/lang/Object;)I
+   679→
+   680→    move-result v1
+   681→
+   682→    goto :goto_9
+   683→
+   684→    :cond_77
+   685→    const-string v6, "ۥۧۨ"
+   686→
+   687→    goto :goto_aa
+   688→
+   689→    :sswitch_7a
+   690→    invoke-static {v7}, Lorg/jaxen/expr/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁠⁤⁣⁠⁤⁣⁣⁤⁠⁠⁠;->⁤⁤⁠⁤⁤⁠⁤⁣⁠⁤⁣⁣⁤⁤⁣⁤⁤⁤(Ljava/lang/Object;)I
+   691→
+   692→    move-result v1
+   693→
+   694→    goto :goto_9
+   695→
+   696→    :sswitch_7f
+   697→    sget-object v1, Lorg/benf/cfr/reader/bytecode/opcode/⁣⁣⁣⁣⁣⁠⁣⁤⁣⁠⁣⁤⁠⁣⁣⁣⁣⁤⁤;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁣⁣⁣⁣⁣⁠⁣⁤⁠⁠⁤⁣⁠⁠⁤⁠⁠:[S
+   698→
+   699→    invoke-static {}, Lorg/eclipse/tm4e/core/theme/css/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁣⁣⁣⁣⁣⁠⁤⁠⁤⁠⁤⁤⁠⁤⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁣⁣⁣⁣⁣⁠⁣⁣⁣⁣⁤⁤⁣⁤⁣⁠⁣⁤⁣()I
+   700→
+   701→    move-result v1
+   702→
+   703→    if-lez v1, :cond_9c
+   704→
+   705→    invoke-static {}, Lnp/annotation/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁤⁤⁣⁤⁣⁠⁣⁤⁣;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁠⁠⁣⁣⁤⁠⁠⁣()I
+   706→
+   707→    move-result v1
+   708→
+   709→    if-gtz v1, :cond_96
+   710→
+   711→    invoke-static {}, Lorg/apache/commons/lang3/event/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁤⁠⁠⁠⁠⁤⁣⁠⁤⁤⁣⁣⁣⁣⁣⁠;->⁣⁣⁣⁣⁣⁠⁠⁠⁠⁣⁣⁣⁣⁤⁣⁠⁣⁤⁤()I
+   712→
+   713→    invoke-static {v0}, Lorg/jcodings/transcode/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁤⁠⁤⁤⁣⁤⁠⁠⁤⁠⁠⁠⁣⁣⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁣⁤⁠⁠⁠⁠⁤⁣⁠⁤⁤⁣⁣⁣⁣⁤⁤(Ljava/lang/Object;)I
+   714→
+   715→    move-result v1
+   716→
+   717→    goto/16 :goto_9
+   718→
+   719→    :cond_96
+   720→    invoke-static {v5}, Lorg/w3c/dom/xpath/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁣⁤⁠⁠⁠⁠⁤⁣⁠⁤⁤⁣⁣⁣⁣⁣⁤;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁣⁣⁣⁣⁠⁠⁠⁣⁣⁠⁠⁤⁠⁣(Ljava/lang/Object;)I
+   721→
+   722→    move-result v1
+   723→
+   724→    goto/16 :goto_9
+   725→
+   726→    :cond_9c
+   727→    :sswitch_9c
+   728→    invoke-static {}, Lorg/checkerframework/checker/units/qual/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁤⁠⁤⁤⁣⁠⁠⁤⁠⁠⁣⁠⁠⁤⁠⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁣⁣⁣⁣⁣⁠⁣⁣⁣⁣⁤⁤()I
+   729→
+   730→    move-result v1
+   731→
+   732→    if-ltz v1, :cond_aa
+   733→
+   734→    const-string v1, "ۧ۟ۥ"
+   735→
+   736→    invoke-static {v1}, Lokhttp3/internal/tls/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁤⁠⁤⁣⁤⁠⁤⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁠⁤⁣⁠⁤⁤⁣⁣⁤⁤⁣⁠(Ljava/lang/Object;)I
+   737→
+   738→    move-result v1
+   739→
+   740→    goto/16 :goto_9
+   741→
+   742→    :cond_aa
+   743→    :goto_aa
+   744→    invoke-static {v6}, Lorg/benf/cfr/reader/bytecode/analysis/opgraph/op2rewriters/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁣⁤⁤⁣⁤⁤⁤⁠⁠⁠⁣⁣⁤;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁣⁣⁣⁣⁠⁠⁠⁠⁣⁣⁠⁤⁠⁤⁣(Ljava/lang/Object;)I
+   745→
+   746→    move-result v1
+   747→
+   748→    goto/16 :goto_9
+   749→
+   750→    :sswitch_data_b0
+   751→    .sparse-switch
+   752→        0xdc00 -> :sswitch_7f
+   753→        0x1aa7e0 -> :sswitch_7a
+   754→        0x1aaf9f -> :sswitch_6c
+   755→        0x1ab246 -> :sswitch_5a
+   756→        0x1ab35a -> :sswitch_9c
+   757→        0x1ab627 -> :sswitch_59
+   758→        0x1abd87 -> :sswitch_42
+   759→        0x1abda5 -> :sswitch_7a
+   760→        0x1abe02 -> :sswitch_32
+   761→        0x1abe86 -> :sswitch_20
+   762→        0x1ac56d -> :sswitch_13
+   763→    .end sparse-switch
+   764→.end method
+   765→
+   766→
+   767→# virtual methods
+   768→.method public $(I)Landroid/view/View;
+   769→    .registers 17
+   770→
+   771→    const-string v0, "ۦ۟ۡ"
+   772→
+   773→    invoke-static {v0}, Lorg/apache/batik/util/resources/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁣⁤⁣⁤⁠⁤⁠⁤⁣⁠⁤⁣⁠⁤⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁣⁤⁠⁠⁠⁤⁠⁤⁤⁠⁣⁣⁠⁠⁣(Ljava/lang/Object;)I
+   774→
+   775→    move-result v1
+   776→
+   777→    const/4 v2, 0x0
+   778→
+   779→    const/4 v3, 0x0
+   780→
+   781→    move-object v4, v2
+   782→
+   783→    move-object v5, v4
+   784→
+   785→    const/4 v6, 0x0
+   786→
+   787→    const/4 v7, 0x0
+   788→
+   789→    const/4 v8, 0x0
+   790→
+   791→    :goto_d
+   792→    const-string v9, "ۤ۠ۦ"
+   793→
+   794→    const-string v10, "ۣۢۧ"
+   795→
+   796→    const-string v11, "ۡۢۡ"
+   797→
+   798→    const/4 v12, 0x2
+   799→
+   800→    const-string v13, "ۤۨۤ"
+   801→
+   802→    const/4 v14, 0x1
+   803→
+   804→    sparse-switch v1, :sswitch_data_130
+   805→
+   806→    goto :goto_d
+   807→
+   808→    :sswitch_1b
+   809→    invoke-static {}, Lokhttp3/internal/io/⁤⁤⁠⁤⁤⁠⁣⁤⁣⁤⁣⁤⁤⁠⁤⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁠⁠⁠⁠⁠⁠⁣⁣⁤⁠⁠⁠⁣⁣⁣()I
+   810→
+   811→    move-result v1
+   812→
+   813→    if-gtz v1, :cond_28
+   814→
+   815→    invoke-static {}, Lorg/benf/cfr/reader/bytecode/analysis/opgraph/op4rewriters/checker/⁠⁠⁠⁣⁣⁠⁠⁣⁤⁣⁤⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁣⁤⁣⁤⁠⁤⁠⁤⁣⁠⁠⁠⁣⁣⁠()I
+   816→
+   817→    const-string v9, "ۣۢۤ"
+   818→
+   819→    goto/16 :goto_fb
+   820→
+   821→    :cond_28
+   822→    invoke-static {v0}, Lorg/eclipse/tm4e/core/registry/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁣⁤⁠⁠⁠⁠⁣⁤⁣⁤⁣⁣⁣⁤⁤⁣⁠;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁣⁤⁣⁤⁠⁣⁤⁠⁠⁤⁣⁤⁠⁠⁣(Ljava/lang/Object;)I
+   823→
+   824→    move-result v1
+   825→
+   826→    goto :goto_d
+   827→
+   828→    :sswitch_2d
+   829→    new-instance v1, Ljava/lang/Integer;
+   830→
+   831→    const v9, 0x450af4
+   832→
+   833→    invoke-direct {v1, v9}, Ljava/lang/Integer;-><init>(I)V
+   834→
+   835→    aput-object v1, v5, v3
+   836→
+   837→    move-object v9, v11
+   838→
+   839→    goto/16 :goto_fb
+   840→
+   841→    :sswitch_3a
+   842→    sget-object v1, LXI/CA/XI/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁣⁤⁣⁤⁠⁠⁣⁣⁤⁠⁤⁤;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁤⁤⁠⁤⁣⁠⁠⁣:[S
+   843→
+   844→    const/4 v1, 0x3
+   845→
+   846→    new-array v5, v1, [Ljava/lang/Object;
+   847→
+   848→    invoke-static {}, Lorg/benf/cfr/reader/bytecode/analysis/opgraph/op4rewriters/matchutil/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁠⁠⁠⁠⁠⁠⁣⁣⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁠⁣⁣⁤⁣⁠⁣⁤⁠()I
+   849→
+   850→    move-result v1
+   851→
+   852→    if-gtz v1, :cond_47
+   853→
+   854→    goto/16 :goto_bd
+   855→
+   856→    :cond_47
+   857→    const-string v1, "ۧ۠ۤ"
+   858→
+   859→    invoke-static {v1}, Lorg/benf/cfr/reader/state/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁠⁤⁤⁤⁤⁠⁤⁤⁠⁤⁣⁠⁤⁣;->⁤⁠⁤⁤⁣⁤⁠⁠⁠⁠⁣⁣(Ljava/lang/Object;)I
+   860→
+   861→    move-result v1
+   862→
+   863→    goto :goto_d
+   864→
+   865→    :sswitch_4e
+   866→    aget-object v1, v5, v12
+   867→
+   868→    check-cast v1, Ljava/lang/Integer;
+   869→
+   870→    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+   871→
+   872→    move-result v7
+   873→
+   874→    const-string v9, "ۡۡ"
+   875→
+   876→    goto/16 :goto_fb
+   877→
+   878→    :sswitch_5a
+   879→    new-instance v1, Ljava/lang/Integer;
+   880→
+   881→    const v9, 0x78c9f7
+   882→
+   883→    invoke-direct {v1, v9}, Ljava/lang/Integer;-><init>(I)V
+   884→
+   885→    aput-object v1, v5, v12
+   886→
+   887→    invoke-static {}, Lorg/apache/xmlgraphics/ps/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁠⁠⁠⁠⁣⁤⁣⁤⁣⁣⁤⁣⁠⁣⁤⁣;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁤⁠⁤⁤⁠⁠⁠⁣⁣⁣⁠⁠⁠⁣⁣⁣()I
+   888→
+   889→    move-result v1
+   890→
+   891→    if-gtz v1, :cond_72
+   892→
+   893→    invoke-static {}, Lorg/eclipse/jdt/internal/compiler/lookup/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁤⁤⁠⁤⁤⁣⁠⁠⁤⁠⁣⁣⁠⁠⁤⁠⁠;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁠⁠⁣⁣⁣⁣⁣⁣⁣⁤⁤()I
+   894→
+   895→    invoke-static {v10}, Lorg/apache/commons/logging/impl/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁤⁠⁤⁠⁤⁠⁤⁤;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁤⁠⁤⁤⁣⁣⁣⁣⁣⁠⁠⁤⁣⁠⁤⁣(Ljava/lang/Object;)I
+   896→
+   897→    move-result v1
+   898→
+   899→    goto :goto_d
+   900→
+   901→    :cond_72
+   902→    const-string v1, "ۣۣۡ"
+   903→
+   904→    invoke-static {v1}, Lsun1/security/util/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁤⁠⁤⁤⁠⁤⁣⁠⁤⁣⁣⁤⁣⁠⁣⁤⁣;->⁠⁣⁤⁣⁤⁠⁣⁤⁤⁣⁤⁤⁤⁣⁣⁣⁣⁤⁤(Ljava/lang/Object;)I
+   905→
+   906→    move-result v1
+   907→
+   908→    goto :goto_d
+   909→
+   910→    :sswitch_79
+   911→    invoke-static/range {p0 .. p1}, Lorg/benf/cfr/reader/bytecode/analysis/structured/expression/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁣⁣⁣⁣⁠⁠⁤⁣⁠⁤⁣⁠⁠⁣;->⁠⁣⁤⁣⁤⁠⁣⁣⁣⁣⁤⁤⁤⁤⁠⁤⁤(Ljava/lang/Object;I)Landroid/view/View;
+   912→
+   913→    move-result-object v4
+   914→
+   915→    invoke-static {}, Lorg/checkerframework/checker/optional/qual/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁣⁤⁣⁤⁠⁣⁤⁣⁠⁣⁤⁠⁣⁣⁤⁤⁣⁠;->⁤⁤⁠⁤⁤⁠⁠⁠⁤⁠⁤⁠()I
+   916→
+   917→    move-result v1
+   918→
+   919→    if-gtz v1, :cond_8b
+   920→
+   921→    invoke-static {}, Lorg/apache/xerces/impl/msg/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁤⁠⁤⁤⁣⁤⁠⁠⁠⁠⁤⁣⁠⁤⁤;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁣⁣⁣⁣⁠⁠⁤⁣⁠⁤⁣⁣⁤⁣⁠⁣⁤⁠()I
+   922→
+   923→    invoke-static {v13}, Ljavax/xml/transform/sax/⁣⁣⁣⁣⁣⁠⁠⁠⁠⁣⁣⁠⁣⁠⁠⁤⁠⁠;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁤⁤⁣⁤⁤⁤⁣⁠⁠⁤⁠⁣(Ljava/lang/Object;)I
+   924→
+   925→    move-result v1
+   926→
+   927→    goto :goto_d
+   928→
+   929→    :cond_8b
+   930→    const-string v1, "ۡۡۢ"
+   931→
+   932→    invoke-static {v1}, Lorg/bouncycastle/jce/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁠⁠⁠⁠⁠⁠⁣⁣⁠⁤⁤⁠⁤⁠;->⁤⁠⁤⁤⁠⁣⁤⁣⁤⁠⁠⁠⁣(Ljava/lang/Object;)I
+   933→
+   934→    move-result v1
+   935→
+   936→    goto/16 :goto_d
+   937→
+   938→    :sswitch_93
+   939→    invoke-static {}, Lplayer/normal/np/base/NPBaseActivity;->⁠⁣⁤⁣⁤⁠⁣⁣⁣⁣⁣⁠⁣⁤⁣⁠⁣⁤⁣()[S
+   940→
+   941→    move-result-object v1
+   942→
+   943→    const-string v13, "ۣۡۢ"
+   944→
+   945→    move-object v2, v1
+   946→
+   947→    goto :goto_f4
+   948→
+   949→    :sswitch_9b
+   950→    aget-object v1, v5, v14
+   951→
+   952→    check-cast v1, Ljava/lang/Integer;
+   953→
+   954→    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+   955→
+   956→    move-result v6
+   957→
+   958→    goto :goto_f4
+   959→
+   960→    :sswitch_a4
+   961→    aget-object v1, v5, v3
+   962→
+   963→    check-cast v1, Ljava/lang/Integer;
+   964→
+   965→    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+   966→
+   967→    move-result v8
+   968→
+   969→    invoke-static {}, Lorg/apache/xmlgraphics/image/codec/tiff/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁠⁤⁤⁣⁤⁠⁠⁠⁠⁠⁠;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁠⁤⁤⁠⁠⁠⁠⁣⁣()I
+   970→
+   971→    move-result v1
+   972→
+   973→    if-ltz v1, :cond_bd
+   974→
+   975→    invoke-static {}, Lorg/eclipse/tm4e/core/internal/grammar/parser/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁠⁣⁤⁣⁤⁠⁣⁤⁣⁠⁣⁤⁤⁠⁠⁠;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁣⁤⁣⁤⁠⁤⁤⁠⁤⁤⁤⁤⁠⁤⁠()I
+   976→
+   977→    const-string v1, "ۡۥۤ"
+   978→
+   979→    invoke-static {v1}, Lorg/jaxen/function/xslt/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁤⁠⁤⁠⁠⁤⁣⁠⁤⁤;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁤⁠⁤⁤⁤⁠⁤⁣⁠⁠⁠⁣⁣⁤(Ljava/lang/Object;)I
+   980→
+   981→    move-result v1
+   982→
+   983→    goto/16 :goto_d
+   984→
+   985→    :cond_bd
+   986→    :goto_bd
+   987→    const-string v1, "ۡۧۦ"
+   988→
+   989→    invoke-static {v1}, LXI/xo/XI/XI/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁤⁠⁤⁤⁤⁤⁠⁤⁣⁠⁠⁠⁣⁣⁠;->⁠⁣⁤⁣⁤⁠⁠⁠⁠⁤⁤⁠⁤⁠(Ljava/lang/Object;)I
+   990→
+   991→    move-result v1
+   992→
+   993→    goto/16 :goto_d
+   994→
+   995→    :sswitch_c5
+   996→    new-instance v1, Ljava/lang/Integer;
+   997→
+   998→    const v10, 0x73f8ac
+   999→
+  1000→    invoke-direct {v1, v10}, Ljava/lang/Integer;-><init>(I)V
+  1001→
+  1002→    aput-object v1, v5, v14
+  1003→
+  1004→    invoke-static {}, Lorg/apache/xerces/jaxp/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁣⁤⁣⁤⁠⁣⁣⁤⁤⁣⁠⁣⁠⁠⁤⁠⁠;->⁣⁤⁠⁠⁣⁠⁤⁣⁠⁤⁤()I
+  1005→
+  1006→    move-result v1
+  1007→
+  1008→    if-ltz v1, :cond_fb
+  1009→
+  1010→    invoke-static {v11}, Lorg/bouncycastle/jcajce/provider/symmetric/util/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁣⁣⁣⁣⁠⁣⁤⁣⁠⁣⁤⁤⁣⁣⁣⁣⁣⁤;->⁠⁣⁤⁣⁤⁠⁣⁤⁣⁠⁣⁤⁠⁣⁣⁣⁣⁣⁤(Ljava/lang/Object;)I
+  1011→
+  1012→    move-result v1
+  1013→
+  1014→    goto/16 :goto_d
+  1015→
+  1016→    :sswitch_db
+  1017→    if-eqz v4, :cond_ec
+  1018→
+  1019→    invoke-static {}, Lorg/apache/batik/util/resources/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁠⁣⁤⁣⁤⁠⁠⁤⁣⁠⁤⁣⁤⁠⁤⁠;->⁤⁠⁤⁤⁣⁤⁠⁠⁠⁤⁠⁤⁠()I
+  1020→
+  1021→    move-result v1
+  1022→
+  1023→    if-gtz v1, :cond_e9
+  1024→
+  1025→    invoke-static {v9}, Ljavax/annotation/meta/⁣⁣⁣⁣⁣⁠⁠⁣⁣⁠⁠⁣⁣⁤⁤⁣⁤⁤⁤;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁤⁤⁠⁤⁤⁤⁠⁤⁣⁣⁤⁣⁠⁣⁤⁤(Ljava/lang/Object;)I
+  1026→
+  1027→    move-result v1
+  1028→
+  1029→    goto/16 :goto_d
+  1030→
+  1031→    :cond_e9
+  1032→    const-string v9, "ۡ۠ۦ"
+  1033→
+  1034→    goto :goto_fb
+  1035→
+  1036→    :cond_ec
+  1037→    :sswitch_ec
+  1038→    invoke-static {}, Lorg/jaxen/dom/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁠⁠⁠⁠⁠⁣⁣⁠;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁤⁠⁣⁤⁣⁤⁠⁣⁤⁣⁠⁣⁤⁠⁤⁠⁤⁤()I
+  1039→
+  1040→    move-result v1
+  1041→
+  1042→    if-gtz v1, :cond_fa
+  1043→
+  1044→    const-string v13, "ۥ۟ۦ"
+  1045→
+  1046→    :goto_f4
+  1047→    invoke-static {v13}, Lorg/benf/cfr/reader/state/⁤⁤⁠⁤⁤⁠⁠⁠⁣⁣⁤⁠⁠⁠⁣⁣⁤;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁠⁣⁤⁣⁤⁣⁣⁤⁠⁠⁠(Ljava/lang/Object;)I
+  1048→
+  1049→    move-result v1
+  1050→
+  1051→    goto/16 :goto_d
+  1052→
+  1053→    :cond_fa
+  1054→    move-object v9, v10
+  1055→
+  1056→    :cond_fb
+  1057→    :goto_fb
+  1058→    invoke-static {v9}, Lorg/checkerframework/checker/propkey/qual/⁠⁣⁤⁣⁤⁠⁠⁣⁣⁠⁠⁣⁤⁤⁠⁤⁣;->⁣⁤⁠⁠⁠⁣⁤⁠⁠⁣⁠⁣⁣(Ljava/lang/Object;)I
+  1059→
+  1060→    move-result v1
+  1061→
+  1062→    goto/16 :goto_d
+  1063→
+  1064→    :sswitch_101
+  1065→    return-object v4
+  1066→
+  1067→    :sswitch_102
+  1068→    new-instance v0, Landroid/util/AndroidRuntimeException;
+  1069→
+  1070→    xor-int/lit8 v1, v6, -0x1
+  1071→
+  1072→    const v3, 0x73f8ae
+  1073→
+  1074→    and-int/2addr v1, v3
+  1075→
+  1076→    const v3, -0x73f8af
+  1077→
+  1078→    and-int/2addr v3, v6
+  1079→
+  1080→    or-int/2addr v1, v3
+  1081→
+  1082→    xor-int/lit8 v3, v7, -0x1
+  1083→
+  1084→    const v4, 0x78c9f0
+  1085→
+  1086→    and-int/2addr v3, v4
+  1087→
+  1088→    const v4, -0x78c9f1
+  1089→
+  1090→    and-int/2addr v4, v7
+  1091→
+  1092→    or-int/2addr v3, v4
+  1093→
+  1094→    xor-int/lit8 v4, v8, -0x1
+  1095→
+  1096→    const v5, 0x4506bd
+  1097→
+  1098→    and-int/2addr v4, v5
+  1099→
+  1100→    const v5, -0x4506be
+  1101→
+  1102→    and-int/2addr v5, v8
+  1103→
+  1104→    or-int/2addr v4, v5
+  1105→
+  1106→    invoke-static {v2, v1, v3, v4}, Lorg/jaxen/dom/⁠⁣⁣⁠⁣⁣;->⁤⁤⁠⁤⁤⁣⁤⁠⁠⁤⁣⁤⁠⁠⁤([SIII)Ljava/lang/String;
+  1107→
+  1108→    move-result-object v1
+  1109→
+  1110→    invoke-direct {v0, v1}, Landroid/util/AndroidRuntimeException;-><init>(Ljava/lang/String;)V
+  1111→
+  1112→    goto :goto_12e
+  1113→
+  1114→    :goto_12d
+  1115→    throw v0
+  1116→
+  1117→    :goto_12e
+  1118→    goto :goto_12d
+  1119→
+  1120→    nop
+  1121→
+  1122→    :sswitch_data_130
+  1123→    .sparse-switch
+  1124→        0xdc20 -> :sswitch_102
+  1125→        0x1aaea7 -> :sswitch_101
+  1126→        0x1aaec2 -> :sswitch_db
+  1127→        0x1aaee0 -> :sswitch_c5
+  1128→        0x1aaf00 -> :sswitch_a4
+  1129→        0x1aaf40 -> :sswitch_ec
+  1130→        0x1aaf80 -> :sswitch_9b
+  1131→        0x1ab33e -> :sswitch_93
+  1132→        0x1ab681 -> :sswitch_79
+  1133→        0x1ab9ea -> :sswitch_5a
+  1134→        0x1abae0 -> :sswitch_4e
+  1135→        0x1ac148 -> :sswitch_3a
+  1136→        0x1ac52b -> :sswitch_2d
+  1137→        0x1ac92b -> :sswitch_1b
+  1138→    .end sparse-switch
+  1139→.end method
+  1140→
+  1141→.method public ShowToast(Ljava/lang/String;)V
+  1142→    .registers 5
+  1143→
+  1144→    const-string v0, "ۧۤۨ"
+  1145→
+  1146→    invoke-static {v0}, Lorg/apache/commons/io/output/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁣⁣⁣⁣⁠⁠⁤⁣⁠⁤⁤⁤⁤⁠⁤⁣;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁤⁣⁤⁤⁤⁤⁠⁤⁣(Ljava/lang/Object;)I
+  1147→
+  1148→    move-result v1
+  1149→
+  1150→    :goto_6
+  1151→    const v2, 0x1ab35d
+  1152→
+  1153→    if-eq v1, v2, :cond_1f
+  1154→
+  1155→    const v2, 0x1ab71b
+  1156→
+  1157→    if-eq v1, v2, :cond_1e
+  1158→
+  1159→    const v2, 0x1ac5ab
+  1160→
+  1161→    if-eq v1, v2, :cond_16
+  1162→
+  1163→    goto :goto_6
+  1164→
+  1165→    :cond_16
+  1166→    sget-object v1, Lsun/security/x509/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁣⁣⁣⁣⁠⁣⁠⁠⁤⁠⁠⁣⁤⁣⁠⁣⁤⁣;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁠⁠⁣⁣⁤⁤⁣⁠:[S
+  1167→
+  1168→    invoke-static {p0, p1}, Lorg/jaxen/dom/⁠⁣⁣⁠⁣⁣;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁣⁤⁣⁤⁠⁣⁣⁣⁣⁣⁠⁣⁤⁠⁠⁣(Ljava/lang/Object;Ljava/lang/Object;)V
+  1169→
+  1170→    const-string v1, "ۣۨ۠"
+  1171→
+  1172→    goto :goto_27
+  1173→
+  1174→    :cond_1e
+  1175→    return-void
+  1176→
+  1177→    :cond_1f
+  1178→    invoke-static {}, Lorg/apache/xerces/impl/xs/⁣⁣⁤⁤⁣⁠⁤⁤⁠⁤⁤;->⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁠⁣⁤⁣⁤⁠⁠⁣⁣⁠⁠⁣⁠⁣⁣()I
+  1179→
+  1180→    move-result v1
+  1181→
+  1182→    if-ltz v1, :cond_2c
+  1183→
+  1184→    const-string v1, "ۢۢ۠"
+  1185→
+  1186→    :goto_27
+  1187→    invoke-static {v1}, Lorg/w3c/dom/events/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁣⁤⁠⁠⁠⁠⁠⁠⁣⁣⁤⁠⁠⁠;->⁤⁤⁠⁤⁤⁤⁠⁤⁤(Ljava/lang/Object;)I
+  1188→
+  1189→    move-result v1
+  1190→
+  1191→    goto :goto_6
+  1192→
+  1193→    :cond_2c
+  1194→    invoke-static {v0}, LXI/CA/XI/⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁠⁣⁤⁣⁤⁠⁠⁣⁣⁤⁠⁤⁤;->⁣⁣⁣⁣⁣⁠⁤⁠⁤⁤⁣⁣⁣⁣⁤⁤⁣⁣⁣⁣⁣⁠⁠⁠⁠⁣⁣⁤⁣⁤⁤⁣⁤⁤⁤(Ljava/lang/Object;)I
+  1195→
+  1196→    move-result v1
+  1197→
+  1198→    goto :goto_6
+  1199→.end method
+  1200→
+  1201→.method public abstract bindListener()V
+  1202→.end method
+  1203→
+  1204→.method public abstract bindView()V
+  1205→.end method
+  1206→
+  1207→.method public abstract bindXmlId()I
+  1208→.end method
+  1209→
+  1210→.method public native onCreate(Landroid/os/Bundle;)V
+  1211→.end method
+  1212→

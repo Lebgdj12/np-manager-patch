@@ -1,0 +1,232 @@
+# classes3.dex
+
+.class public Lorg/apache/xerces/impl/xs/opti/TextImpl;
+.super Lorg/apache/xerces/impl/xs/opti/DefaultText;
+
+
+# instance fields
+.field public fCol:I
+
+.field public fData:Ljava/lang/String;
+
+.field public fRow:I
+
+.field public fSchemaDOM:Lorg/apache/xerces/impl/xs/opti/SchemaDOM;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/StringBuffer;Lorg/apache/xerces/impl/xs/opti/SchemaDOM;II)V
+    .registers 6
+
+    invoke-direct {p0}, Lorg/apache/xerces/impl/xs/opti/DefaultText;-><init>()V
+
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fData:Ljava/lang/String;
+
+    iput-object v0, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fSchemaDOM:Lorg/apache/xerces/impl/xs/opti/SchemaDOM;
+
+    invoke-virtual {p1}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fData:Ljava/lang/String;
+
+    iput-object p2, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fSchemaDOM:Lorg/apache/xerces/impl/xs/opti/SchemaDOM;
+
+    iput p3, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fRow:I
+
+    iput p4, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fCol:I
+
+    iput-object v0, p0, Lorg/apache/xerces/impl/xs/opti/NodeImpl;->uri:Ljava/lang/String;
+
+    iput-object v0, p0, Lorg/apache/xerces/impl/xs/opti/NodeImpl;->localpart:Ljava/lang/String;
+
+    iput-object v0, p0, Lorg/apache/xerces/impl/xs/opti/NodeImpl;->prefix:Ljava/lang/String;
+
+    iput-object v0, p0, Lorg/apache/xerces/impl/xs/opti/NodeImpl;->rawname:Ljava/lang/String;
+
+    const/4 p1, 0x3
+
+    iput-short p1, p0, Lorg/apache/xerces/impl/xs/opti/NodeImpl;->nodeType:S
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getData()Ljava/lang/String;
+    .registers 2
+
+    iget-object v0, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fData:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public getLength()I
+    .registers 2
+
+    iget-object v0, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fData:Ljava/lang/String;
+
+    if-nez v0, :cond_6
+
+    const/4 v0, 0x0
+
+    return v0
+
+    :cond_6
+    invoke-virtual {v0}, Ljava/lang/String;->length()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public getNextSibling()Landroid/s/m11;
+    .registers 5
+
+    iget v0, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fCol:I
+
+    iget-object v1, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fSchemaDOM:Lorg/apache/xerces/impl/xs/opti/SchemaDOM;
+
+    iget-object v1, v1, Lorg/apache/xerces/impl/xs/opti/SchemaDOM;->relations:[[Lorg/apache/xerces/impl/xs/opti/NodeImpl;
+
+    iget v2, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fRow:I
+
+    aget-object v3, v1, v2
+
+    array-length v3, v3
+
+    add-int/lit8 v3, v3, -0x1
+
+    if-ne v0, v3, :cond_11
+
+    const/4 v0, 0x0
+
+    return-object v0
+
+    :cond_11
+    aget-object v1, v1, v2
+
+    add-int/lit8 v0, v0, 0x1
+
+    aget-object v0, v1, v0
+
+    return-object v0
+.end method
+
+.method public getNodeName()Ljava/lang/String;
+    .registers 2
+
+    const-string v0, "#text"
+
+    return-object v0
+.end method
+
+.method public getParentNode()Landroid/s/m11;
+    .registers 3
+
+    iget-object v0, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fSchemaDOM:Lorg/apache/xerces/impl/xs/opti/SchemaDOM;
+
+    iget-object v0, v0, Lorg/apache/xerces/impl/xs/opti/SchemaDOM;->relations:[[Lorg/apache/xerces/impl/xs/opti/NodeImpl;
+
+    iget v1, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fRow:I
+
+    aget-object v0, v0, v1
+
+    const/4 v1, 0x0
+
+    aget-object v0, v0, v1
+
+    return-object v0
+.end method
+
+.method public getPreviousSibling()Landroid/s/m11;
+    .registers 5
+
+    iget v0, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fCol:I
+
+    const/4 v1, 0x1
+
+    if-ne v0, v1, :cond_7
+
+    const/4 v0, 0x0
+
+    return-object v0
+
+    :cond_7
+    iget-object v2, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fSchemaDOM:Lorg/apache/xerces/impl/xs/opti/SchemaDOM;
+
+    iget-object v2, v2, Lorg/apache/xerces/impl/xs/opti/SchemaDOM;->relations:[[Lorg/apache/xerces/impl/xs/opti/NodeImpl;
+
+    iget v3, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fRow:I
+
+    aget-object v2, v2, v3
+
+    sub-int/2addr v0, v1
+
+    aget-object v0, v2, v0
+
+    return-object v0
+.end method
+
+.method public substringData(II)Ljava/lang/String;
+    .registers 4
+
+    iget-object v0, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fData:Ljava/lang/String;
+
+    if-nez v0, :cond_6
+
+    const/4 p1, 0x0
+
+    return-object p1
+
+    :cond_6
+    if-ltz p2, :cond_27
+
+    if-ltz p1, :cond_27
+
+    invoke-virtual {v0}, Ljava/lang/String;->length()I
+
+    move-result v0
+
+    if-gt p1, v0, :cond_27
+
+    add-int/2addr p2, p1
+
+    iget-object v0, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fData:Ljava/lang/String;
+
+    invoke-virtual {v0}, Ljava/lang/String;->length()I
+
+    move-result v0
+
+    if-lt p2, v0, :cond_20
+
+    iget-object p2, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fData:Ljava/lang/String;
+
+    invoke-virtual {p2, p1}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+
+    :cond_20
+    iget-object v0, p0, Lorg/apache/xerces/impl/xs/opti/TextImpl;->fData:Ljava/lang/String;
+
+    invoke-virtual {v0, p1, p2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+
+    :cond_27
+    new-instance p1, Lorg/w3c/dom/DOMException;
+
+    const/4 p2, 0x1
+
+    const-string v0, "parameter error"
+
+    invoke-direct {p1, p2, v0}, Lorg/w3c/dom/DOMException;-><init>(SLjava/lang/String;)V
+
+    throw p1
+.end method

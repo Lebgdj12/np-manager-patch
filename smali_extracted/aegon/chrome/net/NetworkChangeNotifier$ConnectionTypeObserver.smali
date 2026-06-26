@@ -1,0 +1,21 @@
+# classes.dex
+
+.class public interface abstract Laegon/chrome/net/NetworkChangeNotifier$ConnectionTypeObserver;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Laegon/chrome/net/NetworkChangeNotifier;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "ConnectionTypeObserver"
+.end annotation
+
+
+# virtual methods
+.method public abstract onConnectionTypeChanged(I)V
+.end method

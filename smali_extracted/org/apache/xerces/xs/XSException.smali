@@ -1,0 +1,28 @@
+# classes2.dex
+
+.class public Lorg/apache/xerces/xs/XSException;
+.super Ljava/lang/RuntimeException;
+
+
+# static fields
+.field public static final INDEX_SIZE_ERR:S = 0x2s
+
+.field public static final NOT_SUPPORTED_ERR:S = 0x1s
+
+.field public static final serialVersionUID:J = 0x2b2faa45e338cc2eL
+
+
+# instance fields
+.field public code:S
+
+
+# direct methods
+.method public constructor <init>(SLjava/lang/String;)V
+    .registers 3
+
+    invoke-direct {p0, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    iput-short p1, p0, Lorg/apache/xerces/xs/XSException;->code:S
+
+    return-void
+.end method
