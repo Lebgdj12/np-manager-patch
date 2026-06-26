@@ -968,6 +968,11 @@
 
 .method public show(Landroidx/fragment/app/FragmentTransaction;Ljava/lang/String;)I
     .registers 5
+
+    const/4 v0, -0x1
+
+    return v0
+
     .param p1  # Landroidx/fragment/app/FragmentTransaction;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
@@ -1005,6 +1010,9 @@
 
 .method public show(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;)V
     .registers 4
+
+    return-void
+
     .param p1  # Landroidx/fragment/app/FragmentManager;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
@@ -1040,6 +1048,9 @@
 
 .method public showNow(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;)V
     .registers 4
+
+    return-void
+
     .param p1  # Landroidx/fragment/app/FragmentManager;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation

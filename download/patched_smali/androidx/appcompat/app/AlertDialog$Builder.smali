@@ -82,6 +82,11 @@
 # virtual methods
 .method public create()Landroidx/appcompat/app/AlertDialog;
     .registers 4
+
+    const/4 v0, 0x0
+
+    return-object v0
+
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 

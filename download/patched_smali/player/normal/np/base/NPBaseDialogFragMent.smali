@@ -427,6 +427,11 @@
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .registers 8
 
+    const/4 v0, 0x0
+
+    return-object v0
+
+
     const-string p1, "ۨۦ"
 
     invoke-static {p1}, Lorg/benf/cfr/reader/bytecode/analysis/parse/utils/scope/⁣⁤⁠⁠⁠⁣⁤⁤⁣⁤⁤⁤⁣⁤⁠⁠⁣⁤⁤⁠⁤⁤⁤⁤⁠⁤⁣⁣⁠⁠⁤⁠⁠;->⁣⁣⁣⁣⁣⁠⁠⁤⁣⁠⁤⁤⁠⁣⁣⁠⁠⁣(Ljava/lang/Object;)I
